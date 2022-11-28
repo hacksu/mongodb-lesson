@@ -4,7 +4,7 @@
 
 Intro text on screen: you should open a new Python file while you're waiting :D you can also run `pip install pymongo` in the command line if you want
 
-So as we all know, normally when we write and run a program all of the variables and objects and whatnot we've created evaporate as soon as it finishes, and the next time we run that program it's completely back to square one. That's why we need to use databases to store our program's thoughts and ideas persistently. A database will receive stuff from our program, hold on to it even when our program's not running, and probably store it in some files somewhere in a very efficiently retrievable-from format, so we have it even after losing power during a once-in-a-centry thunderstorm.
+So as we all know, normally when we write and run a program all of the variables and objects and whatnot we've created evaporate as soon as it finishes, and the next time we run that program it's completely back to square one. That's why we need to use databases to store our program's thoughts and ideas persistently. A database will receive stuff from our program, hold on to it even when our program's not running, and probably store it in some files somewhere in a very efficiently retrievable-from format, so we have it even after losing power during a once-in-a-century thunderstorm.
 
 There's a language for giving commands to databases called SQL. We won't be using it, but it was really popular for some time, and some people claim they can still hear its voice. Instead we'll be using a NoSQL database; the technical definition of the term NoSQL is, it's a database that doesn't use SQL. [MongoDB is the most popular NoSQL database.](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-databases) It stores data in documents. Documents look like this:
 
@@ -64,7 +64,9 @@ So there are a lot of operators, and we're not going to test out all of them, bu
 bad_hp = list(collection.find({ "HP": {"$lt": 45} }))
 ```
 
-So yeah, to get multiple Pokemon, you just switch `find_one` to `find`, and then wrap the whole thing in list(). Anyway, we just learned about operators that act on individual values. There is actually another type of operator that takes in entire queries of the type we've just been using. One pretty normal one is called "$or". If you want to get documents that match this query OR that query, you take both of them, put them in a list by going `[query1, query2]`, and make that list the value in a document with the key "$or":
+So yeah, to get multiple Pokemon, you just switch `find_one` to `find`, and then wrap the whole thing in list(). 
+
+We just learned about operators that act on individual values. There is actually another type of operator that takes in entire queries of the type we've just been using. One pretty normal one is called "$or". If you want to get documents that match this query OR that query, you take both of them, put them in a list by going `[query1, query2]`, and make that list the value in a document with the key "$or":
 
 ```python
 # TODO: check if there are any/too many results for this
