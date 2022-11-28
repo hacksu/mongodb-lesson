@@ -79,3 +79,51 @@ That might look kind of alien and complicated, but we can break it down. These t
 So those are all the basics of querying and retrieving. There are other value operators than "greater than" and there are other query operators than "or" (like. there is "and") but if you squint, all the operators within those two types act pretty much the same way. Here is our completed Python code which prints out all these different guys:
 
 And now I'm going to ask you to make a new file; for this one, you're going to learn how to insert.
+
+The initial connection is the same, but you're going to connect to a different collection from this time. You're going to connect to the PC, a collection that you have permission to write to, where individual Pokemon are stored:
+
+```python
+from pprint import pprint  # not a mongodb thing, but useful for displaying documents
+from pymongo import MongoClient
+
+client = MongoClient("mongodb://localhost:27017")  # TODO: real database URI  # connect to a database server
+database = client.pokemon  # get the database called "pokemon" on this server
+collection = database.PC  # get the collection called "PC" in that database
+```
+
+And the code for inserting is actually really simple:
+
+```python
+collection.insert_one({
+  "name": "Squinchy",
+  "species": "Wartortle",
+  "currentHP": 10,
+  "mood": "bemused"
+})
+```
+
+So that's the basic idea; that's how you take data and store it somewhere where it will persist outside of your program. We're going to add one thing, though. MongoDB assigns a unique ID to every document that's inserted, and we're going to print the unique ID of our documents like this:
+
+```python
+result = collection.insert_one({
+  "name": "Squinchy",
+  "species": "Wartortle",
+  "currentHP": 10,
+  "mood": "bemused"
+})
+print(result.inserted_id)
+```
+
+You can follow the format that I have for my Pokemon here if you want, but you can also put any strings for keys and pretty much any values that aren't objects. Here I have MongoDB Compass, which is a great program that lets you monitor a MongoDB database, and we can see what you're inserting here. Or if no one wants to insert anything I will just stare forlornly at this empty screen.
+
+And finally, it would be dumb if you could insert a document but then could never modify it once it was there. We need to be able to update the stored information about our Pokemon, or else we would never be able to do anything Pokemonish with them. We'll want to make yet another new file for updating, so we're not re-running our inserts and making a new document every time we want to update; but we want to copy the ID we got from running an insert, because that's how you are going to identify the Pokemon you're going to modify.
+
+An update consists of two parts: one query to identify the document that will be modified, and one mini-document specifying the action to be taken. In addition to the querying operators we looked at before, there are update operators. We're going to stick with a simple one here: $set. $set just lets you list new data that you want to add to your document, overriding old data if it exists. It looks like this:
+
+```python
+collection.update_one({"_id": "paste your document's id"}, {"$set": {"owner": "enter your name here."}})
+```
+
+So as you can see, the update operation is represented as another nested document. The inner document has a key ("owner") and a value (your name); it itself is the value in the outer document, where the key is "$set", meaning the inner document is just used to set values in the document that's being updated.
+
+So that shows us how to store, update, and retrieve documents in MongoDB. At this point, you might be interested to know that you can download MongoDB Community Edition and connect to a database running on your very own computer, to use it for persistent data in any program you may write. This example is in Python, but you can connect to it in a very similar way with its official libraries for JavaScript, Java, C++, and even Rust, and some other ones. This is a very popular software among new developers, so there are a ton of tutorials online for lots of different languages that can help you set up or learn more on your own.
