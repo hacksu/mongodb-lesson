@@ -43,7 +43,7 @@ pprint(pikachu)
 
 So. Do you all see Pikachu?
 
-So in MongoDB, you create queries by creating sort of mini-documents that specify what you're looking for. This was a really really simple one: we had one key and one value; that pair had to be present in a document in the database for it to match. But we can do more subtle things as well; for example, instead of looking for a name that is Pikachu, we could look for a HP that is greater than 45. So the first part of requesting that looks pretty familia:
+So in MongoDB, you create queries by creating sort of mini-documents that specify what you're looking for. This was a really really simple one: we had one key and one value; that pair had to be present in a document in the database for it to match. But we can do more subtle things as well; for example, instead of looking for a name that is Pikachu, we could look for a HP that is greater than 45. So the first part of requesting that looks pretty familiar:
 
 ```python3
 good_hp = collection.find_one({"HP":           })
@@ -71,7 +71,7 @@ We just learned about operators that act on individual values. There is actually
 
 ```python
 # TODO: check if there are any/too many results for this
-good_hp_or_good_defence = list(collection.find({ "$or": [{ "HP": {"$gt": 45}}, {"Defense": {"$gt": 50}] }))
+good_hp_or_good_defence = list(collection.find({ "$or": [{ "HP": {"$gt": 45}}, {"Defense": {"$gt": 50}}] }))
 ```
 
 That might look kind of alien and complicated, but we can break it down. These two inner queries, we know about those: one sets a criterion for the value that corresponds to HP in the Pokemon documents, and one sets a criterion for the Defense, which we haven't used in a query before but we've seen it in our printed results. Those are both in a list. Because the list is there as the value for the "$or" operator, we get back documents where the first thing matches OR the second thing matches. And so here are our results.
