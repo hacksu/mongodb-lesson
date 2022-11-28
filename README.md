@@ -6,9 +6,9 @@ Intro text on screen: you should open a new Python file while you're waiting :D 
 
 So as we all know, normally when we write and run a program all of the variables and objects and whatnot we've created evaporate as soon as it finishes, and the next time we run that program it's completely back to square one. That's why we need to use databases to store our program's thoughts and ideas persistently. A database will receive stuff from our program, hold on to it even when our program's not running, and probably store it in some files somewhere in a very efficiently retrievable-from format, so we have it even after losing power during a once-in-a-century thunderstorm.
 
-There's a language for giving commands to databases called SQL. We won't be using it, but it was really popular for some time, and some people claim they can still hear its voice. Instead we'll be using a NoSQL database; the technical definition of the term NoSQL is, it's a database that doesn't use SQL. [MongoDB is the most popular NoSQL database.](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-databases) It stores data in documents. Documents look like this:
+There's a language for giving commands to databases called SQL. We won't be using it, but it was really popular for some time, and some people claim they can still hear its voice. Instead we'll be using a NoSQL database; the technical definition of the term NoSQL is, it's a database that doesn't use SQL. [MongoDB is the most popular NoSQL database.](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-databases) It stores data in documents. Documents have other names in other contexts, like "dicts" in pure Python and "objects" in JavaScript, but I'm just going to call them documents here; you will become extremely tired of the word. Documents look like this:
 
-#### Document example: data on a person
+### Document example: data for a person
 
 ```json
 {
@@ -19,9 +19,9 @@ There's a language for giving commands to databases called SQL. We won't be usin
 }
 ```
 
-So this pattern of storing data entries with labels that indicate their meaning is a common one in programming. In fact, you could say that whenever you make a variable in a programming language, you're storing a data entry with a label - the variable name - attached. In the context of a database, though, we're going to go one step further and store multiple documents like this, each with their own value attached to the label "name"; MongoDB is set up to store collections of documents, meaning a whole bunch of, for example, people, and there's an obvious use case for a database like this.
+So this pattern of storing data entries with labels that indicate their meaning is a common one in programming. In fact, you could say that whenever you make a variable in a programming language, you're storing a data entry with a label - the variable name - attached. In the context of a database, though, we're going to go one step further and store multiple documents like this, each with their own value attached to these labels, like for this example each document would have a different value for "name"; MongoDB is set up to store collections of documents, meaning a whole bunch of, for example, people, and there's an obvious use case for a database like this.
 
-_TODO: create database with pokedex.json from this repo_
+_TODO: create database with pokedex.json from this repo, with normal users able to read from pokedex, read/insert/update in PC, and not create new collections, if possible_
 
 This is how you connect to a database that contains Pokemon:
 
@@ -43,7 +43,7 @@ pprint(pikachu)
 
 So. Do you all see Pikachu?
 
-So in MongoDB, you create queries by creating sort of mini-documents that specify what you're looking for. This was a really really simple one: we had one key and one value; that pair had to be present in a document in the database for it to match. But we can do more subtle things as well; for example, instead of looking for a name that is Pikachu, we could look for a HP that is greater than 45. So the first part of requesting that looks pretty familiar:
+So in MongoDB, you create queries by creating sort of mini-documents that specify what you're looking for. This was a really really simple one: we had one key and one value; that pair had to be present in a document in the database for it to match. But we can do more subtle things as well; for example, instead of looking for a `"name"` that is `"Pikachu"`, we could look for a `"HP"` that is `greater than 45`. So the first part of requesting that looks pretty familiar:
 
 ```python3
 good_hp = collection.find_one({"HP":           })
@@ -55,7 +55,7 @@ But to specify the exact condition we're looking for, we're going to need to exp
 good_hp = collection.find_one({ "HP": {"$gt": 45} })
 ```
 
-So this introduces us to the wonderful world of operators.
+So this introduces us to the wonderful world of operators, which are things that start with dollar signs.
 
 Did that work for everyone? It's okay that only one result showed up.
 
@@ -76,6 +76,6 @@ good_hp_or_good_defence = list(collection.find({ "$or": [{ "HP": {"$gt": 45}}, {
 
 That might look kind of alien and complicated, but we can break it down. These two inner queries, we know about those: one sets a criterion for the value that corresponds to HP in the Pokemon documents, and one sets a criterion for the Defense, which we haven't used in a query before but we've seen it in our printed results. Those are both in a list. Because the list is there as the value for the "$or" operator, we get back documents where the first thing matches OR the second thing matches. And so here are our results.
 
-So those are all the basics of querying and retrieving. There are other value operators than "greater than" and there are other query operators than "or" (like. there is "and") but if you squint, the other ones of those types all act pretty much the same way. Here is our completed Python code which prints out all these different guys:
+So those are all the basics of querying and retrieving. There are other value operators than "greater than" and there are other query operators than "or" (like. there is "and") but if you squint, all the operators within those two types act pretty much the same way. Here is our completed Python code which prints out all these different guys:
 
 And now I'm going to ask you to make a new file; for this one, you're going to learn how to insert.
