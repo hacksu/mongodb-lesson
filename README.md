@@ -123,7 +123,7 @@ And the code for inserting is actually really simple. Don't do it yet.
 collection.insert_one({
   "name": "Squinchy",
   "species": "Wartortle",
-  "hp": 10,   # important
+  "hp": 100,   # important
   "xp": 0,    # important
   "mood": "bemused"
 })
@@ -135,7 +135,7 @@ So that's the basic idea; that's how you take data and store it somewhere where 
 result = collection.insert_one({
   "name": "Squinchy",
   "species": "Wartortle",
-  "current_hp": 10,
+  "current_hp": 100,
   "mood": "bemused"
 })
 print(result.inserted_id)
@@ -182,3 +182,13 @@ pprint(collection.fetch_one(id_query))
 So instead of $set, we're using $inc, which stands for increment, and instead of saying what we want the health to be set to, we're just saying how much we want it to be incremented by. In this case 5. The other update operators let you do things like multiplying a value by a number, changing it to be at least a given number, adding a thing to an array, and stuff like that.
 
 So that shows us how to retrieve, store, and update documents in MongoDB. At this point, you might be interested to know that you can download MongoDB Community Edition and connect to a database running on your very own computer, to use it for persistent data in any program you may write. This example is in Python, but you can connect to it in a very similar way with its official libraries for JavaScript, Java, C++, and even Rust, and some other ones. This is a very popular software among new developers, so there are a ton of tutorials online for lots of different languages that can help you set up or learn more on your own.
+
+Anyway, that's enough boring stuff about databases. Let's move on to game design. I had an idea for a really simple Pokemon game we could program. Basically, you would have your own personal Pokemon, and then you would get a random one, from.... somewhere. And then you could choose to either fight or flee from the random Pokemon. If you fought it, your HP would go down a little but your XP would go up. If you fled from it, the other Pokemon's XP would go up for very efficiently winning the encounter. And the goal would be to have your Pokemon be the first to reach some XP value, like 100. So I haven't tested, or thought about this game very hard at all, and it probably will be a disaster. But, it would be an accomplishment to program it. The only hard part is, where would we get the Pokemon to battle against, and how could we store the store the HP and XP of all the different Pokemon in a persistant and reliably accessible manner?
+
+Wait. Okay.
+
+So, I think we can create this program. First, let's take all the connection and import stuff from our update file, including our ID query. Second, let's retrieve our pokemon and print them to see what they look like at the moment.
+
+game.py
+
+The interesting thing about this program is that normally, if you want to do something over and over again in a loop and continuously update some piece of data the whole time, you have to actually write a loop with variables that keep track of the data. With this program, instead, you're relying on the database to keep track of the data persistantly and everytime you run the program you have the same pokemon that you did when it previously finished running. So that's the magic of databases. Maybe you actually wouldn't want to design a game like this, where you had to restart every time you did something. So let's say that this section wasn't about game design actually and was about databases after all.

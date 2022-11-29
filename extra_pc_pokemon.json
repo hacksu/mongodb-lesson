@@ -2,49 +2,49 @@
   {
     "name": "Esther",
     "species": "Bulbasaur",
-    "hp": 10,
+    "hp": 100,
     "xp": 0,
     "mood": "explosive"
   },
   {
     "name": "Squamose",
     "species": "Raichu",
-    "hp": 10,
+    "hp": 100,
     "xp": 0,
     "mood": "elated"
   },
   {
     "name": "Rugose",
     "species": "Wobuffet",
-    "hp": 10,
+    "hp": 100,
     "xp": 0,
     "mood": "pleased"
   },
   {
     "name": "Gertrude",
     "species": "Charmander",
-    "hp": 10,
+    "hp": 100,
     "xp": 0,
     "mood": "vengeful"
   },
   {
     "name": "Edith",
     "species": "Snorlax",
-    "hp": 10,
+    "hp": 100,
     "xp": 0,
     "mood": "disdainful"
   },
   {
     "name": "Mary",
     "species": "Pikachu",
-    "hp": 10,
+    "hp": 100,
     "xp": 0,
     "mood": "extra crispy"
   },
   {
     "name": "Tiffany",
     "species": "Jigglypuff",
-    "hp": 10,
+    "hp": 100,
     "xp": 0,
     "mood": "senescent"
   }
