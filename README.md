@@ -8,7 +8,7 @@ There's a language for giving commands to databases called SQL. We won't be usin
 
 ### Document example: data for a person
 
-```json
+```Python
 {
   "name": "Mitch",
   "balance": -10.17,
