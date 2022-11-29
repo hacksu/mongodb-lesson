@@ -138,15 +138,40 @@ You can follow the format that I have for my Pokemon here if you want, but you c
 
 And finally, it would be dumb if you could insert a document but then could never modify it once it was there. We need to be able to update the stored information about our Pokemon, or else we would never be able to do anything Pokemonish with them. We'll want to make yet another new file for updating, so we're not re-running our inserts and making a new document every time we want to update; but we want to copy the ID we got from running an insert, because that's how you are going to identify the Pokemon you're going to modify.
 
-An update consists of two parts: one query to identify the document that will be modified, and one mini-document specifying the action to be taken. In addition to the querying operators we looked at before, there are update operators. We're going to stick with a simple one here: $set. $set just lets you list new data that you want to add to your document, overriding old data if it exists. It looks like this:
+An update consists of two parts: one query to identify the document that will be modified, and one mini-document specifying the action to be taken. For the query, we're going to use your pokemon's ID, which we printed out when we inserted it. When we printed it, we saw it as a string, but technically, to make life more difficult, it's an object of a class called, inspiredly, ObjectId. If you're not into classes and objects, don't worry about it, that just means we have to import the ObjectId constructor and call it with our ID string before using it. Like this:
+
+```python
+from bson.objectid import ObjectId
+my_id = ObjectId("whatever")
+```
+
+and again, to make life more difficult, instead of this important ID being labeled "id", it's labeled "\_id". So our query will need to look like this:
+
+```python
+id_query = { "_id": my_id }
+```
+
+In addition to the querying operators we looked at before, there are update operators. We're going to stick with a simple one here: $set. $set just lets you list new data that you want to add to your document, overriding old data if it exists. So, finally, our update operation looks like this:
 
 ```python
 collection.update_one(
-    {"_id": ObjectId("638621163a367aa14ba0a8fa")},
+    id_query,
     {"$set": {"owner": "Mitch"}}
 )
 ```
 
-So as you can see, the update operation is represented as another nested document. The inner document has a key ("owner") and a value (your name); it itself is the value in the outer document, where the key is "$set", meaning the inner document is just used to set values in the document that's being updated.
+So yeah. We're updating with one query that indicates which document to update and one update operator that says what to do with it. Update operators are interesting because some of them let you modify data without even knowing what it is or what you're changing it into. So you might not know what your pokemon's current health is, but let's say you want to increase it by 5. You can do that while continuing not to know what it is by just telling MongoDB with the $inc (increment) operator that that's what it should do:
+
+```python
+pprint(collection.fetch_one(id_query))
+print("incrementing health...")
+collection.update_one(
+  id_query,
+  { "$inc": {"current_hp": 5} }
+)
+pprint(collection.fetch_one(id_query))
+```
+
+So instead of $set, we're using $inc, which stands for increment, and instead of saying what we want the health to be set to, we're just saying how much we want it to be incremented by. In this case 5. The other update operators let you do things like multiplying a value by a number, changing it to be at least a given number, adding a thing to an array, and stuff like that.
 
 So that shows us how to store, update, and retrieve documents in MongoDB. At this point, you might be interested to know that you can download MongoDB Community Edition and connect to a database running on your very own computer, to use it for persistent data in any program you may write. This example is in Python, but you can connect to it in a very similar way with its official libraries for JavaScript, Java, C++, and even Rust, and some other ones. This is a very popular software among new developers, so there are a ton of tutorials online for lots of different languages that can help you set up or learn more on your own.
