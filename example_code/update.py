@@ -5,12 +5,12 @@ from bson.objectid import ObjectId
 client = MongoClient(
     host="mitch.website",
     username="student",
-    password="[[password]]"
+    password="bowman218"
 )
 db = client.pokemon
 collection = db.PC
 
-my_id = ObjectId("your id")
+my_id = ObjectId("63868cffb0beba066ce5624c")
 id_query = { "_id": my_id }
 
 print("updating owner...")

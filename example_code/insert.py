@@ -3,7 +3,7 @@ from pymongo import MongoClient
 client = MongoClient(
     host="mitch.website",
     username="student",
-    password="[[password]]"
+    password="bowman218"
 )
 db = client.pokemon
 collection = db.PC
