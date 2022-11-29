@@ -27,3 +27,5 @@ good_hp_or_good_defence = list(collection.find({ "$or": multiple_queries }))
 pprint(good_hp_or_good_defence)
 
 pprint(collection.find_one({"type": "Flying"}))
+
+pprint(collection.find_one({"Special.Attack": 109}))

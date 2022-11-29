@@ -98,7 +98,15 @@ Anyway, querying even with a simple document can be surprisingly deep. You may h
 pprint(collection.find_one({"type": "Flying"}))
 ```
 
-But those are the basics of querying. There are a couple of other small topics we could dive into; we could learn how to limit the exact number of documents we retrieve at one time, or a few more ways to probe into arrays in document, but we've covered the fundamental building blocks of what you do. The rest is details.
+And, or course, I don't know if you guys have been noticing this, but there are documents Inside Our Documents! Inside the normal Pokemon data, there is a sub-document that indicates what the stats of a Pokemon are with regard to special moves. There is no limit in MongoDB to putting lists in documents, or documents in documents, or documents in lists in lists in documents. All the data can nest freely. This is the big thing that makes it so powerful compared to old SQL databases, which were entirely based on tables where every database entry had to fit into a row that had a specific number of specific values of certain types. In MongoDB it's the wild west. But our example is not too crazy. But you are wondering, I'm very confident, how you would retrieve a document based on the number it has for special attack.
+
+It's also not too difficult. You just compose a path by taking the key that points to the inner document and then putting a dot and then putting the key in the inner document that you were worried about, and then use that path just like a normal key. If you had many layers of document, you would have thing dot thing dot thing dot thing. But our case is downright sane.
+
+```python
+pprint(collection.find_one({"Special.Attack": 109}))
+```
+
+Those are the basics of querying. There are a couple of other small topics we could dive into; we could learn how to limit the exact number of documents we retrieve at one time, or a few more ways to probe into arrays in document, but we've covered the fundamental building blocks of what you do. The rest is details.
 
 And now I'm going to ask you to make a new file; for this one, you're going to learn how to insert.
 

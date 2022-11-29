@@ -6,9 +6,8 @@
     "HP": 45,
     "Attack": 49,
     "Defence": 49,
-    "Sp Attack": 65,
-    "Sp Defence": 65,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 65, "Defence": 65 }
   },
   {
     "number": 2,
@@ -17,9 +16,8 @@
     "HP": 60,
     "Attack": 62,
     "Defence": 63,
-    "Sp Attack": 80,
-    "Sp Defence": 80,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 80, "Defence": 80 }
   },
   {
     "number": 3,
@@ -28,9 +26,8 @@
     "HP": 80,
     "Attack": 82,
     "Defence": 83,
-    "Sp Attack": 100,
-    "Sp Defence": 100,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 100, "Defence": 100 }
   },
   {
     "number": 4,
@@ -39,9 +36,8 @@
     "HP": 39,
     "Attack": 52,
     "Defence": 43,
-    "Sp Attack": 60,
-    "Sp Defence": 50,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 60, "Defence": 50 }
   },
   {
     "number": 5,
@@ -50,9 +46,8 @@
     "HP": 58,
     "Attack": 64,
     "Defence": 58,
-    "Sp Attack": 80,
-    "Sp Defence": 65,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 80, "Defence": 65 }
   },
   {
     "number": 6,
@@ -61,9 +56,8 @@
     "HP": 78,
     "Attack": 84,
     "Defence": 78,
-    "Sp Attack": 109,
-    "Sp Defence": 85,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 109, "Defence": 85 }
   },
   {
     "number": 7,
@@ -72,9 +66,8 @@
     "HP": 44,
     "Attack": 48,
     "Defence": 65,
-    "Sp Attack": 50,
-    "Sp Defence": 64,
-    "Speed": 43
+    "Speed": 43,
+    "Special": { "Attack": 50, "Defence": 64 }
   },
   {
     "number": 8,
@@ -83,9 +76,8 @@
     "HP": 59,
     "Attack": 63,
     "Defence": 80,
-    "Sp Attack": 65,
-    "Sp Defence": 80,
-    "Speed": 58
+    "Speed": 58,
+    "Special": { "Attack": 65, "Defence": 80 }
   },
   {
     "number": 9,
@@ -94,9 +86,8 @@
     "HP": 79,
     "Attack": 83,
     "Defence": 100,
-    "Sp Attack": 85,
-    "Sp Defence": 105,
-    "Speed": 78
+    "Speed": 78,
+    "Special": { "Attack": 85, "Defence": 105 }
   },
   {
     "number": 10,
@@ -105,9 +96,8 @@
     "HP": 45,
     "Attack": 30,
     "Defence": 35,
-    "Sp Attack": 20,
-    "Sp Defence": 20,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 20, "Defence": 20 }
   },
   {
     "number": 11,
@@ -116,9 +106,8 @@
     "HP": 50,
     "Attack": 20,
     "Defence": 55,
-    "Sp Attack": 25,
-    "Sp Defence": 25,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 25, "Defence": 25 }
   },
   {
     "number": 12,
@@ -127,9 +116,8 @@
     "HP": 60,
     "Attack": 45,
     "Defence": 50,
-    "Sp Attack": 90,
-    "Sp Defence": 80,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 90, "Defence": 80 }
   },
   {
     "number": 13,
@@ -138,9 +126,8 @@
     "HP": 40,
     "Attack": 35,
     "Defence": 30,
-    "Sp Attack": 20,
-    "Sp Defence": 20,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 20, "Defence": 20 }
   },
   {
     "number": 14,
@@ -149,9 +136,8 @@
     "HP": 45,
     "Attack": 25,
     "Defence": 50,
-    "Sp Attack": 25,
-    "Sp Defence": 25,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 25, "Defence": 25 }
   },
   {
     "number": 15,
@@ -160,9 +146,8 @@
     "HP": 65,
     "Attack": 90,
     "Defence": 40,
-    "Sp Attack": 45,
-    "Sp Defence": 80,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 45, "Defence": 80 }
   },
   {
     "number": 16,
@@ -171,9 +156,8 @@
     "HP": 40,
     "Attack": 45,
     "Defence": 40,
-    "Sp Attack": 35,
-    "Sp Defence": 35,
-    "Speed": 56
+    "Speed": 56,
+    "Special": { "Attack": 35, "Defence": 35 }
   },
   {
     "number": 17,
@@ -182,9 +166,8 @@
     "HP": 63,
     "Attack": 60,
     "Defence": 55,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 71
+    "Speed": 71,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 18,
@@ -193,9 +176,8 @@
     "HP": 83,
     "Attack": 80,
     "Defence": 75,
-    "Sp Attack": 70,
-    "Sp Defence": 70,
-    "Speed": 101
+    "Speed": 101,
+    "Special": { "Attack": 70, "Defence": 70 }
   },
   {
     "number": 19,
@@ -204,9 +186,8 @@
     "HP": 30,
     "Attack": 56,
     "Defence": 35,
-    "Sp Attack": 25,
-    "Sp Defence": 35,
-    "Speed": 72
+    "Speed": 72,
+    "Special": { "Attack": 25, "Defence": 35 }
   },
   {
     "number": 20,
@@ -215,9 +196,8 @@
     "HP": 55,
     "Attack": 81,
     "Defence": 60,
-    "Sp Attack": 50,
-    "Sp Defence": 70,
-    "Speed": 97
+    "Speed": 97,
+    "Special": { "Attack": 50, "Defence": 70 }
   },
   {
     "number": 21,
@@ -226,9 +206,8 @@
     "HP": 40,
     "Attack": 60,
     "Defence": 30,
-    "Sp Attack": 31,
-    "Sp Defence": 31,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 31, "Defence": 31 }
   },
   {
     "number": 22,
@@ -237,9 +216,8 @@
     "HP": 65,
     "Attack": 90,
     "Defence": 65,
-    "Sp Attack": 61,
-    "Sp Defence": 61,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 61, "Defence": 61 }
   },
   {
     "number": 23,
@@ -248,9 +226,8 @@
     "HP": 35,
     "Attack": 60,
     "Defence": 44,
-    "Sp Attack": 40,
-    "Sp Defence": 54,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 40, "Defence": 54 }
   },
   {
     "number": 24,
@@ -259,9 +236,8 @@
     "HP": 60,
     "Attack": 95,
     "Defence": 69,
-    "Sp Attack": 65,
-    "Sp Defence": 79,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 65, "Defence": 79 }
   },
   {
     "number": 25,
@@ -270,9 +246,8 @@
     "HP": 35,
     "Attack": 55,
     "Defence": 40,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 26,
@@ -281,9 +256,8 @@
     "HP": 60,
     "Attack": 90,
     "Defence": 55,
-    "Sp Attack": 90,
-    "Sp Defence": 80,
-    "Speed": 110
+    "Speed": 110,
+    "Special": { "Attack": 90, "Defence": 80 }
   },
   {
     "number": 27,
@@ -292,9 +266,8 @@
     "HP": 50,
     "Attack": 75,
     "Defence": 85,
-    "Sp Attack": 20,
-    "Sp Defence": 30,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 20, "Defence": 30 }
   },
   {
     "number": 28,
@@ -303,9 +276,8 @@
     "HP": 75,
     "Attack": 100,
     "Defence": 110,
-    "Sp Attack": 45,
-    "Sp Defence": 55,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 45, "Defence": 55 }
   },
   {
     "number": 29,
@@ -314,9 +286,8 @@
     "HP": 55,
     "Attack": 47,
     "Defence": 52,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 41
+    "Speed": 41,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 30,
@@ -325,9 +296,8 @@
     "HP": 70,
     "Attack": 62,
     "Defence": 67,
-    "Sp Attack": 55,
-    "Sp Defence": 55,
-    "Speed": 56
+    "Speed": 56,
+    "Special": { "Attack": 55, "Defence": 55 }
   },
   {
     "number": 31,
@@ -336,9 +306,8 @@
     "HP": 90,
     "Attack": 92,
     "Defence": 87,
-    "Sp Attack": 75,
-    "Sp Defence": 85,
-    "Speed": 76
+    "Speed": 76,
+    "Special": { "Attack": 75, "Defence": 85 }
   },
   {
     "number": 32,
@@ -347,9 +316,8 @@
     "HP": 46,
     "Attack": 57,
     "Defence": 40,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 33,
@@ -358,9 +326,8 @@
     "HP": 61,
     "Attack": 72,
     "Defence": 57,
-    "Sp Attack": 55,
-    "Sp Defence": 55,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 55, "Defence": 55 }
   },
   {
     "number": 34,
@@ -369,9 +336,8 @@
     "HP": 81,
     "Attack": 102,
     "Defence": 77,
-    "Sp Attack": 85,
-    "Sp Defence": 75,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 85, "Defence": 75 }
   },
   {
     "number": 35,
@@ -380,9 +346,8 @@
     "HP": 70,
     "Attack": 45,
     "Defence": 48,
-    "Sp Attack": 60,
-    "Sp Defence": 65,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 60, "Defence": 65 }
   },
   {
     "number": 36,
@@ -391,9 +356,8 @@
     "HP": 95,
     "Attack": 70,
     "Defence": 73,
-    "Sp Attack": 95,
-    "Sp Defence": 90,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 95, "Defence": 90 }
   },
   {
     "number": 37,
@@ -402,9 +366,8 @@
     "HP": 38,
     "Attack": 41,
     "Defence": 40,
-    "Sp Attack": 50,
-    "Sp Defence": 65,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 50, "Defence": 65 }
   },
   {
     "number": 38,
@@ -413,9 +376,8 @@
     "HP": 73,
     "Attack": 76,
     "Defence": 75,
-    "Sp Attack": 81,
-    "Sp Defence": 100,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 81, "Defence": 100 }
   },
   {
     "number": 39,
@@ -424,9 +386,8 @@
     "HP": 115,
     "Attack": 45,
     "Defence": 20,
-    "Sp Attack": 45,
-    "Sp Defence": 25,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 45, "Defence": 25 }
   },
   {
     "number": 40,
@@ -435,9 +396,8 @@
     "HP": 140,
     "Attack": 70,
     "Defence": 45,
-    "Sp Attack": 85,
-    "Sp Defence": 50,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 85, "Defence": 50 }
   },
   {
     "number": 41,
@@ -446,9 +406,8 @@
     "HP": 40,
     "Attack": 45,
     "Defence": 35,
-    "Sp Attack": 30,
-    "Sp Defence": 40,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 30, "Defence": 40 }
   },
   {
     "number": 42,
@@ -457,9 +416,8 @@
     "HP": 75,
     "Attack": 80,
     "Defence": 70,
-    "Sp Attack": 65,
-    "Sp Defence": 75,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 65, "Defence": 75 }
   },
   {
     "number": 43,
@@ -468,9 +426,8 @@
     "HP": 45,
     "Attack": 50,
     "Defence": 55,
-    "Sp Attack": 75,
-    "Sp Defence": 65,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 75, "Defence": 65 }
   },
   {
     "number": 44,
@@ -479,9 +436,8 @@
     "HP": 60,
     "Attack": 65,
     "Defence": 70,
-    "Sp Attack": 85,
-    "Sp Defence": 75,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 85, "Defence": 75 }
   },
   {
     "number": 45,
@@ -490,9 +446,8 @@
     "HP": 75,
     "Attack": 80,
     "Defence": 85,
-    "Sp Attack": 110,
-    "Sp Defence": 90,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 110, "Defence": 90 }
   },
   {
     "number": 46,
@@ -501,9 +456,8 @@
     "HP": 35,
     "Attack": 70,
     "Defence": 55,
-    "Sp Attack": 45,
-    "Sp Defence": 55,
-    "Speed": 25
+    "Speed": 25,
+    "Special": { "Attack": 45, "Defence": 55 }
   },
   {
     "number": 47,
@@ -512,9 +466,8 @@
     "HP": 60,
     "Attack": 95,
     "Defence": 80,
-    "Sp Attack": 60,
-    "Sp Defence": 80,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 60, "Defence": 80 }
   },
   {
     "number": 48,
@@ -523,9 +476,8 @@
     "HP": 60,
     "Attack": 55,
     "Defence": 50,
-    "Sp Attack": 40,
-    "Sp Defence": 55,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 40, "Defence": 55 }
   },
   {
     "number": 49,
@@ -534,9 +486,8 @@
     "HP": 70,
     "Attack": 65,
     "Defence": 60,
-    "Sp Attack": 90,
-    "Sp Defence": 75,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 90, "Defence": 75 }
   },
   {
     "number": 50,
@@ -545,9 +496,8 @@
     "HP": 10,
     "Attack": 55,
     "Defence": 25,
-    "Sp Attack": 35,
-    "Sp Defence": 45,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 35, "Defence": 45 }
   },
   {
     "number": 51,
@@ -556,9 +506,8 @@
     "HP": 35,
     "Attack": 100,
     "Defence": 50,
-    "Sp Attack": 50,
-    "Sp Defence": 70,
-    "Speed": 120
+    "Speed": 120,
+    "Special": { "Attack": 50, "Defence": 70 }
   },
   {
     "number": 52,
@@ -567,9 +516,8 @@
     "HP": 40,
     "Attack": 45,
     "Defence": 35,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 53,
@@ -578,9 +526,8 @@
     "HP": 65,
     "Attack": 70,
     "Defence": 60,
-    "Sp Attack": 65,
-    "Sp Defence": 65,
-    "Speed": 115
+    "Speed": 115,
+    "Special": { "Attack": 65, "Defence": 65 }
   },
   {
     "number": 54,
@@ -589,9 +536,8 @@
     "HP": 50,
     "Attack": 52,
     "Defence": 48,
-    "Sp Attack": 65,
-    "Sp Defence": 50,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 65, "Defence": 50 }
   },
   {
     "number": 55,
@@ -600,9 +546,8 @@
     "HP": 80,
     "Attack": 82,
     "Defence": 78,
-    "Sp Attack": 95,
-    "Sp Defence": 80,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 95, "Defence": 80 }
   },
   {
     "number": 56,
@@ -611,9 +556,8 @@
     "HP": 40,
     "Attack": 80,
     "Defence": 35,
-    "Sp Attack": 35,
-    "Sp Defence": 45,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 35, "Defence": 45 }
   },
   {
     "number": 57,
@@ -622,9 +566,8 @@
     "HP": 65,
     "Attack": 105,
     "Defence": 60,
-    "Sp Attack": 60,
-    "Sp Defence": 70,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 60, "Defence": 70 }
   },
   {
     "number": 58,
@@ -633,9 +576,8 @@
     "HP": 55,
     "Attack": 70,
     "Defence": 45,
-    "Sp Attack": 70,
-    "Sp Defence": 50,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 70, "Defence": 50 }
   },
   {
     "number": 59,
@@ -644,9 +586,8 @@
     "HP": 90,
     "Attack": 110,
     "Defence": 80,
-    "Sp Attack": 100,
-    "Sp Defence": 80,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 100, "Defence": 80 }
   },
   {
     "number": 60,
@@ -655,9 +596,8 @@
     "HP": 40,
     "Attack": 50,
     "Defence": 40,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 61,
@@ -666,9 +606,8 @@
     "HP": 65,
     "Attack": 65,
     "Defence": 65,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 62,
@@ -677,9 +616,8 @@
     "HP": 90,
     "Attack": 95,
     "Defence": 95,
-    "Sp Attack": 70,
-    "Sp Defence": 90,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 70, "Defence": 90 }
   },
   {
     "number": 63,
@@ -688,9 +626,8 @@
     "HP": 25,
     "Attack": 20,
     "Defence": 15,
-    "Sp Attack": 105,
-    "Sp Defence": 55,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 105, "Defence": 55 }
   },
   {
     "number": 64,
@@ -699,9 +636,8 @@
     "HP": 40,
     "Attack": 35,
     "Defence": 30,
-    "Sp Attack": 120,
-    "Sp Defence": 70,
-    "Speed": 105
+    "Speed": 105,
+    "Special": { "Attack": 120, "Defence": 70 }
   },
   {
     "number": 65,
@@ -710,9 +646,8 @@
     "HP": 55,
     "Attack": 50,
     "Defence": 45,
-    "Sp Attack": 135,
-    "Sp Defence": 95,
-    "Speed": 120
+    "Speed": 120,
+    "Special": { "Attack": 135, "Defence": 95 }
   },
   {
     "number": 66,
@@ -721,9 +656,8 @@
     "HP": 70,
     "Attack": 80,
     "Defence": 50,
-    "Sp Attack": 35,
-    "Sp Defence": 35,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 35, "Defence": 35 }
   },
   {
     "number": 67,
@@ -732,9 +666,8 @@
     "HP": 80,
     "Attack": 100,
     "Defence": 70,
-    "Sp Attack": 50,
-    "Sp Defence": 60,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 50, "Defence": 60 }
   },
   {
     "number": 68,
@@ -743,9 +676,8 @@
     "HP": 90,
     "Attack": 130,
     "Defence": 80,
-    "Sp Attack": 65,
-    "Sp Defence": 85,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 65, "Defence": 85 }
   },
   {
     "number": 69,
@@ -754,9 +686,8 @@
     "HP": 50,
     "Attack": 75,
     "Defence": 35,
-    "Sp Attack": 70,
-    "Sp Defence": 30,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 70, "Defence": 30 }
   },
   {
     "number": 70,
@@ -765,9 +696,8 @@
     "HP": 65,
     "Attack": 90,
     "Defence": 50,
-    "Sp Attack": 85,
-    "Sp Defence": 45,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 85, "Defence": 45 }
   },
   {
     "number": 71,
@@ -776,9 +706,8 @@
     "HP": 80,
     "Attack": 105,
     "Defence": 65,
-    "Sp Attack": 100,
-    "Sp Defence": 70,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 100, "Defence": 70 }
   },
   {
     "number": 72,
@@ -787,9 +716,8 @@
     "HP": 40,
     "Attack": 40,
     "Defence": 35,
-    "Sp Attack": 50,
-    "Sp Defence": 100,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 50, "Defence": 100 }
   },
   {
     "number": 73,
@@ -798,9 +726,8 @@
     "HP": 80,
     "Attack": 70,
     "Defence": 65,
-    "Sp Attack": 80,
-    "Sp Defence": 120,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 80, "Defence": 120 }
   },
   {
     "number": 74,
@@ -809,9 +736,8 @@
     "HP": 40,
     "Attack": 80,
     "Defence": 100,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 75,
@@ -820,9 +746,8 @@
     "HP": 55,
     "Attack": 95,
     "Defence": 115,
-    "Sp Attack": 45,
-    "Sp Defence": 45,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 45, "Defence": 45 }
   },
   {
     "number": 76,
@@ -831,9 +756,8 @@
     "HP": 80,
     "Attack": 120,
     "Defence": 130,
-    "Sp Attack": 55,
-    "Sp Defence": 65,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 55, "Defence": 65 }
   },
   {
     "number": 77,
@@ -842,9 +766,8 @@
     "HP": 50,
     "Attack": 85,
     "Defence": 55,
-    "Sp Attack": 65,
-    "Sp Defence": 65,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 65, "Defence": 65 }
   },
   {
     "number": 78,
@@ -853,9 +776,8 @@
     "HP": 65,
     "Attack": 100,
     "Defence": 70,
-    "Sp Attack": 80,
-    "Sp Defence": 80,
-    "Speed": 105
+    "Speed": 105,
+    "Special": { "Attack": 80, "Defence": 80 }
   },
   {
     "number": 79,
@@ -864,9 +786,8 @@
     "HP": 90,
     "Attack": 65,
     "Defence": 65,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 15
+    "Speed": 15,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 80,
@@ -875,9 +796,8 @@
     "HP": 95,
     "Attack": 75,
     "Defence": 110,
-    "Sp Attack": 100,
-    "Sp Defence": 80,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 100, "Defence": 80 }
   },
   {
     "number": 81,
@@ -886,9 +806,8 @@
     "HP": 25,
     "Attack": 35,
     "Defence": 70,
-    "Sp Attack": 95,
-    "Sp Defence": 55,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 95, "Defence": 55 }
   },
   {
     "number": 82,
@@ -897,9 +816,8 @@
     "HP": 50,
     "Attack": 60,
     "Defence": 95,
-    "Sp Attack": 120,
-    "Sp Defence": 70,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 120, "Defence": 70 }
   },
   {
     "number": 83,
@@ -908,9 +826,8 @@
     "HP": 52,
     "Attack": 90,
     "Defence": 55,
-    "Sp Attack": 58,
-    "Sp Defence": 62,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 58, "Defence": 62 }
   },
   {
     "number": 84,
@@ -919,9 +836,8 @@
     "HP": 35,
     "Attack": 85,
     "Defence": 45,
-    "Sp Attack": 35,
-    "Sp Defence": 35,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 35, "Defence": 35 }
   },
   {
     "number": 85,
@@ -930,9 +846,8 @@
     "HP": 60,
     "Attack": 110,
     "Defence": 70,
-    "Sp Attack": 60,
-    "Sp Defence": 60,
-    "Speed": 110
+    "Speed": 110,
+    "Special": { "Attack": 60, "Defence": 60 }
   },
   {
     "number": 86,
@@ -941,9 +856,8 @@
     "HP": 65,
     "Attack": 45,
     "Defence": 55,
-    "Sp Attack": 45,
-    "Sp Defence": 70,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 45, "Defence": 70 }
   },
   {
     "number": 87,
@@ -952,9 +866,8 @@
     "HP": 90,
     "Attack": 70,
     "Defence": 80,
-    "Sp Attack": 70,
-    "Sp Defence": 95,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 70, "Defence": 95 }
   },
   {
     "number": 88,
@@ -963,9 +876,8 @@
     "HP": 80,
     "Attack": 80,
     "Defence": 50,
-    "Sp Attack": 40,
-    "Sp Defence": 50,
-    "Speed": 25
+    "Speed": 25,
+    "Special": { "Attack": 40, "Defence": 50 }
   },
   {
     "number": 89,
@@ -974,9 +886,8 @@
     "HP": 105,
     "Attack": 105,
     "Defence": 75,
-    "Sp Attack": 65,
-    "Sp Defence": 100,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 65, "Defence": 100 }
   },
   {
     "number": 90,
@@ -985,9 +896,8 @@
     "HP": 30,
     "Attack": 65,
     "Defence": 100,
-    "Sp Attack": 45,
-    "Sp Defence": 25,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 45, "Defence": 25 }
   },
   {
     "number": 91,
@@ -996,9 +906,8 @@
     "HP": 50,
     "Attack": 95,
     "Defence": 180,
-    "Sp Attack": 85,
-    "Sp Defence": 45,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 85, "Defence": 45 }
   },
   {
     "number": 92,
@@ -1007,9 +916,8 @@
     "HP": 30,
     "Attack": 35,
     "Defence": 30,
-    "Sp Attack": 100,
-    "Sp Defence": 35,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 100, "Defence": 35 }
   },
   {
     "number": 93,
@@ -1018,9 +926,8 @@
     "HP": 45,
     "Attack": 50,
     "Defence": 45,
-    "Sp Attack": 115,
-    "Sp Defence": 55,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 115, "Defence": 55 }
   },
   {
     "number": 94,
@@ -1029,9 +936,8 @@
     "HP": 60,
     "Attack": 65,
     "Defence": 60,
-    "Sp Attack": 130,
-    "Sp Defence": 75,
-    "Speed": 110
+    "Speed": 110,
+    "Special": { "Attack": 130, "Defence": 75 }
   },
   {
     "number": 95,
@@ -1040,9 +946,8 @@
     "HP": 35,
     "Attack": 45,
     "Defence": 160,
-    "Sp Attack": 30,
-    "Sp Defence": 45,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 30, "Defence": 45 }
   },
   {
     "number": 96,
@@ -1051,9 +956,8 @@
     "HP": 60,
     "Attack": 48,
     "Defence": 45,
-    "Sp Attack": 43,
-    "Sp Defence": 90,
-    "Speed": 42
+    "Speed": 42,
+    "Special": { "Attack": 43, "Defence": 90 }
   },
   {
     "number": 97,
@@ -1062,9 +966,8 @@
     "HP": 85,
     "Attack": 73,
     "Defence": 70,
-    "Sp Attack": 73,
-    "Sp Defence": 115,
-    "Speed": 67
+    "Speed": 67,
+    "Special": { "Attack": 73, "Defence": 115 }
   },
   {
     "number": 98,
@@ -1073,9 +976,8 @@
     "HP": 30,
     "Attack": 105,
     "Defence": 90,
-    "Sp Attack": 25,
-    "Sp Defence": 25,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 25, "Defence": 25 }
   },
   {
     "number": 99,
@@ -1084,9 +986,8 @@
     "HP": 55,
     "Attack": 130,
     "Defence": 115,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 100,
@@ -1095,9 +996,8 @@
     "HP": 40,
     "Attack": 30,
     "Defence": 50,
-    "Sp Attack": 55,
-    "Sp Defence": 55,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 55, "Defence": 55 }
   },
   {
     "number": 101,
@@ -1106,9 +1006,8 @@
     "HP": 60,
     "Attack": 50,
     "Defence": 70,
-    "Sp Attack": 80,
-    "Sp Defence": 80,
-    "Speed": 150
+    "Speed": 150,
+    "Special": { "Attack": 80, "Defence": 80 }
   },
   {
     "number": 102,
@@ -1117,9 +1016,8 @@
     "HP": 60,
     "Attack": 40,
     "Defence": 80,
-    "Sp Attack": 60,
-    "Sp Defence": 45,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 60, "Defence": 45 }
   },
   {
     "number": 103,
@@ -1128,9 +1026,8 @@
     "HP": 95,
     "Attack": 95,
     "Defence": 85,
-    "Sp Attack": 125,
-    "Sp Defence": 75,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 125, "Defence": 75 }
   },
   {
     "number": 104,
@@ -1139,9 +1036,8 @@
     "HP": 50,
     "Attack": 50,
     "Defence": 95,
-    "Sp Attack": 40,
-    "Sp Defence": 50,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 40, "Defence": 50 }
   },
   {
     "number": 105,
@@ -1150,9 +1046,8 @@
     "HP": 60,
     "Attack": 80,
     "Defence": 110,
-    "Sp Attack": 50,
-    "Sp Defence": 80,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 50, "Defence": 80 }
   },
   {
     "number": 106,
@@ -1161,9 +1056,8 @@
     "HP": 50,
     "Attack": 120,
     "Defence": 53,
-    "Sp Attack": 35,
-    "Sp Defence": 110,
-    "Speed": 87
+    "Speed": 87,
+    "Special": { "Attack": 35, "Defence": 110 }
   },
   {
     "number": 107,
@@ -1172,9 +1066,8 @@
     "HP": 50,
     "Attack": 105,
     "Defence": 79,
-    "Sp Attack": 35,
-    "Sp Defence": 110,
-    "Speed": 76
+    "Speed": 76,
+    "Special": { "Attack": 35, "Defence": 110 }
   },
   {
     "number": 108,
@@ -1183,9 +1076,8 @@
     "HP": 90,
     "Attack": 55,
     "Defence": 75,
-    "Sp Attack": 60,
-    "Sp Defence": 75,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 60, "Defence": 75 }
   },
   {
     "number": 109,
@@ -1194,9 +1086,8 @@
     "HP": 40,
     "Attack": 65,
     "Defence": 95,
-    "Sp Attack": 60,
-    "Sp Defence": 45,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 60, "Defence": 45 }
   },
   {
     "number": 110,
@@ -1205,9 +1096,8 @@
     "HP": 65,
     "Attack": 90,
     "Defence": 120,
-    "Sp Attack": 85,
-    "Sp Defence": 70,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 85, "Defence": 70 }
   },
   {
     "number": 111,
@@ -1216,9 +1106,8 @@
     "HP": 80,
     "Attack": 85,
     "Defence": 95,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 25
+    "Speed": 25,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 112,
@@ -1227,9 +1116,8 @@
     "HP": 105,
     "Attack": 130,
     "Defence": 120,
-    "Sp Attack": 45,
-    "Sp Defence": 45,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 45, "Defence": 45 }
   },
   {
     "number": 113,
@@ -1238,9 +1126,8 @@
     "HP": 250,
     "Attack": 5,
     "Defence": 5,
-    "Sp Attack": 35,
-    "Sp Defence": 105,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 35, "Defence": 105 }
   },
   {
     "number": 114,
@@ -1249,9 +1136,8 @@
     "HP": 65,
     "Attack": 55,
     "Defence": 115,
-    "Sp Attack": 100,
-    "Sp Defence": 40,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 100, "Defence": 40 }
   },
   {
     "number": 115,
@@ -1260,9 +1146,8 @@
     "HP": 105,
     "Attack": 95,
     "Defence": 80,
-    "Sp Attack": 40,
-    "Sp Defence": 80,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 40, "Defence": 80 }
   },
   {
     "number": 116,
@@ -1271,9 +1156,8 @@
     "HP": 30,
     "Attack": 40,
     "Defence": 70,
-    "Sp Attack": 70,
-    "Sp Defence": 25,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 70, "Defence": 25 }
   },
   {
     "number": 117,
@@ -1282,9 +1166,8 @@
     "HP": 55,
     "Attack": 65,
     "Defence": 95,
-    "Sp Attack": 95,
-    "Sp Defence": 45,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 95, "Defence": 45 }
   },
   {
     "number": 118,
@@ -1293,9 +1176,8 @@
     "HP": 45,
     "Attack": 67,
     "Defence": 60,
-    "Sp Attack": 35,
-    "Sp Defence": 50,
-    "Speed": 63
+    "Speed": 63,
+    "Special": { "Attack": 35, "Defence": 50 }
   },
   {
     "number": 119,
@@ -1304,9 +1186,8 @@
     "HP": 80,
     "Attack": 92,
     "Defence": 65,
-    "Sp Attack": 65,
-    "Sp Defence": 80,
-    "Speed": 68
+    "Speed": 68,
+    "Special": { "Attack": 65, "Defence": 80 }
   },
   {
     "number": 120,
@@ -1315,9 +1196,8 @@
     "HP": 30,
     "Attack": 45,
     "Defence": 55,
-    "Sp Attack": 70,
-    "Sp Defence": 55,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 70, "Defence": 55 }
   },
   {
     "number": 121,
@@ -1326,9 +1206,8 @@
     "HP": 60,
     "Attack": 75,
     "Defence": 85,
-    "Sp Attack": 100,
-    "Sp Defence": 85,
-    "Speed": 115
+    "Speed": 115,
+    "Special": { "Attack": 100, "Defence": 85 }
   },
   {
     "number": 122,
@@ -1337,9 +1216,8 @@
     "HP": 40,
     "Attack": 45,
     "Defence": 65,
-    "Sp Attack": 100,
-    "Sp Defence": 120,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 100, "Defence": 120 }
   },
   {
     "number": 123,
@@ -1348,9 +1226,8 @@
     "HP": 70,
     "Attack": 110,
     "Defence": 80,
-    "Sp Attack": 55,
-    "Sp Defence": 80,
-    "Speed": 105
+    "Speed": 105,
+    "Special": { "Attack": 55, "Defence": 80 }
   },
   {
     "number": 124,
@@ -1359,9 +1236,8 @@
     "HP": 65,
     "Attack": 50,
     "Defence": 35,
-    "Sp Attack": 115,
-    "Sp Defence": 95,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 115, "Defence": 95 }
   },
   {
     "number": 125,
@@ -1370,9 +1246,8 @@
     "HP": 65,
     "Attack": 83,
     "Defence": 57,
-    "Sp Attack": 95,
-    "Sp Defence": 85,
-    "Speed": 105
+    "Speed": 105,
+    "Special": { "Attack": 95, "Defence": 85 }
   },
   {
     "number": 126,
@@ -1381,9 +1256,8 @@
     "HP": 65,
     "Attack": 95,
     "Defence": 57,
-    "Sp Attack": 100,
-    "Sp Defence": 85,
-    "Speed": 93
+    "Speed": 93,
+    "Special": { "Attack": 100, "Defence": 85 }
   },
   {
     "number": 127,
@@ -1392,9 +1266,8 @@
     "HP": 65,
     "Attack": 125,
     "Defence": 100,
-    "Sp Attack": 55,
-    "Sp Defence": 70,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 55, "Defence": 70 }
   },
   {
     "number": 128,
@@ -1403,9 +1276,8 @@
     "HP": 75,
     "Attack": 100,
     "Defence": 95,
-    "Sp Attack": 40,
-    "Sp Defence": 70,
-    "Speed": 110
+    "Speed": 110,
+    "Special": { "Attack": 40, "Defence": 70 }
   },
   {
     "number": 129,
@@ -1414,9 +1286,8 @@
     "HP": 20,
     "Attack": 10,
     "Defence": 55,
-    "Sp Attack": 15,
-    "Sp Defence": 20,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 15, "Defence": 20 }
   },
   {
     "number": 130,
@@ -1425,9 +1296,8 @@
     "HP": 95,
     "Attack": 125,
     "Defence": 79,
-    "Sp Attack": 60,
-    "Sp Defence": 100,
-    "Speed": 81
+    "Speed": 81,
+    "Special": { "Attack": 60, "Defence": 100 }
   },
   {
     "number": 131,
@@ -1436,9 +1306,8 @@
     "HP": 130,
     "Attack": 85,
     "Defence": 80,
-    "Sp Attack": 85,
-    "Sp Defence": 95,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 85, "Defence": 95 }
   },
   {
     "number": 132,
@@ -1447,9 +1316,8 @@
     "HP": 48,
     "Attack": 48,
     "Defence": 48,
-    "Sp Attack": 48,
-    "Sp Defence": 48,
-    "Speed": 48
+    "Speed": 48,
+    "Special": { "Attack": 48, "Defence": 48 }
   },
   {
     "number": 133,
@@ -1458,9 +1326,8 @@
     "HP": 55,
     "Attack": 55,
     "Defence": 50,
-    "Sp Attack": 45,
-    "Sp Defence": 65,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 45, "Defence": 65 }
   },
   {
     "number": 134,
@@ -1469,9 +1336,8 @@
     "HP": 130,
     "Attack": 65,
     "Defence": 60,
-    "Sp Attack": 110,
-    "Sp Defence": 95,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 110, "Defence": 95 }
   },
   {
     "number": 135,
@@ -1480,9 +1346,8 @@
     "HP": 65,
     "Attack": 65,
     "Defence": 60,
-    "Sp Attack": 110,
-    "Sp Defence": 95,
-    "Speed": 130
+    "Speed": 130,
+    "Special": { "Attack": 110, "Defence": 95 }
   },
   {
     "number": 136,
@@ -1491,9 +1356,8 @@
     "HP": 65,
     "Attack": 130,
     "Defence": 60,
-    "Sp Attack": 95,
-    "Sp Defence": 110,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 95, "Defence": 110 }
   },
   {
     "number": 137,
@@ -1502,9 +1366,8 @@
     "HP": 65,
     "Attack": 60,
     "Defence": 70,
-    "Sp Attack": 85,
-    "Sp Defence": 75,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 85, "Defence": 75 }
   },
   {
     "number": 138,
@@ -1513,9 +1376,8 @@
     "HP": 35,
     "Attack": 40,
     "Defence": 100,
-    "Sp Attack": 90,
-    "Sp Defence": 55,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 90, "Defence": 55 }
   },
   {
     "number": 139,
@@ -1524,9 +1386,8 @@
     "HP": 70,
     "Attack": 60,
     "Defence": 125,
-    "Sp Attack": 115,
-    "Sp Defence": 70,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 115, "Defence": 70 }
   },
   {
     "number": 140,
@@ -1535,9 +1396,8 @@
     "HP": 30,
     "Attack": 80,
     "Defence": 90,
-    "Sp Attack": 55,
-    "Sp Defence": 45,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 55, "Defence": 45 }
   },
   {
     "number": 141,
@@ -1546,9 +1406,8 @@
     "HP": 60,
     "Attack": 115,
     "Defence": 105,
-    "Sp Attack": 65,
-    "Sp Defence": 70,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 65, "Defence": 70 }
   },
   {
     "number": 142,
@@ -1557,9 +1416,8 @@
     "HP": 80,
     "Attack": 105,
     "Defence": 65,
-    "Sp Attack": 60,
-    "Sp Defence": 75,
-    "Speed": 130
+    "Speed": 130,
+    "Special": { "Attack": 60, "Defence": 75 }
   },
   {
     "number": 143,
@@ -1568,9 +1426,8 @@
     "HP": 160,
     "Attack": 110,
     "Defence": 65,
-    "Sp Attack": 65,
-    "Sp Defence": 110,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 65, "Defence": 110 }
   },
   {
     "number": 144,
@@ -1579,9 +1436,8 @@
     "HP": 90,
     "Attack": 85,
     "Defence": 100,
-    "Sp Attack": 95,
-    "Sp Defence": 125,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 95, "Defence": 125 }
   },
   {
     "number": 145,
@@ -1590,9 +1446,8 @@
     "HP": 90,
     "Attack": 90,
     "Defence": 85,
-    "Sp Attack": 125,
-    "Sp Defence": 90,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 125, "Defence": 90 }
   },
   {
     "number": 146,
@@ -1601,9 +1456,8 @@
     "HP": 90,
     "Attack": 100,
     "Defence": 90,
-    "Sp Attack": 125,
-    "Sp Defence": 85,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 125, "Defence": 85 }
   },
   {
     "number": 147,
@@ -1612,9 +1466,8 @@
     "HP": 41,
     "Attack": 64,
     "Defence": 45,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 148,
@@ -1623,9 +1476,8 @@
     "HP": 61,
     "Attack": 84,
     "Defence": 65,
-    "Sp Attack": 70,
-    "Sp Defence": 70,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 70, "Defence": 70 }
   },
   {
     "number": 149,
@@ -1634,9 +1486,8 @@
     "HP": 91,
     "Attack": 134,
     "Defence": 95,
-    "Sp Attack": 100,
-    "Sp Defence": 100,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 100, "Defence": 100 }
   },
   {
     "number": 150,
@@ -1645,9 +1496,8 @@
     "HP": 106,
     "Attack": 110,
     "Defence": 90,
-    "Sp Attack": 154,
-    "Sp Defence": 90,
-    "Speed": 130
+    "Speed": 130,
+    "Special": { "Attack": 154, "Defence": 90 }
   },
   {
     "number": 151,
@@ -1656,9 +1506,8 @@
     "HP": 100,
     "Attack": 100,
     "Defence": 100,
-    "Sp Attack": 100,
-    "Sp Defence": 100,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 100, "Defence": 100 }
   },
   {
     "number": 152,
@@ -1667,9 +1516,8 @@
     "HP": 45,
     "Attack": 49,
     "Defence": 65,
-    "Sp Attack": 49,
-    "Sp Defence": 65,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 49, "Defence": 65 }
   },
   {
     "number": 153,
@@ -1678,9 +1526,8 @@
     "HP": 60,
     "Attack": 62,
     "Defence": 80,
-    "Sp Attack": 63,
-    "Sp Defence": 80,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 63, "Defence": 80 }
   },
   {
     "number": 154,
@@ -1689,9 +1536,8 @@
     "HP": 80,
     "Attack": 82,
     "Defence": 100,
-    "Sp Attack": 83,
-    "Sp Defence": 100,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 83, "Defence": 100 }
   },
   {
     "number": 155,
@@ -1700,9 +1546,8 @@
     "HP": 39,
     "Attack": 52,
     "Defence": 43,
-    "Sp Attack": 60,
-    "Sp Defence": 50,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 60, "Defence": 50 }
   },
   {
     "number": 156,
@@ -1711,9 +1556,8 @@
     "HP": 58,
     "Attack": 64,
     "Defence": 58,
-    "Sp Attack": 80,
-    "Sp Defence": 65,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 80, "Defence": 65 }
   },
   {
     "number": 157,
@@ -1722,9 +1566,8 @@
     "HP": 78,
     "Attack": 84,
     "Defence": 78,
-    "Sp Attack": 109,
-    "Sp Defence": 85,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 109, "Defence": 85 }
   },
   {
     "number": 158,
@@ -1733,9 +1576,8 @@
     "HP": 50,
     "Attack": 65,
     "Defence": 64,
-    "Sp Attack": 44,
-    "Sp Defence": 48,
-    "Speed": 43
+    "Speed": 43,
+    "Special": { "Attack": 44, "Defence": 48 }
   },
   {
     "number": 159,
@@ -1744,9 +1586,8 @@
     "HP": 65,
     "Attack": 80,
     "Defence": 80,
-    "Sp Attack": 59,
-    "Sp Defence": 63,
-    "Speed": 58
+    "Speed": 58,
+    "Special": { "Attack": 59, "Defence": 63 }
   },
   {
     "number": 160,
@@ -1755,9 +1596,8 @@
     "HP": 85,
     "Attack": 105,
     "Defence": 100,
-    "Sp Attack": 79,
-    "Sp Defence": 83,
-    "Speed": 78
+    "Speed": 78,
+    "Special": { "Attack": 79, "Defence": 83 }
   },
   {
     "number": 161,
@@ -1766,9 +1606,8 @@
     "HP": 35,
     "Attack": 46,
     "Defence": 34,
-    "Sp Attack": 35,
-    "Sp Defence": 45,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 35, "Defence": 45 }
   },
   {
     "number": 162,
@@ -1777,9 +1616,8 @@
     "HP": 85,
     "Attack": 76,
     "Defence": 64,
-    "Sp Attack": 45,
-    "Sp Defence": 55,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 45, "Defence": 55 }
   },
   {
     "number": 163,
@@ -1788,9 +1626,8 @@
     "HP": 60,
     "Attack": 30,
     "Defence": 30,
-    "Sp Attack": 36,
-    "Sp Defence": 56,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 36, "Defence": 56 }
   },
   {
     "number": 164,
@@ -1799,9 +1636,8 @@
     "HP": 100,
     "Attack": 50,
     "Defence": 50,
-    "Sp Attack": 86,
-    "Sp Defence": 96,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 86, "Defence": 96 }
   },
   {
     "number": 165,
@@ -1810,9 +1646,8 @@
     "HP": 40,
     "Attack": 20,
     "Defence": 30,
-    "Sp Attack": 40,
-    "Sp Defence": 80,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 40, "Defence": 80 }
   },
   {
     "number": 166,
@@ -1821,9 +1656,8 @@
     "HP": 55,
     "Attack": 35,
     "Defence": 50,
-    "Sp Attack": 55,
-    "Sp Defence": 110,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 55, "Defence": 110 }
   },
   {
     "number": 167,
@@ -1832,9 +1666,8 @@
     "HP": 40,
     "Attack": 60,
     "Defence": 40,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 168,
@@ -1843,9 +1676,8 @@
     "HP": 70,
     "Attack": 90,
     "Defence": 70,
-    "Sp Attack": 60,
-    "Sp Defence": 70,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 60, "Defence": 70 }
   },
   {
     "number": 169,
@@ -1854,9 +1686,8 @@
     "HP": 85,
     "Attack": 90,
     "Defence": 80,
-    "Sp Attack": 70,
-    "Sp Defence": 80,
-    "Speed": 130
+    "Speed": 130,
+    "Special": { "Attack": 70, "Defence": 80 }
   },
   {
     "number": 170,
@@ -1865,9 +1696,8 @@
     "HP": 75,
     "Attack": 38,
     "Defence": 38,
-    "Sp Attack": 56,
-    "Sp Defence": 56,
-    "Speed": 67
+    "Speed": 67,
+    "Special": { "Attack": 56, "Defence": 56 }
   },
   {
     "number": 171,
@@ -1876,9 +1706,8 @@
     "HP": 125,
     "Attack": 58,
     "Defence": 58,
-    "Sp Attack": 76,
-    "Sp Defence": 76,
-    "Speed": 67
+    "Speed": 67,
+    "Special": { "Attack": 76, "Defence": 76 }
   },
   {
     "number": 172,
@@ -1887,9 +1716,8 @@
     "HP": 20,
     "Attack": 40,
     "Defence": 15,
-    "Sp Attack": 35,
-    "Sp Defence": 35,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 35, "Defence": 35 }
   },
   {
     "number": 173,
@@ -1898,9 +1726,8 @@
     "HP": 50,
     "Attack": 25,
     "Defence": 28,
-    "Sp Attack": 45,
-    "Sp Defence": 55,
-    "Speed": 15
+    "Speed": 15,
+    "Special": { "Attack": 45, "Defence": 55 }
   },
   {
     "number": 174,
@@ -1909,9 +1736,8 @@
     "HP": 90,
     "Attack": 30,
     "Defence": 15,
-    "Sp Attack": 40,
-    "Sp Defence": 20,
-    "Speed": 15
+    "Speed": 15,
+    "Special": { "Attack": 40, "Defence": 20 }
   },
   {
     "number": 175,
@@ -1920,9 +1746,8 @@
     "HP": 35,
     "Attack": 20,
     "Defence": 65,
-    "Sp Attack": 40,
-    "Sp Defence": 65,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 40, "Defence": 65 }
   },
   {
     "number": 176,
@@ -1931,9 +1756,8 @@
     "HP": 55,
     "Attack": 40,
     "Defence": 85,
-    "Sp Attack": 80,
-    "Sp Defence": 105,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 80, "Defence": 105 }
   },
   {
     "number": 177,
@@ -1942,9 +1766,8 @@
     "HP": 40,
     "Attack": 50,
     "Defence": 45,
-    "Sp Attack": 70,
-    "Sp Defence": 45,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 70, "Defence": 45 }
   },
   {
     "number": 178,
@@ -1953,9 +1776,8 @@
     "HP": 65,
     "Attack": 75,
     "Defence": 70,
-    "Sp Attack": 95,
-    "Sp Defence": 70,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 95, "Defence": 70 }
   },
   {
     "number": 179,
@@ -1964,9 +1786,8 @@
     "HP": 55,
     "Attack": 40,
     "Defence": 40,
-    "Sp Attack": 65,
-    "Sp Defence": 45,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 65, "Defence": 45 }
   },
   {
     "number": 180,
@@ -1975,9 +1796,8 @@
     "HP": 70,
     "Attack": 55,
     "Defence": 55,
-    "Sp Attack": 80,
-    "Sp Defence": 60,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 80, "Defence": 60 }
   },
   {
     "number": 181,
@@ -1986,9 +1806,8 @@
     "HP": 90,
     "Attack": 75,
     "Defence": 85,
-    "Sp Attack": 115,
-    "Sp Defence": 90,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 115, "Defence": 90 }
   },
   {
     "number": 182,
@@ -1997,9 +1816,8 @@
     "HP": 75,
     "Attack": 80,
     "Defence": 95,
-    "Sp Attack": 90,
-    "Sp Defence": 100,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 90, "Defence": 100 }
   },
   {
     "number": 183,
@@ -2008,9 +1826,8 @@
     "HP": 70,
     "Attack": 20,
     "Defence": 50,
-    "Sp Attack": 20,
-    "Sp Defence": 50,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 20, "Defence": 50 }
   },
   {
     "number": 184,
@@ -2019,9 +1836,8 @@
     "HP": 100,
     "Attack": 50,
     "Defence": 80,
-    "Sp Attack": 60,
-    "Sp Defence": 80,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 60, "Defence": 80 }
   },
   {
     "number": 185,
@@ -2030,9 +1846,8 @@
     "HP": 70,
     "Attack": 100,
     "Defence": 115,
-    "Sp Attack": 30,
-    "Sp Defence": 65,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 30, "Defence": 65 }
   },
   {
     "number": 186,
@@ -2041,9 +1856,8 @@
     "HP": 90,
     "Attack": 75,
     "Defence": 75,
-    "Sp Attack": 90,
-    "Sp Defence": 100,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 90, "Defence": 100 }
   },
   {
     "number": 187,
@@ -2052,9 +1866,8 @@
     "HP": 35,
     "Attack": 35,
     "Defence": 40,
-    "Sp Attack": 35,
-    "Sp Defence": 55,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 35, "Defence": 55 }
   },
   {
     "number": 188,
@@ -2063,9 +1876,8 @@
     "HP": 55,
     "Attack": 45,
     "Defence": 50,
-    "Sp Attack": 45,
-    "Sp Defence": 65,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 45, "Defence": 65 }
   },
   {
     "number": 189,
@@ -2074,9 +1886,8 @@
     "HP": 75,
     "Attack": 55,
     "Defence": 70,
-    "Sp Attack": 55,
-    "Sp Defence": 95,
-    "Speed": 110
+    "Speed": 110,
+    "Special": { "Attack": 55, "Defence": 95 }
   },
   {
     "number": 190,
@@ -2085,9 +1896,8 @@
     "HP": 55,
     "Attack": 70,
     "Defence": 55,
-    "Sp Attack": 40,
-    "Sp Defence": 55,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 40, "Defence": 55 }
   },
   {
     "number": 191,
@@ -2096,9 +1906,8 @@
     "HP": 30,
     "Attack": 30,
     "Defence": 30,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 192,
@@ -2107,9 +1916,8 @@
     "HP": 75,
     "Attack": 75,
     "Defence": 55,
-    "Sp Attack": 105,
-    "Sp Defence": 85,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 105, "Defence": 85 }
   },
   {
     "number": 193,
@@ -2118,9 +1926,8 @@
     "HP": 65,
     "Attack": 65,
     "Defence": 45,
-    "Sp Attack": 75,
-    "Sp Defence": 45,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 75, "Defence": 45 }
   },
   {
     "number": 194,
@@ -2129,9 +1936,8 @@
     "HP": 55,
     "Attack": 45,
     "Defence": 45,
-    "Sp Attack": 25,
-    "Sp Defence": 25,
-    "Speed": 15
+    "Speed": 15,
+    "Special": { "Attack": 25, "Defence": 25 }
   },
   {
     "number": 195,
@@ -2140,9 +1946,8 @@
     "HP": 95,
     "Attack": 85,
     "Defence": 85,
-    "Sp Attack": 65,
-    "Sp Defence": 65,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 65, "Defence": 65 }
   },
   {
     "number": 196,
@@ -2151,9 +1956,8 @@
     "HP": 65,
     "Attack": 65,
     "Defence": 60,
-    "Sp Attack": 130,
-    "Sp Defence": 95,
-    "Speed": 110
+    "Speed": 110,
+    "Special": { "Attack": 130, "Defence": 95 }
   },
   {
     "number": 197,
@@ -2162,9 +1966,8 @@
     "HP": 95,
     "Attack": 65,
     "Defence": 110,
-    "Sp Attack": 60,
-    "Sp Defence": 130,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 60, "Defence": 130 }
   },
   {
     "number": 198,
@@ -2173,9 +1976,8 @@
     "HP": 60,
     "Attack": 85,
     "Defence": 42,
-    "Sp Attack": 85,
-    "Sp Defence": 42,
-    "Speed": 91
+    "Speed": 91,
+    "Special": { "Attack": 85, "Defence": 42 }
   },
   {
     "number": 199,
@@ -2184,9 +1986,8 @@
     "HP": 95,
     "Attack": 75,
     "Defence": 80,
-    "Sp Attack": 100,
-    "Sp Defence": 110,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 100, "Defence": 110 }
   },
   {
     "number": 200,
@@ -2195,9 +1996,8 @@
     "HP": 60,
     "Attack": 60,
     "Defence": 60,
-    "Sp Attack": 85,
-    "Sp Defence": 85,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 85, "Defence": 85 }
   },
   {
     "number": 201,
@@ -2206,9 +2006,8 @@
     "HP": 48,
     "Attack": 72,
     "Defence": 48,
-    "Sp Attack": 72,
-    "Sp Defence": 48,
-    "Speed": 48
+    "Speed": 48,
+    "Special": { "Attack": 72, "Defence": 48 }
   },
   {
     "number": 202,
@@ -2217,9 +2016,8 @@
     "HP": 190,
     "Attack": 33,
     "Defence": 58,
-    "Sp Attack": 33,
-    "Sp Defence": 58,
-    "Speed": 33
+    "Speed": 33,
+    "Special": { "Attack": 33, "Defence": 58 }
   },
   {
     "number": 203,
@@ -2228,9 +2026,8 @@
     "HP": 70,
     "Attack": 80,
     "Defence": 65,
-    "Sp Attack": 90,
-    "Sp Defence": 65,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 90, "Defence": 65 }
   },
   {
     "number": 204,
@@ -2239,9 +2036,8 @@
     "HP": 50,
     "Attack": 65,
     "Defence": 90,
-    "Sp Attack": 35,
-    "Sp Defence": 35,
-    "Speed": 15
+    "Speed": 15,
+    "Special": { "Attack": 35, "Defence": 35 }
   },
   {
     "number": 205,
@@ -2250,9 +2046,8 @@
     "HP": 75,
     "Attack": 90,
     "Defence": 140,
-    "Sp Attack": 60,
-    "Sp Defence": 60,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 60, "Defence": 60 }
   },
   {
     "number": 206,
@@ -2261,9 +2056,8 @@
     "HP": 100,
     "Attack": 70,
     "Defence": 70,
-    "Sp Attack": 65,
-    "Sp Defence": 65,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 65, "Defence": 65 }
   },
   {
     "number": 207,
@@ -2272,9 +2066,8 @@
     "HP": 65,
     "Attack": 75,
     "Defence": 105,
-    "Sp Attack": 35,
-    "Sp Defence": 65,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 35, "Defence": 65 }
   },
   {
     "number": 208,
@@ -2283,9 +2076,8 @@
     "HP": 75,
     "Attack": 85,
     "Defence": 200,
-    "Sp Attack": 55,
-    "Sp Defence": 65,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 55, "Defence": 65 }
   },
   {
     "number": 209,
@@ -2294,9 +2086,8 @@
     "HP": 60,
     "Attack": 80,
     "Defence": 50,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 210,
@@ -2305,9 +2096,8 @@
     "HP": 90,
     "Attack": 120,
     "Defence": 75,
-    "Sp Attack": 60,
-    "Sp Defence": 60,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 60, "Defence": 60 }
   },
   {
     "number": 211,
@@ -2316,9 +2106,8 @@
     "HP": 65,
     "Attack": 95,
     "Defence": 85,
-    "Sp Attack": 55,
-    "Sp Defence": 55,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 55, "Defence": 55 }
   },
   {
     "number": 212,
@@ -2327,9 +2116,8 @@
     "HP": 70,
     "Attack": 130,
     "Defence": 100,
-    "Sp Attack": 55,
-    "Sp Defence": 80,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 55, "Defence": 80 }
   },
   {
     "number": 213,
@@ -2338,9 +2126,8 @@
     "HP": 20,
     "Attack": 10,
     "Defence": 230,
-    "Sp Attack": 10,
-    "Sp Defence": 230,
-    "Speed": 5
+    "Speed": 5,
+    "Special": { "Attack": 10, "Defence": 230 }
   },
   {
     "number": 214,
@@ -2349,9 +2136,8 @@
     "HP": 80,
     "Attack": 125,
     "Defence": 75,
-    "Sp Attack": 40,
-    "Sp Defence": 95,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 40, "Defence": 95 }
   },
   {
     "number": 215,
@@ -2360,9 +2146,8 @@
     "HP": 55,
     "Attack": 95,
     "Defence": 55,
-    "Sp Attack": 35,
-    "Sp Defence": 75,
-    "Speed": 115
+    "Speed": 115,
+    "Special": { "Attack": 35, "Defence": 75 }
   },
   {
     "number": 216,
@@ -2371,9 +2156,8 @@
     "HP": 60,
     "Attack": 80,
     "Defence": 50,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 217,
@@ -2382,9 +2166,8 @@
     "HP": 90,
     "Attack": 130,
     "Defence": 75,
-    "Sp Attack": 75,
-    "Sp Defence": 75,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 75, "Defence": 75 }
   },
   {
     "number": 218,
@@ -2393,9 +2176,8 @@
     "HP": 40,
     "Attack": 40,
     "Defence": 40,
-    "Sp Attack": 70,
-    "Sp Defence": 40,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 70, "Defence": 40 }
   },
   {
     "number": 219,
@@ -2404,9 +2186,8 @@
     "HP": 60,
     "Attack": 50,
     "Defence": 120,
-    "Sp Attack": 90,
-    "Sp Defence": 80,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 90, "Defence": 80 }
   },
   {
     "number": 220,
@@ -2415,9 +2196,8 @@
     "HP": 50,
     "Attack": 50,
     "Defence": 40,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 221,
@@ -2426,9 +2206,8 @@
     "HP": 100,
     "Attack": 100,
     "Defence": 80,
-    "Sp Attack": 60,
-    "Sp Defence": 60,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 60, "Defence": 60 }
   },
   {
     "number": 222,
@@ -2437,9 +2216,8 @@
     "HP": 65,
     "Attack": 55,
     "Defence": 95,
-    "Sp Attack": 65,
-    "Sp Defence": 95,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 65, "Defence": 95 }
   },
   {
     "number": 223,
@@ -2448,9 +2226,8 @@
     "HP": 35,
     "Attack": 65,
     "Defence": 35,
-    "Sp Attack": 65,
-    "Sp Defence": 35,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 65, "Defence": 35 }
   },
   {
     "number": 224,
@@ -2459,9 +2236,8 @@
     "HP": 75,
     "Attack": 105,
     "Defence": 75,
-    "Sp Attack": 105,
-    "Sp Defence": 75,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 105, "Defence": 75 }
   },
   {
     "number": 225,
@@ -2470,9 +2246,8 @@
     "HP": 45,
     "Attack": 55,
     "Defence": 45,
-    "Sp Attack": 65,
-    "Sp Defence": 45,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 65, "Defence": 45 }
   },
   {
     "number": 226,
@@ -2481,9 +2256,8 @@
     "HP": 85,
     "Attack": 40,
     "Defence": 70,
-    "Sp Attack": 80,
-    "Sp Defence": 140,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 80, "Defence": 140 }
   },
   {
     "number": 227,
@@ -2492,9 +2266,8 @@
     "HP": 65,
     "Attack": 80,
     "Defence": 140,
-    "Sp Attack": 40,
-    "Sp Defence": 70,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 40, "Defence": 70 }
   },
   {
     "number": 228,
@@ -2503,9 +2276,8 @@
     "HP": 45,
     "Attack": 60,
     "Defence": 30,
-    "Sp Attack": 80,
-    "Sp Defence": 50,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 80, "Defence": 50 }
   },
   {
     "number": 229,
@@ -2514,9 +2286,8 @@
     "HP": 75,
     "Attack": 90,
     "Defence": 50,
-    "Sp Attack": 110,
-    "Sp Defence": 80,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 110, "Defence": 80 }
   },
   {
     "number": 230,
@@ -2525,9 +2296,8 @@
     "HP": 75,
     "Attack": 95,
     "Defence": 95,
-    "Sp Attack": 95,
-    "Sp Defence": 95,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 95, "Defence": 95 }
   },
   {
     "number": 231,
@@ -2536,9 +2306,8 @@
     "HP": 90,
     "Attack": 60,
     "Defence": 60,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 232,
@@ -2547,9 +2316,8 @@
     "HP": 90,
     "Attack": 120,
     "Defence": 120,
-    "Sp Attack": 60,
-    "Sp Defence": 60,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 60, "Defence": 60 }
   },
   {
     "number": 233,
@@ -2558,9 +2326,8 @@
     "HP": 85,
     "Attack": 80,
     "Defence": 90,
-    "Sp Attack": 105,
-    "Sp Defence": 95,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 105, "Defence": 95 }
   },
   {
     "number": 234,
@@ -2569,9 +2336,8 @@
     "HP": 73,
     "Attack": 95,
     "Defence": 62,
-    "Sp Attack": 85,
-    "Sp Defence": 65,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 85, "Defence": 65 }
   },
   {
     "number": 235,
@@ -2580,9 +2346,8 @@
     "HP": 55,
     "Attack": 20,
     "Defence": 35,
-    "Sp Attack": 20,
-    "Sp Defence": 45,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 20, "Defence": 45 }
   },
   {
     "number": 236,
@@ -2591,9 +2356,8 @@
     "HP": 35,
     "Attack": 35,
     "Defence": 35,
-    "Sp Attack": 35,
-    "Sp Defence": 35,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 35, "Defence": 35 }
   },
   {
     "number": 237,
@@ -2602,9 +2366,8 @@
     "HP": 50,
     "Attack": 95,
     "Defence": 95,
-    "Sp Attack": 35,
-    "Sp Defence": 110,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 35, "Defence": 110 }
   },
   {
     "number": 238,
@@ -2613,9 +2376,8 @@
     "HP": 45,
     "Attack": 30,
     "Defence": 15,
-    "Sp Attack": 85,
-    "Sp Defence": 65,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 85, "Defence": 65 }
   },
   {
     "number": 239,
@@ -2624,9 +2386,8 @@
     "HP": 45,
     "Attack": 63,
     "Defence": 37,
-    "Sp Attack": 65,
-    "Sp Defence": 55,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 65, "Defence": 55 }
   },
   {
     "number": 240,
@@ -2635,9 +2396,8 @@
     "HP": 45,
     "Attack": 75,
     "Defence": 37,
-    "Sp Attack": 70,
-    "Sp Defence": 55,
-    "Speed": 83
+    "Speed": 83,
+    "Special": { "Attack": 70, "Defence": 55 }
   },
   {
     "number": 241,
@@ -2646,9 +2406,8 @@
     "HP": 95,
     "Attack": 80,
     "Defence": 105,
-    "Sp Attack": 40,
-    "Sp Defence": 70,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 40, "Defence": 70 }
   },
   {
     "number": 242,
@@ -2657,9 +2416,8 @@
     "HP": 255,
     "Attack": 10,
     "Defence": 10,
-    "Sp Attack": 75,
-    "Sp Defence": 135,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 75, "Defence": 135 }
   },
   {
     "number": 243,
@@ -2668,9 +2426,8 @@
     "HP": 90,
     "Attack": 85,
     "Defence": 75,
-    "Sp Attack": 115,
-    "Sp Defence": 100,
-    "Speed": 115
+    "Speed": 115,
+    "Special": { "Attack": 115, "Defence": 100 }
   },
   {
     "number": 244,
@@ -2679,9 +2436,8 @@
     "HP": 115,
     "Attack": 115,
     "Defence": 85,
-    "Sp Attack": 90,
-    "Sp Defence": 75,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 90, "Defence": 75 }
   },
   {
     "number": 245,
@@ -2690,9 +2446,8 @@
     "HP": 100,
     "Attack": 75,
     "Defence": 115,
-    "Sp Attack": 90,
-    "Sp Defence": 115,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 90, "Defence": 115 }
   },
   {
     "number": 246,
@@ -2701,9 +2456,8 @@
     "HP": 50,
     "Attack": 64,
     "Defence": 50,
-    "Sp Attack": 45,
-    "Sp Defence": 50,
-    "Speed": 41
+    "Speed": 41,
+    "Special": { "Attack": 45, "Defence": 50 }
   },
   {
     "number": 247,
@@ -2712,9 +2466,8 @@
     "HP": 70,
     "Attack": 84,
     "Defence": 70,
-    "Sp Attack": 65,
-    "Sp Defence": 70,
-    "Speed": 51
+    "Speed": 51,
+    "Special": { "Attack": 65, "Defence": 70 }
   },
   {
     "number": 248,
@@ -2723,9 +2476,8 @@
     "HP": 100,
     "Attack": 134,
     "Defence": 110,
-    "Sp Attack": 95,
-    "Sp Defence": 100,
-    "Speed": 61
+    "Speed": 61,
+    "Special": { "Attack": 95, "Defence": 100 }
   },
   {
     "number": 249,
@@ -2734,9 +2486,8 @@
     "HP": 106,
     "Attack": 90,
     "Defence": 130,
-    "Sp Attack": 90,
-    "Sp Defence": 154,
-    "Speed": 110
+    "Speed": 110,
+    "Special": { "Attack": 90, "Defence": 154 }
   },
   {
     "number": 250,
@@ -2745,9 +2496,8 @@
     "HP": 106,
     "Attack": 130,
     "Defence": 90,
-    "Sp Attack": 110,
-    "Sp Defence": 154,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 110, "Defence": 154 }
   },
   {
     "number": 251,
@@ -2756,9 +2506,8 @@
     "HP": 100,
     "Attack": 100,
     "Defence": 100,
-    "Sp Attack": 100,
-    "Sp Defence": 100,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 100, "Defence": 100 }
   },
   {
     "number": 252,
@@ -2767,9 +2516,8 @@
     "HP": 40,
     "Attack": 45,
     "Defence": 35,
-    "Sp Attack": 65,
-    "Sp Defence": 55,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 65, "Defence": 55 }
   },
   {
     "number": 253,
@@ -2778,9 +2526,8 @@
     "HP": 50,
     "Attack": 65,
     "Defence": 45,
-    "Sp Attack": 85,
-    "Sp Defence": 65,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 85, "Defence": 65 }
   },
   {
     "number": 254,
@@ -2789,9 +2536,8 @@
     "HP": 70,
     "Attack": 85,
     "Defence": 65,
-    "Sp Attack": 105,
-    "Sp Defence": 85,
-    "Speed": 120
+    "Speed": 120,
+    "Special": { "Attack": 105, "Defence": 85 }
   },
   {
     "number": 255,
@@ -2800,9 +2546,8 @@
     "HP": 45,
     "Attack": 60,
     "Defence": 40,
-    "Sp Attack": 70,
-    "Sp Defence": 50,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 70, "Defence": 50 }
   },
   {
     "number": 256,
@@ -2811,9 +2556,8 @@
     "HP": 60,
     "Attack": 85,
     "Defence": 60,
-    "Sp Attack": 85,
-    "Sp Defence": 60,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 85, "Defence": 60 }
   },
   {
     "number": 257,
@@ -2822,9 +2566,8 @@
     "HP": 80,
     "Attack": 120,
     "Defence": 70,
-    "Sp Attack": 110,
-    "Sp Defence": 70,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 110, "Defence": 70 }
   },
   {
     "number": 258,
@@ -2833,9 +2576,8 @@
     "HP": 50,
     "Attack": 70,
     "Defence": 50,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 259,
@@ -2844,9 +2586,8 @@
     "HP": 70,
     "Attack": 85,
     "Defence": 70,
-    "Sp Attack": 60,
-    "Sp Defence": 70,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 60, "Defence": 70 }
   },
   {
     "number": 260,
@@ -2855,9 +2596,8 @@
     "HP": 100,
     "Attack": 110,
     "Defence": 90,
-    "Sp Attack": 85,
-    "Sp Defence": 90,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 85, "Defence": 90 }
   },
   {
     "number": 261,
@@ -2866,9 +2606,8 @@
     "HP": 35,
     "Attack": 55,
     "Defence": 35,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 262,
@@ -2877,9 +2616,8 @@
     "HP": 70,
     "Attack": 90,
     "Defence": 70,
-    "Sp Attack": 60,
-    "Sp Defence": 60,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 60, "Defence": 60 }
   },
   {
     "number": 263,
@@ -2888,9 +2626,8 @@
     "HP": 38,
     "Attack": 30,
     "Defence": 41,
-    "Sp Attack": 30,
-    "Sp Defence": 41,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 30, "Defence": 41 }
   },
   {
     "number": 264,
@@ -2899,9 +2636,8 @@
     "HP": 78,
     "Attack": 70,
     "Defence": 61,
-    "Sp Attack": 50,
-    "Sp Defence": 61,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 50, "Defence": 61 }
   },
   {
     "number": 265,
@@ -2910,9 +2646,8 @@
     "HP": 45,
     "Attack": 45,
     "Defence": 35,
-    "Sp Attack": 20,
-    "Sp Defence": 30,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 20, "Defence": 30 }
   },
   {
     "number": 266,
@@ -2921,9 +2656,8 @@
     "HP": 50,
     "Attack": 35,
     "Defence": 55,
-    "Sp Attack": 25,
-    "Sp Defence": 25,
-    "Speed": 15
+    "Speed": 15,
+    "Special": { "Attack": 25, "Defence": 25 }
   },
   {
     "number": 267,
@@ -2932,9 +2666,8 @@
     "HP": 60,
     "Attack": 70,
     "Defence": 50,
-    "Sp Attack": 100,
-    "Sp Defence": 50,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 100, "Defence": 50 }
   },
   {
     "number": 268,
@@ -2943,9 +2676,8 @@
     "HP": 50,
     "Attack": 35,
     "Defence": 55,
-    "Sp Attack": 25,
-    "Sp Defence": 25,
-    "Speed": 15
+    "Speed": 15,
+    "Special": { "Attack": 25, "Defence": 25 }
   },
   {
     "number": 269,
@@ -2954,9 +2686,8 @@
     "HP": 60,
     "Attack": 50,
     "Defence": 70,
-    "Sp Attack": 50,
-    "Sp Defence": 90,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 50, "Defence": 90 }
   },
   {
     "number": 270,
@@ -2965,9 +2696,8 @@
     "HP": 40,
     "Attack": 30,
     "Defence": 30,
-    "Sp Attack": 40,
-    "Sp Defence": 50,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 40, "Defence": 50 }
   },
   {
     "number": 271,
@@ -2976,9 +2706,8 @@
     "HP": 60,
     "Attack": 50,
     "Defence": 50,
-    "Sp Attack": 60,
-    "Sp Defence": 70,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 60, "Defence": 70 }
   },
   {
     "number": 272,
@@ -2987,9 +2716,8 @@
     "HP": 80,
     "Attack": 70,
     "Defence": 70,
-    "Sp Attack": 90,
-    "Sp Defence": 100,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 90, "Defence": 100 }
   },
   {
     "number": 273,
@@ -2998,9 +2726,8 @@
     "HP": 40,
     "Attack": 40,
     "Defence": 50,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 274,
@@ -3009,9 +2736,8 @@
     "HP": 70,
     "Attack": 70,
     "Defence": 40,
-    "Sp Attack": 60,
-    "Sp Defence": 40,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 60, "Defence": 40 }
   },
   {
     "number": 275,
@@ -3020,9 +2746,8 @@
     "HP": 90,
     "Attack": 100,
     "Defence": 60,
-    "Sp Attack": 90,
-    "Sp Defence": 60,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 90, "Defence": 60 }
   },
   {
     "number": 276,
@@ -3031,9 +2756,8 @@
     "HP": 40,
     "Attack": 55,
     "Defence": 30,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 277,
@@ -3042,9 +2766,8 @@
     "HP": 60,
     "Attack": 85,
     "Defence": 60,
-    "Sp Attack": 75,
-    "Sp Defence": 50,
-    "Speed": 125
+    "Speed": 125,
+    "Special": { "Attack": 75, "Defence": 50 }
   },
   {
     "number": 278,
@@ -3053,9 +2776,8 @@
     "HP": 40,
     "Attack": 30,
     "Defence": 30,
-    "Sp Attack": 55,
-    "Sp Defence": 30,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 55, "Defence": 30 }
   },
   {
     "number": 279,
@@ -3064,9 +2786,8 @@
     "HP": 60,
     "Attack": 50,
     "Defence": 100,
-    "Sp Attack": 95,
-    "Sp Defence": 70,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 95, "Defence": 70 }
   },
   {
     "number": 280,
@@ -3075,9 +2796,8 @@
     "HP": 28,
     "Attack": 25,
     "Defence": 25,
-    "Sp Attack": 45,
-    "Sp Defence": 35,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 45, "Defence": 35 }
   },
   {
     "number": 281,
@@ -3086,9 +2806,8 @@
     "HP": 38,
     "Attack": 35,
     "Defence": 35,
-    "Sp Attack": 65,
-    "Sp Defence": 55,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 65, "Defence": 55 }
   },
   {
     "number": 282,
@@ -3097,9 +2816,8 @@
     "HP": 68,
     "Attack": 65,
     "Defence": 65,
-    "Sp Attack": 125,
-    "Sp Defence": 115,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 125, "Defence": 115 }
   },
   {
     "number": 283,
@@ -3108,9 +2826,8 @@
     "HP": 40,
     "Attack": 30,
     "Defence": 32,
-    "Sp Attack": 50,
-    "Sp Defence": 52,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 50, "Defence": 52 }
   },
   {
     "number": 284,
@@ -3119,9 +2836,8 @@
     "HP": 70,
     "Attack": 60,
     "Defence": 62,
-    "Sp Attack": 100,
-    "Sp Defence": 82,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 100, "Defence": 82 }
   },
   {
     "number": 285,
@@ -3130,9 +2846,8 @@
     "HP": 60,
     "Attack": 40,
     "Defence": 60,
-    "Sp Attack": 40,
-    "Sp Defence": 60,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 40, "Defence": 60 }
   },
   {
     "number": 286,
@@ -3141,9 +2856,8 @@
     "HP": 60,
     "Attack": 130,
     "Defence": 80,
-    "Sp Attack": 60,
-    "Sp Defence": 60,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 60, "Defence": 60 }
   },
   {
     "number": 287,
@@ -3152,9 +2866,8 @@
     "HP": 60,
     "Attack": 60,
     "Defence": 60,
-    "Sp Attack": 35,
-    "Sp Defence": 35,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 35, "Defence": 35 }
   },
   {
     "number": 288,
@@ -3163,9 +2876,8 @@
     "HP": 80,
     "Attack": 80,
     "Defence": 80,
-    "Sp Attack": 55,
-    "Sp Defence": 55,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 55, "Defence": 55 }
   },
   {
     "number": 289,
@@ -3174,9 +2886,8 @@
     "HP": 150,
     "Attack": 160,
     "Defence": 100,
-    "Sp Attack": 95,
-    "Sp Defence": 65,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 95, "Defence": 65 }
   },
   {
     "number": 290,
@@ -3185,9 +2896,8 @@
     "HP": 31,
     "Attack": 45,
     "Defence": 90,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 291,
@@ -3196,9 +2906,8 @@
     "HP": 61,
     "Attack": 90,
     "Defence": 45,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 160
+    "Speed": 160,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 292,
@@ -3207,9 +2916,8 @@
     "HP": 1,
     "Attack": 90,
     "Defence": 45,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 293,
@@ -3218,9 +2926,8 @@
     "HP": 64,
     "Attack": 51,
     "Defence": 23,
-    "Sp Attack": 51,
-    "Sp Defence": 23,
-    "Speed": 28
+    "Speed": 28,
+    "Special": { "Attack": 51, "Defence": 23 }
   },
   {
     "number": 294,
@@ -3229,9 +2936,8 @@
     "HP": 84,
     "Attack": 71,
     "Defence": 43,
-    "Sp Attack": 71,
-    "Sp Defence": 43,
-    "Speed": 48
+    "Speed": 48,
+    "Special": { "Attack": 71, "Defence": 43 }
   },
   {
     "number": 295,
@@ -3240,9 +2946,8 @@
     "HP": 104,
     "Attack": 91,
     "Defence": 63,
-    "Sp Attack": 91,
-    "Sp Defence": 73,
-    "Speed": 68
+    "Speed": 68,
+    "Special": { "Attack": 91, "Defence": 73 }
   },
   {
     "number": 296,
@@ -3251,9 +2956,8 @@
     "HP": 72,
     "Attack": 60,
     "Defence": 30,
-    "Sp Attack": 20,
-    "Sp Defence": 30,
-    "Speed": 25
+    "Speed": 25,
+    "Special": { "Attack": 20, "Defence": 30 }
   },
   {
     "number": 297,
@@ -3262,9 +2966,8 @@
     "HP": 144,
     "Attack": 120,
     "Defence": 60,
-    "Sp Attack": 40,
-    "Sp Defence": 60,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 40, "Defence": 60 }
   },
   {
     "number": 298,
@@ -3273,9 +2976,8 @@
     "HP": 50,
     "Attack": 20,
     "Defence": 40,
-    "Sp Attack": 20,
-    "Sp Defence": 40,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 20, "Defence": 40 }
   },
   {
     "number": 299,
@@ -3284,9 +2986,8 @@
     "HP": 30,
     "Attack": 45,
     "Defence": 135,
-    "Sp Attack": 45,
-    "Sp Defence": 90,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 45, "Defence": 90 }
   },
   {
     "number": 300,
@@ -3295,9 +2996,8 @@
     "HP": 50,
     "Attack": 45,
     "Defence": 45,
-    "Sp Attack": 35,
-    "Sp Defence": 35,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 35, "Defence": 35 }
   },
   {
     "number": 301,
@@ -3306,9 +3006,8 @@
     "HP": 70,
     "Attack": 65,
     "Defence": 65,
-    "Sp Attack": 55,
-    "Sp Defence": 55,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 55, "Defence": 55 }
   },
   {
     "number": 302,
@@ -3317,9 +3016,8 @@
     "HP": 50,
     "Attack": 75,
     "Defence": 75,
-    "Sp Attack": 65,
-    "Sp Defence": 65,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 65, "Defence": 65 }
   },
   {
     "number": 303,
@@ -3328,9 +3026,8 @@
     "HP": 50,
     "Attack": 85,
     "Defence": 85,
-    "Sp Attack": 55,
-    "Sp Defence": 55,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 55, "Defence": 55 }
   },
   {
     "number": 304,
@@ -3339,9 +3036,8 @@
     "HP": 50,
     "Attack": 70,
     "Defence": 100,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 305,
@@ -3350,9 +3046,8 @@
     "HP": 60,
     "Attack": 90,
     "Defence": 140,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 306,
@@ -3361,9 +3056,8 @@
     "HP": 70,
     "Attack": 110,
     "Defence": 180,
-    "Sp Attack": 60,
-    "Sp Defence": 60,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 60, "Defence": 60 }
   },
   {
     "number": 307,
@@ -3372,9 +3066,8 @@
     "HP": 30,
     "Attack": 40,
     "Defence": 55,
-    "Sp Attack": 40,
-    "Sp Defence": 55,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 40, "Defence": 55 }
   },
   {
     "number": 308,
@@ -3383,9 +3076,8 @@
     "HP": 60,
     "Attack": 60,
     "Defence": 75,
-    "Sp Attack": 60,
-    "Sp Defence": 75,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 60, "Defence": 75 }
   },
   {
     "number": 309,
@@ -3394,9 +3086,8 @@
     "HP": 40,
     "Attack": 45,
     "Defence": 40,
-    "Sp Attack": 65,
-    "Sp Defence": 40,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 65, "Defence": 40 }
   },
   {
     "number": 310,
@@ -3405,9 +3096,8 @@
     "HP": 70,
     "Attack": 75,
     "Defence": 60,
-    "Sp Attack": 105,
-    "Sp Defence": 60,
-    "Speed": 105
+    "Speed": 105,
+    "Special": { "Attack": 105, "Defence": 60 }
   },
   {
     "number": 311,
@@ -3416,9 +3106,8 @@
     "HP": 60,
     "Attack": 50,
     "Defence": 40,
-    "Sp Attack": 85,
-    "Sp Defence": 75,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 85, "Defence": 75 }
   },
   {
     "number": 312,
@@ -3427,9 +3116,8 @@
     "HP": 60,
     "Attack": 40,
     "Defence": 50,
-    "Sp Attack": 75,
-    "Sp Defence": 85,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 75, "Defence": 85 }
   },
   {
     "number": 313,
@@ -3438,9 +3126,8 @@
     "HP": 65,
     "Attack": 73,
     "Defence": 75,
-    "Sp Attack": 47,
-    "Sp Defence": 85,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 47, "Defence": 85 }
   },
   {
     "number": 314,
@@ -3449,9 +3136,8 @@
     "HP": 65,
     "Attack": 47,
     "Defence": 75,
-    "Sp Attack": 73,
-    "Sp Defence": 85,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 73, "Defence": 85 }
   },
   {
     "number": 315,
@@ -3460,9 +3146,8 @@
     "HP": 50,
     "Attack": 60,
     "Defence": 45,
-    "Sp Attack": 100,
-    "Sp Defence": 80,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 100, "Defence": 80 }
   },
   {
     "number": 316,
@@ -3471,9 +3156,8 @@
     "HP": 70,
     "Attack": 43,
     "Defence": 53,
-    "Sp Attack": 43,
-    "Sp Defence": 53,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 43, "Defence": 53 }
   },
   {
     "number": 317,
@@ -3482,9 +3166,8 @@
     "HP": 100,
     "Attack": 73,
     "Defence": 83,
-    "Sp Attack": 73,
-    "Sp Defence": 83,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 73, "Defence": 83 }
   },
   {
     "number": 318,
@@ -3493,9 +3176,8 @@
     "HP": 45,
     "Attack": 90,
     "Defence": 20,
-    "Sp Attack": 65,
-    "Sp Defence": 20,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 65, "Defence": 20 }
   },
   {
     "number": 319,
@@ -3504,9 +3186,8 @@
     "HP": 70,
     "Attack": 120,
     "Defence": 40,
-    "Sp Attack": 95,
-    "Sp Defence": 40,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 95, "Defence": 40 }
   },
   {
     "number": 320,
@@ -3515,9 +3196,8 @@
     "HP": 130,
     "Attack": 70,
     "Defence": 35,
-    "Sp Attack": 70,
-    "Sp Defence": 35,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 70, "Defence": 35 }
   },
   {
     "number": 321,
@@ -3526,9 +3206,8 @@
     "HP": 170,
     "Attack": 90,
     "Defence": 45,
-    "Sp Attack": 90,
-    "Sp Defence": 45,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 90, "Defence": 45 }
   },
   {
     "number": 322,
@@ -3537,9 +3216,8 @@
     "HP": 60,
     "Attack": 60,
     "Defence": 40,
-    "Sp Attack": 65,
-    "Sp Defence": 45,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 65, "Defence": 45 }
   },
   {
     "number": 323,
@@ -3548,9 +3226,8 @@
     "HP": 70,
     "Attack": 100,
     "Defence": 70,
-    "Sp Attack": 105,
-    "Sp Defence": 75,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 105, "Defence": 75 }
   },
   {
     "number": 324,
@@ -3559,9 +3236,8 @@
     "HP": 70,
     "Attack": 85,
     "Defence": 140,
-    "Sp Attack": 85,
-    "Sp Defence": 70,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 85, "Defence": 70 }
   },
   {
     "number": 325,
@@ -3570,9 +3246,8 @@
     "HP": 60,
     "Attack": 25,
     "Defence": 35,
-    "Sp Attack": 70,
-    "Sp Defence": 80,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 70, "Defence": 80 }
   },
   {
     "number": 326,
@@ -3581,9 +3256,8 @@
     "HP": 80,
     "Attack": 45,
     "Defence": 65,
-    "Sp Attack": 90,
-    "Sp Defence": 110,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 90, "Defence": 110 }
   },
   {
     "number": 327,
@@ -3592,9 +3266,8 @@
     "HP": 60,
     "Attack": 60,
     "Defence": 60,
-    "Sp Attack": 60,
-    "Sp Defence": 60,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 60, "Defence": 60 }
   },
   {
     "number": 328,
@@ -3603,9 +3276,8 @@
     "HP": 45,
     "Attack": 100,
     "Defence": 45,
-    "Sp Attack": 45,
-    "Sp Defence": 45,
-    "Speed": 10
+    "Speed": 10,
+    "Special": { "Attack": 45, "Defence": 45 }
   },
   {
     "number": 329,
@@ -3614,9 +3286,8 @@
     "HP": 50,
     "Attack": 70,
     "Defence": 50,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 330,
@@ -3625,9 +3296,8 @@
     "HP": 80,
     "Attack": 100,
     "Defence": 80,
-    "Sp Attack": 80,
-    "Sp Defence": 80,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 80, "Defence": 80 }
   },
   {
     "number": 331,
@@ -3636,9 +3306,8 @@
     "HP": 50,
     "Attack": 85,
     "Defence": 40,
-    "Sp Attack": 85,
-    "Sp Defence": 40,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 85, "Defence": 40 }
   },
   {
     "number": 332,
@@ -3647,9 +3316,8 @@
     "HP": 70,
     "Attack": 115,
     "Defence": 60,
-    "Sp Attack": 115,
-    "Sp Defence": 60,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 115, "Defence": 60 }
   },
   {
     "number": 333,
@@ -3658,9 +3326,8 @@
     "HP": 45,
     "Attack": 40,
     "Defence": 60,
-    "Sp Attack": 40,
-    "Sp Defence": 75,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 40, "Defence": 75 }
   },
   {
     "number": 334,
@@ -3669,9 +3336,8 @@
     "HP": 75,
     "Attack": 70,
     "Defence": 90,
-    "Sp Attack": 70,
-    "Sp Defence": 105,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 70, "Defence": 105 }
   },
   {
     "number": 335,
@@ -3680,9 +3346,8 @@
     "HP": 73,
     "Attack": 115,
     "Defence": 60,
-    "Sp Attack": 60,
-    "Sp Defence": 60,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 60, "Defence": 60 }
   },
   {
     "number": 336,
@@ -3691,9 +3356,8 @@
     "HP": 73,
     "Attack": 100,
     "Defence": 60,
-    "Sp Attack": 100,
-    "Sp Defence": 60,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 100, "Defence": 60 }
   },
   {
     "number": 337,
@@ -3702,9 +3366,8 @@
     "HP": 90,
     "Attack": 55,
     "Defence": 65,
-    "Sp Attack": 95,
-    "Sp Defence": 85,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 95, "Defence": 85 }
   },
   {
     "number": 338,
@@ -3713,9 +3376,8 @@
     "HP": 90,
     "Attack": 95,
     "Defence": 85,
-    "Sp Attack": 55,
-    "Sp Defence": 65,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 55, "Defence": 65 }
   },
   {
     "number": 339,
@@ -3724,9 +3386,8 @@
     "HP": 50,
     "Attack": 48,
     "Defence": 43,
-    "Sp Attack": 46,
-    "Sp Defence": 41,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 46, "Defence": 41 }
   },
   {
     "number": 340,
@@ -3735,9 +3396,8 @@
     "HP": 110,
     "Attack": 78,
     "Defence": 73,
-    "Sp Attack": 76,
-    "Sp Defence": 71,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 76, "Defence": 71 }
   },
   {
     "number": 341,
@@ -3746,9 +3406,8 @@
     "HP": 43,
     "Attack": 80,
     "Defence": 65,
-    "Sp Attack": 50,
-    "Sp Defence": 35,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 50, "Defence": 35 }
   },
   {
     "number": 342,
@@ -3757,9 +3416,8 @@
     "HP": 63,
     "Attack": 120,
     "Defence": 85,
-    "Sp Attack": 90,
-    "Sp Defence": 55,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 90, "Defence": 55 }
   },
   {
     "number": 343,
@@ -3768,9 +3426,8 @@
     "HP": 40,
     "Attack": 40,
     "Defence": 55,
-    "Sp Attack": 40,
-    "Sp Defence": 70,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 40, "Defence": 70 }
   },
   {
     "number": 344,
@@ -3779,9 +3436,8 @@
     "HP": 60,
     "Attack": 70,
     "Defence": 105,
-    "Sp Attack": 70,
-    "Sp Defence": 120,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 70, "Defence": 120 }
   },
   {
     "number": 345,
@@ -3790,9 +3446,8 @@
     "HP": 66,
     "Attack": 41,
     "Defence": 77,
-    "Sp Attack": 61,
-    "Sp Defence": 87,
-    "Speed": 23
+    "Speed": 23,
+    "Special": { "Attack": 61, "Defence": 87 }
   },
   {
     "number": 346,
@@ -3801,9 +3456,8 @@
     "HP": 86,
     "Attack": 81,
     "Defence": 97,
-    "Sp Attack": 81,
-    "Sp Defence": 107,
-    "Speed": 43
+    "Speed": 43,
+    "Special": { "Attack": 81, "Defence": 107 }
   },
   {
     "number": 347,
@@ -3812,9 +3466,8 @@
     "HP": 45,
     "Attack": 95,
     "Defence": 50,
-    "Sp Attack": 40,
-    "Sp Defence": 50,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 40, "Defence": 50 }
   },
   {
     "number": 348,
@@ -3823,9 +3476,8 @@
     "HP": 75,
     "Attack": 125,
     "Defence": 100,
-    "Sp Attack": 70,
-    "Sp Defence": 80,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 70, "Defence": 80 }
   },
   {
     "number": 349,
@@ -3834,9 +3486,8 @@
     "HP": 20,
     "Attack": 15,
     "Defence": 20,
-    "Sp Attack": 10,
-    "Sp Defence": 55,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 10, "Defence": 55 }
   },
   {
     "number": 350,
@@ -3845,9 +3496,8 @@
     "HP": 95,
     "Attack": 60,
     "Defence": 79,
-    "Sp Attack": 100,
-    "Sp Defence": 125,
-    "Speed": 81
+    "Speed": 81,
+    "Special": { "Attack": 100, "Defence": 125 }
   },
   {
     "number": 351,
@@ -3856,9 +3506,8 @@
     "HP": 70,
     "Attack": 70,
     "Defence": 70,
-    "Sp Attack": 70,
-    "Sp Defence": 70,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 70, "Defence": 70 }
   },
   {
     "number": 352,
@@ -3867,9 +3516,8 @@
     "HP": 60,
     "Attack": 90,
     "Defence": 70,
-    "Sp Attack": 60,
-    "Sp Defence": 120,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 60, "Defence": 120 }
   },
   {
     "number": 353,
@@ -3878,9 +3526,8 @@
     "HP": 44,
     "Attack": 75,
     "Defence": 35,
-    "Sp Attack": 63,
-    "Sp Defence": 33,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 63, "Defence": 33 }
   },
   {
     "number": 354,
@@ -3889,9 +3536,8 @@
     "HP": 64,
     "Attack": 115,
     "Defence": 65,
-    "Sp Attack": 83,
-    "Sp Defence": 63,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 83, "Defence": 63 }
   },
   {
     "number": 355,
@@ -3900,9 +3546,8 @@
     "HP": 20,
     "Attack": 40,
     "Defence": 90,
-    "Sp Attack": 30,
-    "Sp Defence": 90,
-    "Speed": 25
+    "Speed": 25,
+    "Special": { "Attack": 30, "Defence": 90 }
   },
   {
     "number": 356,
@@ -3911,9 +3556,8 @@
     "HP": 40,
     "Attack": 70,
     "Defence": 130,
-    "Sp Attack": 60,
-    "Sp Defence": 130,
-    "Speed": 25
+    "Speed": 25,
+    "Special": { "Attack": 60, "Defence": 130 }
   },
   {
     "number": 357,
@@ -3922,9 +3566,8 @@
     "HP": 99,
     "Attack": 68,
     "Defence": 83,
-    "Sp Attack": 72,
-    "Sp Defence": 87,
-    "Speed": 51
+    "Speed": 51,
+    "Special": { "Attack": 72, "Defence": 87 }
   },
   {
     "number": 358,
@@ -3933,9 +3576,8 @@
     "HP": 75,
     "Attack": 50,
     "Defence": 80,
-    "Sp Attack": 95,
-    "Sp Defence": 90,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 95, "Defence": 90 }
   },
   {
     "number": 359,
@@ -3944,9 +3586,8 @@
     "HP": 65,
     "Attack": 130,
     "Defence": 60,
-    "Sp Attack": 75,
-    "Sp Defence": 60,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 75, "Defence": 60 }
   },
   {
     "number": 360,
@@ -3955,9 +3596,8 @@
     "HP": 95,
     "Attack": 23,
     "Defence": 48,
-    "Sp Attack": 23,
-    "Sp Defence": 48,
-    "Speed": 23
+    "Speed": 23,
+    "Special": { "Attack": 23, "Defence": 48 }
   },
   {
     "number": 361,
@@ -3966,9 +3606,8 @@
     "HP": 50,
     "Attack": 50,
     "Defence": 50,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 362,
@@ -3977,9 +3616,8 @@
     "HP": 80,
     "Attack": 80,
     "Defence": 80,
-    "Sp Attack": 80,
-    "Sp Defence": 80,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 80, "Defence": 80 }
   },
   {
     "number": 363,
@@ -3988,9 +3626,8 @@
     "HP": 70,
     "Attack": 40,
     "Defence": 50,
-    "Sp Attack": 55,
-    "Sp Defence": 50,
-    "Speed": 25
+    "Speed": 25,
+    "Special": { "Attack": 55, "Defence": 50 }
   },
   {
     "number": 364,
@@ -3999,9 +3636,8 @@
     "HP": 90,
     "Attack": 60,
     "Defence": 70,
-    "Sp Attack": 75,
-    "Sp Defence": 70,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 75, "Defence": 70 }
   },
   {
     "number": 365,
@@ -4010,9 +3646,8 @@
     "HP": 110,
     "Attack": 80,
     "Defence": 90,
-    "Sp Attack": 95,
-    "Sp Defence": 90,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 95, "Defence": 90 }
   },
   {
     "number": 366,
@@ -4021,9 +3656,8 @@
     "HP": 35,
     "Attack": 64,
     "Defence": 85,
-    "Sp Attack": 74,
-    "Sp Defence": 55,
-    "Speed": 32
+    "Speed": 32,
+    "Special": { "Attack": 74, "Defence": 55 }
   },
   {
     "number": 367,
@@ -4032,9 +3666,8 @@
     "HP": 55,
     "Attack": 104,
     "Defence": 105,
-    "Sp Attack": 94,
-    "Sp Defence": 75,
-    "Speed": 52
+    "Speed": 52,
+    "Special": { "Attack": 94, "Defence": 75 }
   },
   {
     "number": 368,
@@ -4043,9 +3676,8 @@
     "HP": 55,
     "Attack": 84,
     "Defence": 105,
-    "Sp Attack": 114,
-    "Sp Defence": 75,
-    "Speed": 52
+    "Speed": 52,
+    "Special": { "Attack": 114, "Defence": 75 }
   },
   {
     "number": 369,
@@ -4054,9 +3686,8 @@
     "HP": 100,
     "Attack": 90,
     "Defence": 130,
-    "Sp Attack": 45,
-    "Sp Defence": 65,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 45, "Defence": 65 }
   },
   {
     "number": 370,
@@ -4065,9 +3696,8 @@
     "HP": 43,
     "Attack": 30,
     "Defence": 55,
-    "Sp Attack": 40,
-    "Sp Defence": 65,
-    "Speed": 97
+    "Speed": 97,
+    "Special": { "Attack": 40, "Defence": 65 }
   },
   {
     "number": 371,
@@ -4076,9 +3706,8 @@
     "HP": 45,
     "Attack": 75,
     "Defence": 60,
-    "Sp Attack": 40,
-    "Sp Defence": 30,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 40, "Defence": 30 }
   },
   {
     "number": 372,
@@ -4087,9 +3716,8 @@
     "HP": 65,
     "Attack": 95,
     "Defence": 100,
-    "Sp Attack": 60,
-    "Sp Defence": 50,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 60, "Defence": 50 }
   },
   {
     "number": 373,
@@ -4098,9 +3726,8 @@
     "HP": 95,
     "Attack": 135,
     "Defence": 80,
-    "Sp Attack": 110,
-    "Sp Defence": 80,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 110, "Defence": 80 }
   },
   {
     "number": 374,
@@ -4109,9 +3736,8 @@
     "HP": 40,
     "Attack": 55,
     "Defence": 80,
-    "Sp Attack": 35,
-    "Sp Defence": 60,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 35, "Defence": 60 }
   },
   {
     "number": 375,
@@ -4120,9 +3746,8 @@
     "HP": 60,
     "Attack": 75,
     "Defence": 100,
-    "Sp Attack": 55,
-    "Sp Defence": 80,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 55, "Defence": 80 }
   },
   {
     "number": 376,
@@ -4131,9 +3756,8 @@
     "HP": 80,
     "Attack": 135,
     "Defence": 130,
-    "Sp Attack": 95,
-    "Sp Defence": 90,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 95, "Defence": 90 }
   },
   {
     "number": 377,
@@ -4142,9 +3766,8 @@
     "HP": 80,
     "Attack": 100,
     "Defence": 200,
-    "Sp Attack": 50,
-    "Sp Defence": 100,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 50, "Defence": 100 }
   },
   {
     "number": 378,
@@ -4153,9 +3776,8 @@
     "HP": 80,
     "Attack": 50,
     "Defence": 100,
-    "Sp Attack": 100,
-    "Sp Defence": 200,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 100, "Defence": 200 }
   },
   {
     "number": 379,
@@ -4164,9 +3786,8 @@
     "HP": 80,
     "Attack": 75,
     "Defence": 150,
-    "Sp Attack": 75,
-    "Sp Defence": 150,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 75, "Defence": 150 }
   },
   {
     "number": 380,
@@ -4175,9 +3796,8 @@
     "HP": 80,
     "Attack": 80,
     "Defence": 90,
-    "Sp Attack": 110,
-    "Sp Defence": 130,
-    "Speed": 110
+    "Speed": 110,
+    "Special": { "Attack": 110, "Defence": 130 }
   },
   {
     "number": 381,
@@ -4186,9 +3806,8 @@
     "HP": 80,
     "Attack": 90,
     "Defence": 80,
-    "Sp Attack": 130,
-    "Sp Defence": 110,
-    "Speed": 110
+    "Speed": 110,
+    "Special": { "Attack": 130, "Defence": 110 }
   },
   {
     "number": 382,
@@ -4197,9 +3816,8 @@
     "HP": 100,
     "Attack": 100,
     "Defence": 90,
-    "Sp Attack": 150,
-    "Sp Defence": 140,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 150, "Defence": 140 }
   },
   {
     "number": 383,
@@ -4208,9 +3826,8 @@
     "HP": 100,
     "Attack": 150,
     "Defence": 140,
-    "Sp Attack": 100,
-    "Sp Defence": 90,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 100, "Defence": 90 }
   },
   {
     "number": 384,
@@ -4219,9 +3836,8 @@
     "HP": 105,
     "Attack": 150,
     "Defence": 90,
-    "Sp Attack": 150,
-    "Sp Defence": 90,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 150, "Defence": 90 }
   },
   {
     "number": 385,
@@ -4230,9 +3846,8 @@
     "HP": 100,
     "Attack": 100,
     "Defence": 100,
-    "Sp Attack": 100,
-    "Sp Defence": 100,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 100, "Defence": 100 }
   },
   {
     "number": 386,
@@ -4241,9 +3856,8 @@
     "HP": 50,
     "Attack": 150,
     "Defence": 50,
-    "Sp Attack": 150,
-    "Sp Defence": 50,
-    "Speed": 150
+    "Speed": 150,
+    "Special": { "Attack": 150, "Defence": 50 }
   },
   {
     "number": 387,
@@ -4252,9 +3866,8 @@
     "HP": 55,
     "Attack": 68,
     "Defence": 64,
-    "Sp Attack": 45,
-    "Sp Defence": 55,
-    "Speed": 31
+    "Speed": 31,
+    "Special": { "Attack": 45, "Defence": 55 }
   },
   {
     "number": 388,
@@ -4263,9 +3876,8 @@
     "HP": 75,
     "Attack": 89,
     "Defence": 85,
-    "Sp Attack": 55,
-    "Sp Defence": 65,
-    "Speed": 36
+    "Speed": 36,
+    "Special": { "Attack": 55, "Defence": 65 }
   },
   {
     "number": 389,
@@ -4274,9 +3886,8 @@
     "HP": 95,
     "Attack": 109,
     "Defence": 105,
-    "Sp Attack": 75,
-    "Sp Defence": 85,
-    "Speed": 56
+    "Speed": 56,
+    "Special": { "Attack": 75, "Defence": 85 }
   },
   {
     "number": 390,
@@ -4285,9 +3896,8 @@
     "HP": 44,
     "Attack": 58,
     "Defence": 44,
-    "Sp Attack": 58,
-    "Sp Defence": 44,
-    "Speed": 61
+    "Speed": 61,
+    "Special": { "Attack": 58, "Defence": 44 }
   },
   {
     "number": 391,
@@ -4296,9 +3906,8 @@
     "HP": 64,
     "Attack": 78,
     "Defence": 52,
-    "Sp Attack": 78,
-    "Sp Defence": 52,
-    "Speed": 81
+    "Speed": 81,
+    "Special": { "Attack": 78, "Defence": 52 }
   },
   {
     "number": 392,
@@ -4307,9 +3916,8 @@
     "HP": 76,
     "Attack": 104,
     "Defence": 71,
-    "Sp Attack": 104,
-    "Sp Defence": 71,
-    "Speed": 108
+    "Speed": 108,
+    "Special": { "Attack": 104, "Defence": 71 }
   },
   {
     "number": 393,
@@ -4318,9 +3926,8 @@
     "HP": 53,
     "Attack": 51,
     "Defence": 53,
-    "Sp Attack": 61,
-    "Sp Defence": 56,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 61, "Defence": 56 }
   },
   {
     "number": 394,
@@ -4329,9 +3936,8 @@
     "HP": 64,
     "Attack": 66,
     "Defence": 68,
-    "Sp Attack": 81,
-    "Sp Defence": 76,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 81, "Defence": 76 }
   },
   {
     "number": 395,
@@ -4340,9 +3946,8 @@
     "HP": 84,
     "Attack": 86,
     "Defence": 88,
-    "Sp Attack": 111,
-    "Sp Defence": 101,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 111, "Defence": 101 }
   },
   {
     "number": 396,
@@ -4351,9 +3956,8 @@
     "HP": 40,
     "Attack": 55,
     "Defence": 30,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 397,
@@ -4362,9 +3966,8 @@
     "HP": 55,
     "Attack": 75,
     "Defence": 50,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 398,
@@ -4373,9 +3976,8 @@
     "HP": 85,
     "Attack": 120,
     "Defence": 70,
-    "Sp Attack": 50,
-    "Sp Defence": 60,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 50, "Defence": 60 }
   },
   {
     "number": 399,
@@ -4384,9 +3986,8 @@
     "HP": 59,
     "Attack": 45,
     "Defence": 40,
-    "Sp Attack": 35,
-    "Sp Defence": 40,
-    "Speed": 31
+    "Speed": 31,
+    "Special": { "Attack": 35, "Defence": 40 }
   },
   {
     "number": 400,
@@ -4395,9 +3996,8 @@
     "HP": 79,
     "Attack": 85,
     "Defence": 60,
-    "Sp Attack": 55,
-    "Sp Defence": 60,
-    "Speed": 71
+    "Speed": 71,
+    "Special": { "Attack": 55, "Defence": 60 }
   },
   {
     "number": 401,
@@ -4406,9 +4006,8 @@
     "HP": 37,
     "Attack": 25,
     "Defence": 41,
-    "Sp Attack": 25,
-    "Sp Defence": 41,
-    "Speed": 25
+    "Speed": 25,
+    "Special": { "Attack": 25, "Defence": 41 }
   },
   {
     "number": 402,
@@ -4417,9 +4016,8 @@
     "HP": 77,
     "Attack": 85,
     "Defence": 51,
-    "Sp Attack": 55,
-    "Sp Defence": 51,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 55, "Defence": 51 }
   },
   {
     "number": 403,
@@ -4428,9 +4026,8 @@
     "HP": 45,
     "Attack": 65,
     "Defence": 34,
-    "Sp Attack": 40,
-    "Sp Defence": 34,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 40, "Defence": 34 }
   },
   {
     "number": 404,
@@ -4439,9 +4036,8 @@
     "HP": 60,
     "Attack": 85,
     "Defence": 49,
-    "Sp Attack": 60,
-    "Sp Defence": 49,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 60, "Defence": 49 }
   },
   {
     "number": 405,
@@ -4450,9 +4046,8 @@
     "HP": 80,
     "Attack": 120,
     "Defence": 79,
-    "Sp Attack": 95,
-    "Sp Defence": 79,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 95, "Defence": 79 }
   },
   {
     "number": 406,
@@ -4461,9 +4056,8 @@
     "HP": 40,
     "Attack": 30,
     "Defence": 35,
-    "Sp Attack": 50,
-    "Sp Defence": 70,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 50, "Defence": 70 }
   },
   {
     "number": 407,
@@ -4472,9 +4066,8 @@
     "HP": 60,
     "Attack": 70,
     "Defence": 65,
-    "Sp Attack": 125,
-    "Sp Defence": 105,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 125, "Defence": 105 }
   },
   {
     "number": 408,
@@ -4483,9 +4076,8 @@
     "HP": 67,
     "Attack": 125,
     "Defence": 40,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 58
+    "Speed": 58,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 409,
@@ -4494,9 +4086,8 @@
     "HP": 97,
     "Attack": 165,
     "Defence": 60,
-    "Sp Attack": 65,
-    "Sp Defence": 50,
-    "Speed": 58
+    "Speed": 58,
+    "Special": { "Attack": 65, "Defence": 50 }
   },
   {
     "number": 410,
@@ -4505,9 +4096,8 @@
     "HP": 30,
     "Attack": 42,
     "Defence": 118,
-    "Sp Attack": 42,
-    "Sp Defence": 88,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 42, "Defence": 88 }
   },
   {
     "number": 411,
@@ -4516,9 +4106,8 @@
     "HP": 60,
     "Attack": 52,
     "Defence": 168,
-    "Sp Attack": 47,
-    "Sp Defence": 138,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 47, "Defence": 138 }
   },
   {
     "number": 412,
@@ -4527,9 +4116,8 @@
     "HP": 40,
     "Attack": 29,
     "Defence": 45,
-    "Sp Attack": 29,
-    "Sp Defence": 45,
-    "Speed": 36
+    "Speed": 36,
+    "Special": { "Attack": 29, "Defence": 45 }
   },
   {
     "number": 413,
@@ -4538,9 +4126,8 @@
     "HP": 60,
     "Attack": 59,
     "Defence": 85,
-    "Sp Attack": 79,
-    "Sp Defence": 105,
-    "Speed": 36
+    "Speed": 36,
+    "Special": { "Attack": 79, "Defence": 105 }
   },
   {
     "number": 414,
@@ -4549,9 +4136,8 @@
     "HP": 70,
     "Attack": 94,
     "Defence": 50,
-    "Sp Attack": 94,
-    "Sp Defence": 50,
-    "Speed": 66
+    "Speed": 66,
+    "Special": { "Attack": 94, "Defence": 50 }
   },
   {
     "number": 415,
@@ -4560,9 +4146,8 @@
     "HP": 30,
     "Attack": 30,
     "Defence": 42,
-    "Sp Attack": 30,
-    "Sp Defence": 42,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 30, "Defence": 42 }
   },
   {
     "number": 416,
@@ -4571,9 +4156,8 @@
     "HP": 70,
     "Attack": 80,
     "Defence": 102,
-    "Sp Attack": 80,
-    "Sp Defence": 102,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 80, "Defence": 102 }
   },
   {
     "number": 417,
@@ -4582,9 +4166,8 @@
     "HP": 60,
     "Attack": 45,
     "Defence": 70,
-    "Sp Attack": 45,
-    "Sp Defence": 90,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 45, "Defence": 90 }
   },
   {
     "number": 418,
@@ -4593,9 +4176,8 @@
     "HP": 55,
     "Attack": 65,
     "Defence": 35,
-    "Sp Attack": 60,
-    "Sp Defence": 30,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 60, "Defence": 30 }
   },
   {
     "number": 419,
@@ -4604,9 +4186,8 @@
     "HP": 85,
     "Attack": 105,
     "Defence": 55,
-    "Sp Attack": 85,
-    "Sp Defence": 50,
-    "Speed": 115
+    "Speed": 115,
+    "Special": { "Attack": 85, "Defence": 50 }
   },
   {
     "number": 420,
@@ -4615,9 +4196,8 @@
     "HP": 45,
     "Attack": 35,
     "Defence": 45,
-    "Sp Attack": 62,
-    "Sp Defence": 53,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 62, "Defence": 53 }
   },
   {
     "number": 421,
@@ -4626,9 +4206,8 @@
     "HP": 70,
     "Attack": 60,
     "Defence": 70,
-    "Sp Attack": 87,
-    "Sp Defence": 78,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 87, "Defence": 78 }
   },
   {
     "number": 422,
@@ -4637,9 +4216,8 @@
     "HP": 76,
     "Attack": 48,
     "Defence": 48,
-    "Sp Attack": 57,
-    "Sp Defence": 62,
-    "Speed": 34
+    "Speed": 34,
+    "Special": { "Attack": 57, "Defence": 62 }
   },
   {
     "number": 423,
@@ -4648,9 +4226,8 @@
     "HP": 111,
     "Attack": 83,
     "Defence": 68,
-    "Sp Attack": 92,
-    "Sp Defence": 82,
-    "Speed": 39
+    "Speed": 39,
+    "Special": { "Attack": 92, "Defence": 82 }
   },
   {
     "number": 424,
@@ -4659,9 +4236,8 @@
     "HP": 75,
     "Attack": 100,
     "Defence": 66,
-    "Sp Attack": 60,
-    "Sp Defence": 66,
-    "Speed": 115
+    "Speed": 115,
+    "Special": { "Attack": 60, "Defence": 66 }
   },
   {
     "number": 425,
@@ -4670,9 +4246,8 @@
     "HP": 90,
     "Attack": 50,
     "Defence": 34,
-    "Sp Attack": 60,
-    "Sp Defence": 44,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 60, "Defence": 44 }
   },
   {
     "number": 426,
@@ -4681,9 +4256,8 @@
     "HP": 150,
     "Attack": 80,
     "Defence": 44,
-    "Sp Attack": 90,
-    "Sp Defence": 54,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 90, "Defence": 54 }
   },
   {
     "number": 427,
@@ -4692,9 +4266,8 @@
     "HP": 55,
     "Attack": 66,
     "Defence": 44,
-    "Sp Attack": 44,
-    "Sp Defence": 56,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 44, "Defence": 56 }
   },
   {
     "number": 428,
@@ -4703,9 +4276,8 @@
     "HP": 65,
     "Attack": 76,
     "Defence": 84,
-    "Sp Attack": 54,
-    "Sp Defence": 96,
-    "Speed": 105
+    "Speed": 105,
+    "Special": { "Attack": 54, "Defence": 96 }
   },
   {
     "number": 429,
@@ -4714,9 +4286,8 @@
     "HP": 60,
     "Attack": 60,
     "Defence": 60,
-    "Sp Attack": 105,
-    "Sp Defence": 105,
-    "Speed": 105
+    "Speed": 105,
+    "Special": { "Attack": 105, "Defence": 105 }
   },
   {
     "number": 430,
@@ -4725,9 +4296,8 @@
     "HP": 100,
     "Attack": 125,
     "Defence": 52,
-    "Sp Attack": 105,
-    "Sp Defence": 52,
-    "Speed": 71
+    "Speed": 71,
+    "Special": { "Attack": 105, "Defence": 52 }
   },
   {
     "number": 431,
@@ -4736,9 +4306,8 @@
     "HP": 49,
     "Attack": 55,
     "Defence": 42,
-    "Sp Attack": 42,
-    "Sp Defence": 37,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 42, "Defence": 37 }
   },
   {
     "number": 432,
@@ -4747,9 +4316,8 @@
     "HP": 71,
     "Attack": 82,
     "Defence": 64,
-    "Sp Attack": 64,
-    "Sp Defence": 59,
-    "Speed": 112
+    "Speed": 112,
+    "Special": { "Attack": 64, "Defence": 59 }
   },
   {
     "number": 433,
@@ -4758,9 +4326,8 @@
     "HP": 45,
     "Attack": 30,
     "Defence": 50,
-    "Sp Attack": 65,
-    "Sp Defence": 50,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 65, "Defence": 50 }
   },
   {
     "number": 434,
@@ -4769,9 +4336,8 @@
     "HP": 63,
     "Attack": 63,
     "Defence": 47,
-    "Sp Attack": 41,
-    "Sp Defence": 41,
-    "Speed": 74
+    "Speed": 74,
+    "Special": { "Attack": 41, "Defence": 41 }
   },
   {
     "number": 435,
@@ -4780,9 +4346,8 @@
     "HP": 103,
     "Attack": 93,
     "Defence": 67,
-    "Sp Attack": 71,
-    "Sp Defence": 61,
-    "Speed": 84
+    "Speed": 84,
+    "Special": { "Attack": 71, "Defence": 61 }
   },
   {
     "number": 436,
@@ -4791,9 +4356,8 @@
     "HP": 57,
     "Attack": 24,
     "Defence": 86,
-    "Sp Attack": 24,
-    "Sp Defence": 86,
-    "Speed": 23
+    "Speed": 23,
+    "Special": { "Attack": 24, "Defence": 86 }
   },
   {
     "number": 437,
@@ -4802,9 +4366,8 @@
     "HP": 67,
     "Attack": 89,
     "Defence": 116,
-    "Sp Attack": 79,
-    "Sp Defence": 116,
-    "Speed": 33
+    "Speed": 33,
+    "Special": { "Attack": 79, "Defence": 116 }
   },
   {
     "number": 438,
@@ -4813,9 +4376,8 @@
     "HP": 50,
     "Attack": 80,
     "Defence": 95,
-    "Sp Attack": 10,
-    "Sp Defence": 45,
-    "Speed": 10
+    "Speed": 10,
+    "Special": { "Attack": 10, "Defence": 45 }
   },
   {
     "number": 439,
@@ -4824,9 +4386,8 @@
     "HP": 20,
     "Attack": 25,
     "Defence": 45,
-    "Sp Attack": 70,
-    "Sp Defence": 90,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 70, "Defence": 90 }
   },
   {
     "number": 440,
@@ -4835,9 +4396,8 @@
     "HP": 100,
     "Attack": 5,
     "Defence": 5,
-    "Sp Attack": 15,
-    "Sp Defence": 65,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 15, "Defence": 65 }
   },
   {
     "number": 441,
@@ -4846,9 +4406,8 @@
     "HP": 76,
     "Attack": 65,
     "Defence": 45,
-    "Sp Attack": 92,
-    "Sp Defence": 42,
-    "Speed": 91
+    "Speed": 91,
+    "Special": { "Attack": 92, "Defence": 42 }
   },
   {
     "number": 442,
@@ -4857,9 +4416,8 @@
     "HP": 50,
     "Attack": 92,
     "Defence": 108,
-    "Sp Attack": 92,
-    "Sp Defence": 108,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 92, "Defence": 108 }
   },
   {
     "number": 443,
@@ -4868,9 +4426,8 @@
     "HP": 58,
     "Attack": 70,
     "Defence": 45,
-    "Sp Attack": 40,
-    "Sp Defence": 45,
-    "Speed": 42
+    "Speed": 42,
+    "Special": { "Attack": 40, "Defence": 45 }
   },
   {
     "number": 444,
@@ -4879,9 +4436,8 @@
     "HP": 68,
     "Attack": 90,
     "Defence": 65,
-    "Sp Attack": 50,
-    "Sp Defence": 55,
-    "Speed": 82
+    "Speed": 82,
+    "Special": { "Attack": 50, "Defence": 55 }
   },
   {
     "number": 445,
@@ -4890,9 +4446,8 @@
     "HP": 108,
     "Attack": 130,
     "Defence": 95,
-    "Sp Attack": 80,
-    "Sp Defence": 85,
-    "Speed": 102
+    "Speed": 102,
+    "Special": { "Attack": 80, "Defence": 85 }
   },
   {
     "number": 446,
@@ -4901,9 +4456,8 @@
     "HP": 135,
     "Attack": 85,
     "Defence": 40,
-    "Sp Attack": 40,
-    "Sp Defence": 85,
-    "Speed": 5
+    "Speed": 5,
+    "Special": { "Attack": 40, "Defence": 85 }
   },
   {
     "number": 447,
@@ -4912,9 +4466,8 @@
     "HP": 40,
     "Attack": 70,
     "Defence": 40,
-    "Sp Attack": 35,
-    "Sp Defence": 40,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 35, "Defence": 40 }
   },
   {
     "number": 448,
@@ -4923,9 +4476,8 @@
     "HP": 70,
     "Attack": 110,
     "Defence": 70,
-    "Sp Attack": 115,
-    "Sp Defence": 70,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 115, "Defence": 70 }
   },
   {
     "number": 449,
@@ -4934,9 +4486,8 @@
     "HP": 68,
     "Attack": 72,
     "Defence": 78,
-    "Sp Attack": 38,
-    "Sp Defence": 42,
-    "Speed": 32
+    "Speed": 32,
+    "Special": { "Attack": 38, "Defence": 42 }
   },
   {
     "number": 450,
@@ -4945,9 +4496,8 @@
     "HP": 108,
     "Attack": 112,
     "Defence": 118,
-    "Sp Attack": 68,
-    "Sp Defence": 72,
-    "Speed": 47
+    "Speed": 47,
+    "Special": { "Attack": 68, "Defence": 72 }
   },
   {
     "number": 451,
@@ -4956,9 +4506,8 @@
     "HP": 40,
     "Attack": 50,
     "Defence": 90,
-    "Sp Attack": 30,
-    "Sp Defence": 55,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 30, "Defence": 55 }
   },
   {
     "number": 452,
@@ -4967,9 +4516,8 @@
     "HP": 70,
     "Attack": 90,
     "Defence": 110,
-    "Sp Attack": 60,
-    "Sp Defence": 75,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 60, "Defence": 75 }
   },
   {
     "number": 453,
@@ -4978,9 +4526,8 @@
     "HP": 48,
     "Attack": 61,
     "Defence": 40,
-    "Sp Attack": 61,
-    "Sp Defence": 40,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 61, "Defence": 40 }
   },
   {
     "number": 454,
@@ -4989,9 +4536,8 @@
     "HP": 83,
     "Attack": 106,
     "Defence": 65,
-    "Sp Attack": 86,
-    "Sp Defence": 65,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 86, "Defence": 65 }
   },
   {
     "number": 455,
@@ -5000,9 +4546,8 @@
     "HP": 74,
     "Attack": 100,
     "Defence": 72,
-    "Sp Attack": 90,
-    "Sp Defence": 72,
-    "Speed": 46
+    "Speed": 46,
+    "Special": { "Attack": 90, "Defence": 72 }
   },
   {
     "number": 456,
@@ -5011,9 +4556,8 @@
     "HP": 49,
     "Attack": 49,
     "Defence": 56,
-    "Sp Attack": 49,
-    "Sp Defence": 61,
-    "Speed": 66
+    "Speed": 66,
+    "Special": { "Attack": 49, "Defence": 61 }
   },
   {
     "number": 457,
@@ -5022,9 +4566,8 @@
     "HP": 69,
     "Attack": 69,
     "Defence": 76,
-    "Sp Attack": 69,
-    "Sp Defence": 86,
-    "Speed": 91
+    "Speed": 91,
+    "Special": { "Attack": 69, "Defence": 86 }
   },
   {
     "number": 458,
@@ -5033,9 +4576,8 @@
     "HP": 45,
     "Attack": 20,
     "Defence": 50,
-    "Sp Attack": 60,
-    "Sp Defence": 120,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 60, "Defence": 120 }
   },
   {
     "number": 459,
@@ -5044,9 +4586,8 @@
     "HP": 60,
     "Attack": 62,
     "Defence": 50,
-    "Sp Attack": 62,
-    "Sp Defence": 60,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 62, "Defence": 60 }
   },
   {
     "number": 460,
@@ -5055,9 +4596,8 @@
     "HP": 90,
     "Attack": 92,
     "Defence": 75,
-    "Sp Attack": 92,
-    "Sp Defence": 85,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 92, "Defence": 85 }
   },
   {
     "number": 461,
@@ -5066,9 +4606,8 @@
     "HP": 70,
     "Attack": 120,
     "Defence": 65,
-    "Sp Attack": 45,
-    "Sp Defence": 85,
-    "Speed": 125
+    "Speed": 125,
+    "Special": { "Attack": 45, "Defence": 85 }
   },
   {
     "number": 462,
@@ -5077,9 +4616,8 @@
     "HP": 70,
     "Attack": 70,
     "Defence": 115,
-    "Sp Attack": 130,
-    "Sp Defence": 90,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 130, "Defence": 90 }
   },
   {
     "number": 463,
@@ -5088,9 +4626,8 @@
     "HP": 110,
     "Attack": 85,
     "Defence": 95,
-    "Sp Attack": 80,
-    "Sp Defence": 95,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 80, "Defence": 95 }
   },
   {
     "number": 464,
@@ -5099,9 +4636,8 @@
     "HP": 115,
     "Attack": 140,
     "Defence": 130,
-    "Sp Attack": 55,
-    "Sp Defence": 55,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 55, "Defence": 55 }
   },
   {
     "number": 465,
@@ -5110,9 +4646,8 @@
     "HP": 100,
     "Attack": 100,
     "Defence": 125,
-    "Sp Attack": 110,
-    "Sp Defence": 50,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 110, "Defence": 50 }
   },
   {
     "number": 466,
@@ -5121,9 +4656,8 @@
     "HP": 75,
     "Attack": 123,
     "Defence": 67,
-    "Sp Attack": 95,
-    "Sp Defence": 85,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 95, "Defence": 85 }
   },
   {
     "number": 467,
@@ -5132,9 +4666,8 @@
     "HP": 75,
     "Attack": 95,
     "Defence": 67,
-    "Sp Attack": 125,
-    "Sp Defence": 95,
-    "Speed": 83
+    "Speed": 83,
+    "Special": { "Attack": 125, "Defence": 95 }
   },
   {
     "number": 468,
@@ -5143,9 +4676,8 @@
     "HP": 85,
     "Attack": 50,
     "Defence": 95,
-    "Sp Attack": 120,
-    "Sp Defence": 115,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 120, "Defence": 115 }
   },
   {
     "number": 469,
@@ -5154,9 +4686,8 @@
     "HP": 86,
     "Attack": 76,
     "Defence": 86,
-    "Sp Attack": 116,
-    "Sp Defence": 56,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 116, "Defence": 56 }
   },
   {
     "number": 470,
@@ -5165,9 +4696,8 @@
     "HP": 65,
     "Attack": 110,
     "Defence": 130,
-    "Sp Attack": 60,
-    "Sp Defence": 65,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 60, "Defence": 65 }
   },
   {
     "number": 471,
@@ -5176,9 +4706,8 @@
     "HP": 65,
     "Attack": 60,
     "Defence": 110,
-    "Sp Attack": 130,
-    "Sp Defence": 95,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 130, "Defence": 95 }
   },
   {
     "number": 472,
@@ -5187,9 +4716,8 @@
     "HP": 75,
     "Attack": 95,
     "Defence": 125,
-    "Sp Attack": 45,
-    "Sp Defence": 75,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 45, "Defence": 75 }
   },
   {
     "number": 473,
@@ -5198,9 +4726,8 @@
     "HP": 110,
     "Attack": 130,
     "Defence": 80,
-    "Sp Attack": 70,
-    "Sp Defence": 60,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 70, "Defence": 60 }
   },
   {
     "number": 474,
@@ -5209,9 +4736,8 @@
     "HP": 85,
     "Attack": 80,
     "Defence": 70,
-    "Sp Attack": 135,
-    "Sp Defence": 75,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 135, "Defence": 75 }
   },
   {
     "number": 475,
@@ -5220,9 +4746,8 @@
     "HP": 68,
     "Attack": 125,
     "Defence": 65,
-    "Sp Attack": 65,
-    "Sp Defence": 115,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 65, "Defence": 115 }
   },
   {
     "number": 476,
@@ -5231,9 +4756,8 @@
     "HP": 60,
     "Attack": 55,
     "Defence": 145,
-    "Sp Attack": 75,
-    "Sp Defence": 150,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 75, "Defence": 150 }
   },
   {
     "number": 477,
@@ -5242,9 +4766,8 @@
     "HP": 45,
     "Attack": 100,
     "Defence": 135,
-    "Sp Attack": 65,
-    "Sp Defence": 135,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 65, "Defence": 135 }
   },
   {
     "number": 478,
@@ -5253,9 +4776,8 @@
     "HP": 70,
     "Attack": 80,
     "Defence": 70,
-    "Sp Attack": 80,
-    "Sp Defence": 70,
-    "Speed": 110
+    "Speed": 110,
+    "Special": { "Attack": 80, "Defence": 70 }
   },
   {
     "number": 479,
@@ -5264,9 +4786,8 @@
     "HP": 50,
     "Attack": 50,
     "Defence": 77,
-    "Sp Attack": 95,
-    "Sp Defence": 77,
-    "Speed": 91
+    "Speed": 91,
+    "Special": { "Attack": 95, "Defence": 77 }
   },
   {
     "number": 480,
@@ -5275,9 +4796,8 @@
     "HP": 75,
     "Attack": 75,
     "Defence": 130,
-    "Sp Attack": 75,
-    "Sp Defence": 130,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 75, "Defence": 130 }
   },
   {
     "number": 481,
@@ -5286,9 +4806,8 @@
     "HP": 80,
     "Attack": 105,
     "Defence": 105,
-    "Sp Attack": 105,
-    "Sp Defence": 105,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 105, "Defence": 105 }
   },
   {
     "number": 482,
@@ -5297,9 +4816,8 @@
     "HP": 75,
     "Attack": 125,
     "Defence": 70,
-    "Sp Attack": 125,
-    "Sp Defence": 70,
-    "Speed": 115
+    "Speed": 115,
+    "Special": { "Attack": 125, "Defence": 70 }
   },
   {
     "number": 483,
@@ -5308,9 +4826,8 @@
     "HP": 100,
     "Attack": 120,
     "Defence": 120,
-    "Sp Attack": 150,
-    "Sp Defence": 100,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 150, "Defence": 100 }
   },
   {
     "number": 484,
@@ -5319,9 +4836,8 @@
     "HP": 90,
     "Attack": 120,
     "Defence": 100,
-    "Sp Attack": 150,
-    "Sp Defence": 120,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 150, "Defence": 120 }
   },
   {
     "number": 485,
@@ -5330,9 +4846,8 @@
     "HP": 91,
     "Attack": 90,
     "Defence": 106,
-    "Sp Attack": 130,
-    "Sp Defence": 106,
-    "Speed": 77
+    "Speed": 77,
+    "Special": { "Attack": 130, "Defence": 106 }
   },
   {
     "number": 486,
@@ -5341,9 +4856,8 @@
     "HP": 110,
     "Attack": 160,
     "Defence": 110,
-    "Sp Attack": 80,
-    "Sp Defence": 110,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 80, "Defence": 110 }
   },
   {
     "number": 487,
@@ -5352,9 +4866,8 @@
     "HP": 150,
     "Attack": 100,
     "Defence": 120,
-    "Sp Attack": 100,
-    "Sp Defence": 120,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 100, "Defence": 120 }
   },
   {
     "number": 488,
@@ -5363,9 +4876,8 @@
     "HP": 120,
     "Attack": 70,
     "Defence": 120,
-    "Sp Attack": 75,
-    "Sp Defence": 130,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 75, "Defence": 130 }
   },
   {
     "number": 489,
@@ -5374,9 +4886,8 @@
     "HP": 80,
     "Attack": 80,
     "Defence": 80,
-    "Sp Attack": 80,
-    "Sp Defence": 80,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 80, "Defence": 80 }
   },
   {
     "number": 490,
@@ -5385,9 +4896,8 @@
     "HP": 100,
     "Attack": 100,
     "Defence": 100,
-    "Sp Attack": 100,
-    "Sp Defence": 100,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 100, "Defence": 100 }
   },
   {
     "number": 491,
@@ -5396,9 +4906,8 @@
     "HP": 70,
     "Attack": 90,
     "Defence": 90,
-    "Sp Attack": 135,
-    "Sp Defence": 90,
-    "Speed": 125
+    "Speed": 125,
+    "Special": { "Attack": 135, "Defence": 90 }
   },
   {
     "number": 492,
@@ -5407,9 +4916,8 @@
     "HP": 100,
     "Attack": 100,
     "Defence": 100,
-    "Sp Attack": 100,
-    "Sp Defence": 100,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 100, "Defence": 100 }
   },
   {
     "number": 493,
@@ -5418,9 +4926,8 @@
     "HP": 120,
     "Attack": 120,
     "Defence": 120,
-    "Sp Attack": 120,
-    "Sp Defence": 120,
-    "Speed": 120
+    "Speed": 120,
+    "Special": { "Attack": 120, "Defence": 120 }
   },
   {
     "number": 494,
@@ -5429,9 +4936,8 @@
     "HP": 100,
     "Attack": 100,
     "Defence": 100,
-    "Sp Attack": 100,
-    "Sp Defence": 100,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 100, "Defence": 100 }
   },
   {
     "number": 495,
@@ -5440,9 +4946,8 @@
     "HP": 45,
     "Attack": 45,
     "Defence": 55,
-    "Sp Attack": 45,
-    "Sp Defence": 55,
-    "Speed": 63
+    "Speed": 63,
+    "Special": { "Attack": 45, "Defence": 55 }
   },
   {
     "number": 496,
@@ -5451,9 +4956,8 @@
     "HP": 60,
     "Attack": 60,
     "Defence": 75,
-    "Sp Attack": 60,
-    "Sp Defence": 75,
-    "Speed": 83
+    "Speed": 83,
+    "Special": { "Attack": 60, "Defence": 75 }
   },
   {
     "number": 497,
@@ -5462,9 +4966,8 @@
     "HP": 75,
     "Attack": 75,
     "Defence": 95,
-    "Sp Attack": 75,
-    "Sp Defence": 95,
-    "Speed": 113
+    "Speed": 113,
+    "Special": { "Attack": 75, "Defence": 95 }
   },
   {
     "number": 498,
@@ -5473,9 +4976,8 @@
     "HP": 65,
     "Attack": 63,
     "Defence": 45,
-    "Sp Attack": 45,
-    "Sp Defence": 45,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 45, "Defence": 45 }
   },
   {
     "number": 499,
@@ -5484,9 +4986,8 @@
     "HP": 90,
     "Attack": 93,
     "Defence": 55,
-    "Sp Attack": 70,
-    "Sp Defence": 55,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 70, "Defence": 55 }
   },
   {
     "number": 500,
@@ -5495,9 +4996,8 @@
     "HP": 110,
     "Attack": 123,
     "Defence": 65,
-    "Sp Attack": 100,
-    "Sp Defence": 65,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 100, "Defence": 65 }
   },
   {
     "number": 501,
@@ -5506,9 +5006,8 @@
     "HP": 55,
     "Attack": 55,
     "Defence": 45,
-    "Sp Attack": 63,
-    "Sp Defence": 45,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 63, "Defence": 45 }
   },
   {
     "number": 502,
@@ -5517,9 +5016,8 @@
     "HP": 75,
     "Attack": 75,
     "Defence": 60,
-    "Sp Attack": 83,
-    "Sp Defence": 60,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 83, "Defence": 60 }
   },
   {
     "number": 503,
@@ -5528,9 +5026,8 @@
     "HP": 95,
     "Attack": 100,
     "Defence": 85,
-    "Sp Attack": 108,
-    "Sp Defence": 70,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 108, "Defence": 70 }
   },
   {
     "number": 504,
@@ -5539,9 +5036,8 @@
     "HP": 45,
     "Attack": 55,
     "Defence": 39,
-    "Sp Attack": 35,
-    "Sp Defence": 39,
-    "Speed": 42
+    "Speed": 42,
+    "Special": { "Attack": 35, "Defence": 39 }
   },
   {
     "number": 505,
@@ -5550,9 +5046,8 @@
     "HP": 60,
     "Attack": 85,
     "Defence": 69,
-    "Sp Attack": 60,
-    "Sp Defence": 69,
-    "Speed": 77
+    "Speed": 77,
+    "Special": { "Attack": 60, "Defence": 69 }
   },
   {
     "number": 506,
@@ -5561,9 +5056,8 @@
     "HP": 45,
     "Attack": 60,
     "Defence": 45,
-    "Sp Attack": 25,
-    "Sp Defence": 45,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 25, "Defence": 45 }
   },
   {
     "number": 507,
@@ -5572,9 +5066,8 @@
     "HP": 65,
     "Attack": 80,
     "Defence": 65,
-    "Sp Attack": 35,
-    "Sp Defence": 65,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 35, "Defence": 65 }
   },
   {
     "number": 508,
@@ -5583,9 +5076,8 @@
     "HP": 85,
     "Attack": 110,
     "Defence": 90,
-    "Sp Attack": 45,
-    "Sp Defence": 90,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 45, "Defence": 90 }
   },
   {
     "number": 509,
@@ -5594,9 +5086,8 @@
     "HP": 41,
     "Attack": 50,
     "Defence": 37,
-    "Sp Attack": 50,
-    "Sp Defence": 37,
-    "Speed": 66
+    "Speed": 66,
+    "Special": { "Attack": 50, "Defence": 37 }
   },
   {
     "number": 510,
@@ -5605,9 +5096,8 @@
     "HP": 64,
     "Attack": 88,
     "Defence": 50,
-    "Sp Attack": 88,
-    "Sp Defence": 50,
-    "Speed": 106
+    "Speed": 106,
+    "Special": { "Attack": 88, "Defence": 50 }
   },
   {
     "number": 511,
@@ -5616,9 +5106,8 @@
     "HP": 50,
     "Attack": 53,
     "Defence": 48,
-    "Sp Attack": 53,
-    "Sp Defence": 48,
-    "Speed": 64
+    "Speed": 64,
+    "Special": { "Attack": 53, "Defence": 48 }
   },
   {
     "number": 512,
@@ -5627,9 +5116,8 @@
     "HP": 75,
     "Attack": 98,
     "Defence": 63,
-    "Sp Attack": 98,
-    "Sp Defence": 63,
-    "Speed": 101
+    "Speed": 101,
+    "Special": { "Attack": 98, "Defence": 63 }
   },
   {
     "number": 513,
@@ -5638,9 +5126,8 @@
     "HP": 50,
     "Attack": 53,
     "Defence": 48,
-    "Sp Attack": 53,
-    "Sp Defence": 48,
-    "Speed": 64
+    "Speed": 64,
+    "Special": { "Attack": 53, "Defence": 48 }
   },
   {
     "number": 514,
@@ -5649,9 +5136,8 @@
     "HP": 75,
     "Attack": 98,
     "Defence": 63,
-    "Sp Attack": 98,
-    "Sp Defence": 63,
-    "Speed": 101
+    "Speed": 101,
+    "Special": { "Attack": 98, "Defence": 63 }
   },
   {
     "number": 515,
@@ -5660,9 +5146,8 @@
     "HP": 50,
     "Attack": 53,
     "Defence": 48,
-    "Sp Attack": 53,
-    "Sp Defence": 48,
-    "Speed": 64
+    "Speed": 64,
+    "Special": { "Attack": 53, "Defence": 48 }
   },
   {
     "number": 516,
@@ -5671,9 +5156,8 @@
     "HP": 75,
     "Attack": 98,
     "Defence": 63,
-    "Sp Attack": 98,
-    "Sp Defence": 63,
-    "Speed": 101
+    "Speed": 101,
+    "Special": { "Attack": 98, "Defence": 63 }
   },
   {
     "number": 517,
@@ -5682,9 +5166,8 @@
     "HP": 76,
     "Attack": 25,
     "Defence": 45,
-    "Sp Attack": 67,
-    "Sp Defence": 55,
-    "Speed": 24
+    "Speed": 24,
+    "Special": { "Attack": 67, "Defence": 55 }
   },
   {
     "number": 518,
@@ -5693,9 +5176,8 @@
     "HP": 116,
     "Attack": 55,
     "Defence": 85,
-    "Sp Attack": 107,
-    "Sp Defence": 95,
-    "Speed": 29
+    "Speed": 29,
+    "Special": { "Attack": 107, "Defence": 95 }
   },
   {
     "number": 519,
@@ -5704,9 +5186,8 @@
     "HP": 50,
     "Attack": 55,
     "Defence": 50,
-    "Sp Attack": 36,
-    "Sp Defence": 30,
-    "Speed": 43
+    "Speed": 43,
+    "Special": { "Attack": 36, "Defence": 30 }
   },
   {
     "number": 520,
@@ -5715,9 +5196,8 @@
     "HP": 62,
     "Attack": 77,
     "Defence": 62,
-    "Sp Attack": 50,
-    "Sp Defence": 42,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 50, "Defence": 42 }
   },
   {
     "number": 521,
@@ -5726,9 +5206,8 @@
     "HP": 80,
     "Attack": 115,
     "Defence": 80,
-    "Sp Attack": 65,
-    "Sp Defence": 55,
-    "Speed": 93
+    "Speed": 93,
+    "Special": { "Attack": 65, "Defence": 55 }
   },
   {
     "number": 522,
@@ -5737,9 +5216,8 @@
     "HP": 45,
     "Attack": 60,
     "Defence": 32,
-    "Sp Attack": 50,
-    "Sp Defence": 32,
-    "Speed": 76
+    "Speed": 76,
+    "Special": { "Attack": 50, "Defence": 32 }
   },
   {
     "number": 523,
@@ -5748,9 +5226,8 @@
     "HP": 75,
     "Attack": 100,
     "Defence": 63,
-    "Sp Attack": 80,
-    "Sp Defence": 63,
-    "Speed": 116
+    "Speed": 116,
+    "Special": { "Attack": 80, "Defence": 63 }
   },
   {
     "number": 524,
@@ -5759,9 +5236,8 @@
     "HP": 55,
     "Attack": 75,
     "Defence": 85,
-    "Sp Attack": 25,
-    "Sp Defence": 25,
-    "Speed": 15
+    "Speed": 15,
+    "Special": { "Attack": 25, "Defence": 25 }
   },
   {
     "number": 525,
@@ -5770,9 +5246,8 @@
     "HP": 70,
     "Attack": 105,
     "Defence": 105,
-    "Sp Attack": 50,
-    "Sp Defence": 40,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 50, "Defence": 40 }
   },
   {
     "number": 526,
@@ -5781,9 +5256,8 @@
     "HP": 85,
     "Attack": 135,
     "Defence": 130,
-    "Sp Attack": 60,
-    "Sp Defence": 80,
-    "Speed": 25
+    "Speed": 25,
+    "Special": { "Attack": 60, "Defence": 80 }
   },
   {
     "number": 527,
@@ -5792,9 +5266,8 @@
     "HP": 65,
     "Attack": 45,
     "Defence": 43,
-    "Sp Attack": 55,
-    "Sp Defence": 43,
-    "Speed": 72
+    "Speed": 72,
+    "Special": { "Attack": 55, "Defence": 43 }
   },
   {
     "number": 528,
@@ -5803,9 +5276,8 @@
     "HP": 67,
     "Attack": 57,
     "Defence": 55,
-    "Sp Attack": 77,
-    "Sp Defence": 55,
-    "Speed": 114
+    "Speed": 114,
+    "Special": { "Attack": 77, "Defence": 55 }
   },
   {
     "number": 529,
@@ -5814,9 +5286,8 @@
     "HP": 60,
     "Attack": 85,
     "Defence": 40,
-    "Sp Attack": 30,
-    "Sp Defence": 45,
-    "Speed": 68
+    "Speed": 68,
+    "Special": { "Attack": 30, "Defence": 45 }
   },
   {
     "number": 530,
@@ -5825,9 +5296,8 @@
     "HP": 110,
     "Attack": 135,
     "Defence": 60,
-    "Sp Attack": 50,
-    "Sp Defence": 65,
-    "Speed": 88
+    "Speed": 88,
+    "Special": { "Attack": 50, "Defence": 65 }
   },
   {
     "number": 531,
@@ -5836,9 +5306,8 @@
     "HP": 103,
     "Attack": 60,
     "Defence": 86,
-    "Sp Attack": 60,
-    "Sp Defence": 86,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 60, "Defence": 86 }
   },
   {
     "number": 532,
@@ -5847,9 +5316,8 @@
     "HP": 75,
     "Attack": 80,
     "Defence": 55,
-    "Sp Attack": 25,
-    "Sp Defence": 35,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 25, "Defence": 35 }
   },
   {
     "number": 533,
@@ -5858,9 +5326,8 @@
     "HP": 85,
     "Attack": 105,
     "Defence": 85,
-    "Sp Attack": 40,
-    "Sp Defence": 50,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 40, "Defence": 50 }
   },
   {
     "number": 534,
@@ -5869,9 +5336,8 @@
     "HP": 105,
     "Attack": 140,
     "Defence": 95,
-    "Sp Attack": 55,
-    "Sp Defence": 65,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 55, "Defence": 65 }
   },
   {
     "number": 535,
@@ -5880,9 +5346,8 @@
     "HP": 50,
     "Attack": 50,
     "Defence": 40,
-    "Sp Attack": 50,
-    "Sp Defence": 40,
-    "Speed": 64
+    "Speed": 64,
+    "Special": { "Attack": 50, "Defence": 40 }
   },
   {
     "number": 536,
@@ -5891,9 +5356,8 @@
     "HP": 75,
     "Attack": 65,
     "Defence": 55,
-    "Sp Attack": 65,
-    "Sp Defence": 55,
-    "Speed": 69
+    "Speed": 69,
+    "Special": { "Attack": 65, "Defence": 55 }
   },
   {
     "number": 537,
@@ -5902,9 +5366,8 @@
     "HP": 105,
     "Attack": 95,
     "Defence": 75,
-    "Sp Attack": 85,
-    "Sp Defence": 75,
-    "Speed": 74
+    "Speed": 74,
+    "Special": { "Attack": 85, "Defence": 75 }
   },
   {
     "number": 538,
@@ -5913,9 +5376,8 @@
     "HP": 120,
     "Attack": 100,
     "Defence": 85,
-    "Sp Attack": 30,
-    "Sp Defence": 85,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 30, "Defence": 85 }
   },
   {
     "number": 539,
@@ -5924,9 +5386,8 @@
     "HP": 75,
     "Attack": 125,
     "Defence": 75,
-    "Sp Attack": 30,
-    "Sp Defence": 75,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 30, "Defence": 75 }
   },
   {
     "number": 540,
@@ -5935,9 +5396,8 @@
     "HP": 45,
     "Attack": 53,
     "Defence": 70,
-    "Sp Attack": 40,
-    "Sp Defence": 60,
-    "Speed": 42
+    "Speed": 42,
+    "Special": { "Attack": 40, "Defence": 60 }
   },
   {
     "number": 541,
@@ -5946,9 +5406,8 @@
     "HP": 55,
     "Attack": 63,
     "Defence": 90,
-    "Sp Attack": 50,
-    "Sp Defence": 80,
-    "Speed": 42
+    "Speed": 42,
+    "Special": { "Attack": 50, "Defence": 80 }
   },
   {
     "number": 542,
@@ -5957,9 +5416,8 @@
     "HP": 75,
     "Attack": 103,
     "Defence": 80,
-    "Sp Attack": 70,
-    "Sp Defence": 80,
-    "Speed": 92
+    "Speed": 92,
+    "Special": { "Attack": 70, "Defence": 80 }
   },
   {
     "number": 543,
@@ -5968,9 +5426,8 @@
     "HP": 30,
     "Attack": 45,
     "Defence": 59,
-    "Sp Attack": 30,
-    "Sp Defence": 39,
-    "Speed": 57
+    "Speed": 57,
+    "Special": { "Attack": 30, "Defence": 39 }
   },
   {
     "number": 544,
@@ -5979,9 +5436,8 @@
     "HP": 40,
     "Attack": 55,
     "Defence": 99,
-    "Sp Attack": 40,
-    "Sp Defence": 79,
-    "Speed": 47
+    "Speed": 47,
+    "Special": { "Attack": 40, "Defence": 79 }
   },
   {
     "number": 545,
@@ -5990,9 +5446,8 @@
     "HP": 60,
     "Attack": 100,
     "Defence": 89,
-    "Sp Attack": 55,
-    "Sp Defence": 69,
-    "Speed": 112
+    "Speed": 112,
+    "Special": { "Attack": 55, "Defence": 69 }
   },
   {
     "number": 546,
@@ -6001,9 +5456,8 @@
     "HP": 40,
     "Attack": 27,
     "Defence": 60,
-    "Sp Attack": 37,
-    "Sp Defence": 50,
-    "Speed": 66
+    "Speed": 66,
+    "Special": { "Attack": 37, "Defence": 50 }
   },
   {
     "number": 547,
@@ -6012,9 +5466,8 @@
     "HP": 60,
     "Attack": 67,
     "Defence": 85,
-    "Sp Attack": 77,
-    "Sp Defence": 75,
-    "Speed": 116
+    "Speed": 116,
+    "Special": { "Attack": 77, "Defence": 75 }
   },
   {
     "number": 548,
@@ -6023,9 +5476,8 @@
     "HP": 45,
     "Attack": 35,
     "Defence": 50,
-    "Sp Attack": 70,
-    "Sp Defence": 50,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 70, "Defence": 50 }
   },
   {
     "number": 549,
@@ -6034,9 +5486,8 @@
     "HP": 70,
     "Attack": 60,
     "Defence": 75,
-    "Sp Attack": 110,
-    "Sp Defence": 75,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 110, "Defence": 75 }
   },
   {
     "number": 550,
@@ -6045,9 +5496,8 @@
     "HP": 70,
     "Attack": 92,
     "Defence": 65,
-    "Sp Attack": 80,
-    "Sp Defence": 55,
-    "Speed": 98
+    "Speed": 98,
+    "Special": { "Attack": 80, "Defence": 55 }
   },
   {
     "number": 551,
@@ -6056,9 +5506,8 @@
     "HP": 50,
     "Attack": 72,
     "Defence": 35,
-    "Sp Attack": 35,
-    "Sp Defence": 35,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 35, "Defence": 35 }
   },
   {
     "number": 552,
@@ -6067,9 +5516,8 @@
     "HP": 60,
     "Attack": 82,
     "Defence": 45,
-    "Sp Attack": 45,
-    "Sp Defence": 45,
-    "Speed": 74
+    "Speed": 74,
+    "Special": { "Attack": 45, "Defence": 45 }
   },
   {
     "number": 553,
@@ -6078,9 +5526,8 @@
     "HP": 95,
     "Attack": 117,
     "Defence": 80,
-    "Sp Attack": 65,
-    "Sp Defence": 70,
-    "Speed": 92
+    "Speed": 92,
+    "Special": { "Attack": 65, "Defence": 70 }
   },
   {
     "number": 554,
@@ -6089,9 +5536,8 @@
     "HP": 70,
     "Attack": 90,
     "Defence": 45,
-    "Sp Attack": 15,
-    "Sp Defence": 45,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 15, "Defence": 45 }
   },
   {
     "number": 555,
@@ -6100,9 +5546,8 @@
     "HP": 105,
     "Attack": 140,
     "Defence": 55,
-    "Sp Attack": 30,
-    "Sp Defence": 55,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 30, "Defence": 55 }
   },
   {
     "number": 556,
@@ -6111,9 +5556,8 @@
     "HP": 75,
     "Attack": 86,
     "Defence": 67,
-    "Sp Attack": 106,
-    "Sp Defence": 67,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 106, "Defence": 67 }
   },
   {
     "number": 557,
@@ -6122,9 +5566,8 @@
     "HP": 50,
     "Attack": 65,
     "Defence": 85,
-    "Sp Attack": 35,
-    "Sp Defence": 35,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 35, "Defence": 35 }
   },
   {
     "number": 558,
@@ -6133,9 +5576,8 @@
     "HP": 70,
     "Attack": 105,
     "Defence": 125,
-    "Sp Attack": 65,
-    "Sp Defence": 75,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 65, "Defence": 75 }
   },
   {
     "number": 559,
@@ -6144,9 +5586,8 @@
     "HP": 50,
     "Attack": 75,
     "Defence": 70,
-    "Sp Attack": 35,
-    "Sp Defence": 70,
-    "Speed": 48
+    "Speed": 48,
+    "Special": { "Attack": 35, "Defence": 70 }
   },
   {
     "number": 560,
@@ -6155,9 +5596,8 @@
     "HP": 65,
     "Attack": 90,
     "Defence": 115,
-    "Sp Attack": 45,
-    "Sp Defence": 115,
-    "Speed": 58
+    "Speed": 58,
+    "Special": { "Attack": 45, "Defence": 115 }
   },
   {
     "number": 561,
@@ -6166,9 +5606,8 @@
     "HP": 72,
     "Attack": 58,
     "Defence": 80,
-    "Sp Attack": 103,
-    "Sp Defence": 80,
-    "Speed": 97
+    "Speed": 97,
+    "Special": { "Attack": 103, "Defence": 80 }
   },
   {
     "number": 562,
@@ -6177,9 +5616,8 @@
     "HP": 38,
     "Attack": 30,
     "Defence": 85,
-    "Sp Attack": 55,
-    "Sp Defence": 65,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 55, "Defence": 65 }
   },
   {
     "number": 563,
@@ -6188,9 +5626,8 @@
     "HP": 58,
     "Attack": 50,
     "Defence": 145,
-    "Sp Attack": 95,
-    "Sp Defence": 105,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 95, "Defence": 105 }
   },
   {
     "number": 564,
@@ -6199,9 +5636,8 @@
     "HP": 54,
     "Attack": 78,
     "Defence": 103,
-    "Sp Attack": 53,
-    "Sp Defence": 45,
-    "Speed": 22
+    "Speed": 22,
+    "Special": { "Attack": 53, "Defence": 45 }
   },
   {
     "number": 565,
@@ -6210,9 +5646,8 @@
     "HP": 74,
     "Attack": 108,
     "Defence": 133,
-    "Sp Attack": 83,
-    "Sp Defence": 65,
-    "Speed": 32
+    "Speed": 32,
+    "Special": { "Attack": 83, "Defence": 65 }
   },
   {
     "number": 566,
@@ -6221,9 +5656,8 @@
     "HP": 55,
     "Attack": 112,
     "Defence": 45,
-    "Sp Attack": 74,
-    "Sp Defence": 45,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 74, "Defence": 45 }
   },
   {
     "number": 567,
@@ -6232,9 +5666,8 @@
     "HP": 75,
     "Attack": 140,
     "Defence": 65,
-    "Sp Attack": 112,
-    "Sp Defence": 65,
-    "Speed": 110
+    "Speed": 110,
+    "Special": { "Attack": 112, "Defence": 65 }
   },
   {
     "number": 568,
@@ -6243,9 +5676,8 @@
     "HP": 50,
     "Attack": 50,
     "Defence": 62,
-    "Sp Attack": 40,
-    "Sp Defence": 62,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 40, "Defence": 62 }
   },
   {
     "number": 569,
@@ -6254,9 +5686,8 @@
     "HP": 80,
     "Attack": 95,
     "Defence": 82,
-    "Sp Attack": 60,
-    "Sp Defence": 82,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 60, "Defence": 82 }
   },
   {
     "number": 570,
@@ -6265,9 +5696,8 @@
     "HP": 40,
     "Attack": 65,
     "Defence": 40,
-    "Sp Attack": 80,
-    "Sp Defence": 40,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 80, "Defence": 40 }
   },
   {
     "number": 571,
@@ -6276,9 +5706,8 @@
     "HP": 60,
     "Attack": 105,
     "Defence": 60,
-    "Sp Attack": 120,
-    "Sp Defence": 60,
-    "Speed": 105
+    "Speed": 105,
+    "Special": { "Attack": 120, "Defence": 60 }
   },
   {
     "number": 572,
@@ -6287,9 +5716,8 @@
     "HP": 55,
     "Attack": 50,
     "Defence": 40,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 573,
@@ -6298,9 +5726,8 @@
     "HP": 75,
     "Attack": 95,
     "Defence": 60,
-    "Sp Attack": 65,
-    "Sp Defence": 60,
-    "Speed": 115
+    "Speed": 115,
+    "Special": { "Attack": 65, "Defence": 60 }
   },
   {
     "number": 574,
@@ -6309,9 +5736,8 @@
     "HP": 45,
     "Attack": 30,
     "Defence": 50,
-    "Sp Attack": 55,
-    "Sp Defence": 65,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 55, "Defence": 65 }
   },
   {
     "number": 575,
@@ -6320,9 +5746,8 @@
     "HP": 60,
     "Attack": 45,
     "Defence": 70,
-    "Sp Attack": 75,
-    "Sp Defence": 85,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 75, "Defence": 85 }
   },
   {
     "number": 576,
@@ -6331,9 +5756,8 @@
     "HP": 70,
     "Attack": 55,
     "Defence": 95,
-    "Sp Attack": 95,
-    "Sp Defence": 110,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 95, "Defence": 110 }
   },
   {
     "number": 577,
@@ -6342,9 +5766,8 @@
     "HP": 45,
     "Attack": 30,
     "Defence": 40,
-    "Sp Attack": 105,
-    "Sp Defence": 50,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 105, "Defence": 50 }
   },
   {
     "number": 578,
@@ -6353,9 +5776,8 @@
     "HP": 65,
     "Attack": 40,
     "Defence": 50,
-    "Sp Attack": 125,
-    "Sp Defence": 60,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 125, "Defence": 60 }
   },
   {
     "number": 579,
@@ -6364,9 +5786,8 @@
     "HP": 110,
     "Attack": 65,
     "Defence": 75,
-    "Sp Attack": 125,
-    "Sp Defence": 85,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 125, "Defence": 85 }
   },
   {
     "number": 580,
@@ -6375,9 +5796,8 @@
     "HP": 62,
     "Attack": 44,
     "Defence": 50,
-    "Sp Attack": 44,
-    "Sp Defence": 50,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 44, "Defence": 50 }
   },
   {
     "number": 581,
@@ -6386,9 +5806,8 @@
     "HP": 75,
     "Attack": 87,
     "Defence": 63,
-    "Sp Attack": 87,
-    "Sp Defence": 63,
-    "Speed": 98
+    "Speed": 98,
+    "Special": { "Attack": 87, "Defence": 63 }
   },
   {
     "number": 582,
@@ -6397,9 +5816,8 @@
     "HP": 36,
     "Attack": 50,
     "Defence": 50,
-    "Sp Attack": 65,
-    "Sp Defence": 60,
-    "Speed": 44
+    "Speed": 44,
+    "Special": { "Attack": 65, "Defence": 60 }
   },
   {
     "number": 583,
@@ -6408,9 +5826,8 @@
     "HP": 51,
     "Attack": 65,
     "Defence": 65,
-    "Sp Attack": 80,
-    "Sp Defence": 75,
-    "Speed": 59
+    "Speed": 59,
+    "Special": { "Attack": 80, "Defence": 75 }
   },
   {
     "number": 584,
@@ -6419,9 +5836,8 @@
     "HP": 71,
     "Attack": 95,
     "Defence": 85,
-    "Sp Attack": 110,
-    "Sp Defence": 95,
-    "Speed": 79
+    "Speed": 79,
+    "Special": { "Attack": 110, "Defence": 95 }
   },
   {
     "number": 585,
@@ -6430,9 +5846,8 @@
     "HP": 60,
     "Attack": 60,
     "Defence": 50,
-    "Sp Attack": 40,
-    "Sp Defence": 50,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 40, "Defence": 50 }
   },
   {
     "number": 586,
@@ -6441,9 +5856,8 @@
     "HP": 80,
     "Attack": 100,
     "Defence": 70,
-    "Sp Attack": 60,
-    "Sp Defence": 70,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 60, "Defence": 70 }
   },
   {
     "number": 587,
@@ -6452,9 +5866,8 @@
     "HP": 55,
     "Attack": 75,
     "Defence": 60,
-    "Sp Attack": 75,
-    "Sp Defence": 60,
-    "Speed": 103
+    "Speed": 103,
+    "Special": { "Attack": 75, "Defence": 60 }
   },
   {
     "number": 588,
@@ -6463,9 +5876,8 @@
     "HP": 50,
     "Attack": 75,
     "Defence": 45,
-    "Sp Attack": 40,
-    "Sp Defence": 45,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 40, "Defence": 45 }
   },
   {
     "number": 589,
@@ -6474,9 +5886,8 @@
     "HP": 70,
     "Attack": 135,
     "Defence": 105,
-    "Sp Attack": 60,
-    "Sp Defence": 105,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 60, "Defence": 105 }
   },
   {
     "number": 590,
@@ -6485,9 +5896,8 @@
     "HP": 69,
     "Attack": 55,
     "Defence": 45,
-    "Sp Attack": 55,
-    "Sp Defence": 55,
-    "Speed": 15
+    "Speed": 15,
+    "Special": { "Attack": 55, "Defence": 55 }
   },
   {
     "number": 591,
@@ -6496,9 +5906,8 @@
     "HP": 114,
     "Attack": 85,
     "Defence": 70,
-    "Sp Attack": 85,
-    "Sp Defence": 80,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 85, "Defence": 80 }
   },
   {
     "number": 592,
@@ -6507,9 +5916,8 @@
     "HP": 55,
     "Attack": 40,
     "Defence": 50,
-    "Sp Attack": 65,
-    "Sp Defence": 85,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 65, "Defence": 85 }
   },
   {
     "number": 593,
@@ -6518,9 +5926,8 @@
     "HP": 100,
     "Attack": 60,
     "Defence": 70,
-    "Sp Attack": 85,
-    "Sp Defence": 105,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 85, "Defence": 105 }
   },
   {
     "number": 594,
@@ -6529,9 +5936,8 @@
     "HP": 165,
     "Attack": 75,
     "Defence": 80,
-    "Sp Attack": 40,
-    "Sp Defence": 45,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 40, "Defence": 45 }
   },
   {
     "number": 595,
@@ -6540,9 +5946,8 @@
     "HP": 50,
     "Attack": 47,
     "Defence": 50,
-    "Sp Attack": 57,
-    "Sp Defence": 50,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 57, "Defence": 50 }
   },
   {
     "number": 596,
@@ -6551,9 +5956,8 @@
     "HP": 70,
     "Attack": 77,
     "Defence": 60,
-    "Sp Attack": 97,
-    "Sp Defence": 60,
-    "Speed": 108
+    "Speed": 108,
+    "Special": { "Attack": 97, "Defence": 60 }
   },
   {
     "number": 597,
@@ -6562,9 +5966,8 @@
     "HP": 44,
     "Attack": 50,
     "Defence": 91,
-    "Sp Attack": 24,
-    "Sp Defence": 86,
-    "Speed": 10
+    "Speed": 10,
+    "Special": { "Attack": 24, "Defence": 86 }
   },
   {
     "number": 598,
@@ -6573,9 +5976,8 @@
     "HP": 74,
     "Attack": 94,
     "Defence": 131,
-    "Sp Attack": 54,
-    "Sp Defence": 116,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 54, "Defence": 116 }
   },
   {
     "number": 599,
@@ -6584,9 +5986,8 @@
     "HP": 40,
     "Attack": 55,
     "Defence": 70,
-    "Sp Attack": 45,
-    "Sp Defence": 60,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 45, "Defence": 60 }
   },
   {
     "number": 600,
@@ -6595,9 +5996,8 @@
     "HP": 60,
     "Attack": 80,
     "Defence": 95,
-    "Sp Attack": 70,
-    "Sp Defence": 85,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 70, "Defence": 85 }
   },
   {
     "number": 601,
@@ -6606,9 +6006,8 @@
     "HP": 60,
     "Attack": 100,
     "Defence": 115,
-    "Sp Attack": 70,
-    "Sp Defence": 85,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 70, "Defence": 85 }
   },
   {
     "number": 602,
@@ -6617,9 +6016,8 @@
     "HP": 35,
     "Attack": 55,
     "Defence": 40,
-    "Sp Attack": 45,
-    "Sp Defence": 40,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 45, "Defence": 40 }
   },
   {
     "number": 603,
@@ -6628,9 +6026,8 @@
     "HP": 65,
     "Attack": 85,
     "Defence": 70,
-    "Sp Attack": 75,
-    "Sp Defence": 70,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 75, "Defence": 70 }
   },
   {
     "number": 604,
@@ -6639,9 +6036,8 @@
     "HP": 85,
     "Attack": 115,
     "Defence": 80,
-    "Sp Attack": 105,
-    "Sp Defence": 80,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 105, "Defence": 80 }
   },
   {
     "number": 605,
@@ -6650,9 +6046,8 @@
     "HP": 55,
     "Attack": 55,
     "Defence": 55,
-    "Sp Attack": 85,
-    "Sp Defence": 55,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 85, "Defence": 55 }
   },
   {
     "number": 606,
@@ -6661,9 +6056,8 @@
     "HP": 75,
     "Attack": 75,
     "Defence": 75,
-    "Sp Attack": 125,
-    "Sp Defence": 95,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 125, "Defence": 95 }
   },
   {
     "number": 607,
@@ -6672,9 +6066,8 @@
     "HP": 50,
     "Attack": 30,
     "Defence": 55,
-    "Sp Attack": 65,
-    "Sp Defence": 55,
-    "Speed": 20
+    "Speed": 20,
+    "Special": { "Attack": 65, "Defence": 55 }
   },
   {
     "number": 608,
@@ -6683,9 +6076,8 @@
     "HP": 60,
     "Attack": 40,
     "Defence": 60,
-    "Sp Attack": 95,
-    "Sp Defence": 60,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 95, "Defence": 60 }
   },
   {
     "number": 609,
@@ -6694,9 +6086,8 @@
     "HP": 60,
     "Attack": 55,
     "Defence": 90,
-    "Sp Attack": 145,
-    "Sp Defence": 90,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 145, "Defence": 90 }
   },
   {
     "number": 610,
@@ -6705,9 +6096,8 @@
     "HP": 46,
     "Attack": 87,
     "Defence": 60,
-    "Sp Attack": 30,
-    "Sp Defence": 40,
-    "Speed": 57
+    "Speed": 57,
+    "Special": { "Attack": 30, "Defence": 40 }
   },
   {
     "number": 611,
@@ -6716,9 +6106,8 @@
     "HP": 66,
     "Attack": 117,
     "Defence": 70,
-    "Sp Attack": 40,
-    "Sp Defence": 50,
-    "Speed": 67
+    "Speed": 67,
+    "Special": { "Attack": 40, "Defence": 50 }
   },
   {
     "number": 612,
@@ -6727,9 +6116,8 @@
     "HP": 76,
     "Attack": 147,
     "Defence": 90,
-    "Sp Attack": 60,
-    "Sp Defence": 70,
-    "Speed": 97
+    "Speed": 97,
+    "Special": { "Attack": 60, "Defence": 70 }
   },
   {
     "number": 613,
@@ -6738,9 +6126,8 @@
     "HP": 55,
     "Attack": 70,
     "Defence": 40,
-    "Sp Attack": 60,
-    "Sp Defence": 40,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 60, "Defence": 40 }
   },
   {
     "number": 614,
@@ -6749,9 +6136,8 @@
     "HP": 95,
     "Attack": 130,
     "Defence": 80,
-    "Sp Attack": 70,
-    "Sp Defence": 80,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 70, "Defence": 80 }
   },
   {
     "number": 615,
@@ -6760,9 +6146,8 @@
     "HP": 80,
     "Attack": 50,
     "Defence": 50,
-    "Sp Attack": 95,
-    "Sp Defence": 135,
-    "Speed": 105
+    "Speed": 105,
+    "Special": { "Attack": 95, "Defence": 135 }
   },
   {
     "number": 616,
@@ -6771,9 +6156,8 @@
     "HP": 50,
     "Attack": 40,
     "Defence": 85,
-    "Sp Attack": 40,
-    "Sp Defence": 65,
-    "Speed": 25
+    "Speed": 25,
+    "Special": { "Attack": 40, "Defence": 65 }
   },
   {
     "number": 617,
@@ -6782,9 +6166,8 @@
     "HP": 80,
     "Attack": 70,
     "Defence": 40,
-    "Sp Attack": 100,
-    "Sp Defence": 60,
-    "Speed": 145
+    "Speed": 145,
+    "Special": { "Attack": 100, "Defence": 60 }
   },
   {
     "number": 618,
@@ -6793,9 +6176,8 @@
     "HP": 109,
     "Attack": 66,
     "Defence": 84,
-    "Sp Attack": 81,
-    "Sp Defence": 99,
-    "Speed": 32
+    "Speed": 32,
+    "Special": { "Attack": 81, "Defence": 99 }
   },
   {
     "number": 619,
@@ -6804,9 +6186,8 @@
     "HP": 45,
     "Attack": 85,
     "Defence": 50,
-    "Sp Attack": 55,
-    "Sp Defence": 50,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 55, "Defence": 50 }
   },
   {
     "number": 620,
@@ -6815,9 +6196,8 @@
     "HP": 65,
     "Attack": 125,
     "Defence": 60,
-    "Sp Attack": 95,
-    "Sp Defence": 60,
-    "Speed": 105
+    "Speed": 105,
+    "Special": { "Attack": 95, "Defence": 60 }
   },
   {
     "number": 621,
@@ -6826,9 +6206,8 @@
     "HP": 77,
     "Attack": 120,
     "Defence": 90,
-    "Sp Attack": 60,
-    "Sp Defence": 90,
-    "Speed": 48
+    "Speed": 48,
+    "Special": { "Attack": 60, "Defence": 90 }
   },
   {
     "number": 622,
@@ -6837,9 +6216,8 @@
     "HP": 59,
     "Attack": 74,
     "Defence": 50,
-    "Sp Attack": 35,
-    "Sp Defence": 50,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 35, "Defence": 50 }
   },
   {
     "number": 623,
@@ -6848,9 +6226,8 @@
     "HP": 89,
     "Attack": 124,
     "Defence": 80,
-    "Sp Attack": 55,
-    "Sp Defence": 80,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 55, "Defence": 80 }
   },
   {
     "number": 624,
@@ -6859,9 +6236,8 @@
     "HP": 45,
     "Attack": 85,
     "Defence": 70,
-    "Sp Attack": 40,
-    "Sp Defence": 40,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 40, "Defence": 40 }
   },
   {
     "number": 625,
@@ -6870,9 +6246,8 @@
     "HP": 65,
     "Attack": 125,
     "Defence": 100,
-    "Sp Attack": 60,
-    "Sp Defence": 70,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 60, "Defence": 70 }
   },
   {
     "number": 626,
@@ -6881,9 +6256,8 @@
     "HP": 95,
     "Attack": 110,
     "Defence": 95,
-    "Sp Attack": 40,
-    "Sp Defence": 95,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 40, "Defence": 95 }
   },
   {
     "number": 627,
@@ -6892,9 +6266,8 @@
     "HP": 70,
     "Attack": 83,
     "Defence": 50,
-    "Sp Attack": 37,
-    "Sp Defence": 50,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 37, "Defence": 50 }
   },
   {
     "number": 628,
@@ -6903,9 +6276,8 @@
     "HP": 100,
     "Attack": 123,
     "Defence": 75,
-    "Sp Attack": 57,
-    "Sp Defence": 75,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 57, "Defence": 75 }
   },
   {
     "number": 629,
@@ -6914,9 +6286,8 @@
     "HP": 70,
     "Attack": 55,
     "Defence": 75,
-    "Sp Attack": 45,
-    "Sp Defence": 65,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 45, "Defence": 65 }
   },
   {
     "number": 630,
@@ -6925,9 +6296,8 @@
     "HP": 110,
     "Attack": 65,
     "Defence": 105,
-    "Sp Attack": 55,
-    "Sp Defence": 95,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 55, "Defence": 95 }
   },
   {
     "number": 631,
@@ -6936,9 +6306,8 @@
     "HP": 85,
     "Attack": 97,
     "Defence": 66,
-    "Sp Attack": 105,
-    "Sp Defence": 66,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 105, "Defence": 66 }
   },
   {
     "number": 632,
@@ -6947,9 +6316,8 @@
     "HP": 58,
     "Attack": 109,
     "Defence": 112,
-    "Sp Attack": 48,
-    "Sp Defence": 48,
-    "Speed": 109
+    "Speed": 109,
+    "Special": { "Attack": 48, "Defence": 48 }
   },
   {
     "number": 633,
@@ -6958,9 +6326,8 @@
     "HP": 52,
     "Attack": 65,
     "Defence": 50,
-    "Sp Attack": 45,
-    "Sp Defence": 50,
-    "Speed": 38
+    "Speed": 38,
+    "Special": { "Attack": 45, "Defence": 50 }
   },
   {
     "number": 634,
@@ -6969,9 +6336,8 @@
     "HP": 72,
     "Attack": 85,
     "Defence": 70,
-    "Sp Attack": 65,
-    "Sp Defence": 70,
-    "Speed": 58
+    "Speed": 58,
+    "Special": { "Attack": 65, "Defence": 70 }
   },
   {
     "number": 635,
@@ -6980,9 +6346,8 @@
     "HP": 92,
     "Attack": 105,
     "Defence": 90,
-    "Sp Attack": 125,
-    "Sp Defence": 90,
-    "Speed": 98
+    "Speed": 98,
+    "Special": { "Attack": 125, "Defence": 90 }
   },
   {
     "number": 636,
@@ -6991,9 +6356,8 @@
     "HP": 55,
     "Attack": 85,
     "Defence": 55,
-    "Sp Attack": 50,
-    "Sp Defence": 55,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 50, "Defence": 55 }
   },
   {
     "number": 637,
@@ -7002,9 +6366,8 @@
     "HP": 85,
     "Attack": 60,
     "Defence": 65,
-    "Sp Attack": 135,
-    "Sp Defence": 105,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 135, "Defence": 105 }
   },
   {
     "number": 638,
@@ -7013,9 +6376,8 @@
     "HP": 91,
     "Attack": 90,
     "Defence": 129,
-    "Sp Attack": 90,
-    "Sp Defence": 72,
-    "Speed": 108
+    "Speed": 108,
+    "Special": { "Attack": 90, "Defence": 72 }
   },
   {
     "number": 639,
@@ -7024,9 +6386,8 @@
     "HP": 91,
     "Attack": 129,
     "Defence": 90,
-    "Sp Attack": 72,
-    "Sp Defence": 90,
-    "Speed": 108
+    "Speed": 108,
+    "Special": { "Attack": 72, "Defence": 90 }
   },
   {
     "number": 640,
@@ -7035,9 +6396,8 @@
     "HP": 91,
     "Attack": 90,
     "Defence": 72,
-    "Sp Attack": 90,
-    "Sp Defence": 129,
-    "Speed": 108
+    "Speed": 108,
+    "Special": { "Attack": 90, "Defence": 129 }
   },
   {
     "number": 641,
@@ -7046,9 +6406,8 @@
     "HP": 79,
     "Attack": 115,
     "Defence": 70,
-    "Sp Attack": 125,
-    "Sp Defence": 80,
-    "Speed": 111
+    "Speed": 111,
+    "Special": { "Attack": 125, "Defence": 80 }
   },
   {
     "number": 642,
@@ -7057,9 +6416,8 @@
     "HP": 79,
     "Attack": 115,
     "Defence": 70,
-    "Sp Attack": 125,
-    "Sp Defence": 80,
-    "Speed": 111
+    "Speed": 111,
+    "Special": { "Attack": 125, "Defence": 80 }
   },
   {
     "number": 643,
@@ -7068,9 +6426,8 @@
     "HP": 100,
     "Attack": 120,
     "Defence": 100,
-    "Sp Attack": 150,
-    "Sp Defence": 120,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 150, "Defence": 120 }
   },
   {
     "number": 644,
@@ -7079,9 +6436,8 @@
     "HP": 100,
     "Attack": 150,
     "Defence": 120,
-    "Sp Attack": 120,
-    "Sp Defence": 100,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 120, "Defence": 100 }
   },
   {
     "number": 645,
@@ -7090,9 +6446,8 @@
     "HP": 89,
     "Attack": 125,
     "Defence": 90,
-    "Sp Attack": 115,
-    "Sp Defence": 80,
-    "Speed": 101
+    "Speed": 101,
+    "Special": { "Attack": 115, "Defence": 80 }
   },
   {
     "number": 646,
@@ -7101,9 +6456,8 @@
     "HP": 125,
     "Attack": 130,
     "Defence": 90,
-    "Sp Attack": 130,
-    "Sp Defence": 90,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 130, "Defence": 90 }
   },
   {
     "number": 647,
@@ -7112,9 +6466,8 @@
     "HP": 91,
     "Attack": 72,
     "Defence": 90,
-    "Sp Attack": 129,
-    "Sp Defence": 90,
-    "Speed": 108
+    "Speed": 108,
+    "Special": { "Attack": 129, "Defence": 90 }
   },
   {
     "number": 648,
@@ -7123,9 +6476,8 @@
     "HP": 100,
     "Attack": 77,
     "Defence": 77,
-    "Sp Attack": 128,
-    "Sp Defence": 128,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 128, "Defence": 128 }
   },
   {
     "number": 649,
@@ -7134,9 +6486,8 @@
     "HP": 71,
     "Attack": 120,
     "Defence": 95,
-    "Sp Attack": 120,
-    "Sp Defence": 95,
-    "Speed": 99
+    "Speed": 99,
+    "Special": { "Attack": 120, "Defence": 95 }
   },
   {
     "number": 650,
@@ -7145,9 +6496,8 @@
     "HP": 56,
     "Attack": 61,
     "Defence": 65,
-    "Sp Attack": 48,
-    "Sp Defence": 45,
-    "Speed": 38
+    "Speed": 38,
+    "Special": { "Attack": 48, "Defence": 45 }
   },
   {
     "number": 651,
@@ -7156,9 +6506,8 @@
     "HP": 61,
     "Attack": 78,
     "Defence": 95,
-    "Sp Attack": 56,
-    "Sp Defence": 58,
-    "Speed": 57
+    "Speed": 57,
+    "Special": { "Attack": 56, "Defence": 58 }
   },
   {
     "number": 652,
@@ -7167,9 +6516,8 @@
     "HP": 88,
     "Attack": 107,
     "Defence": 122,
-    "Sp Attack": 74,
-    "Sp Defence": 75,
-    "Speed": 64
+    "Speed": 64,
+    "Special": { "Attack": 74, "Defence": 75 }
   },
   {
     "number": 653,
@@ -7178,9 +6526,8 @@
     "HP": 40,
     "Attack": 45,
     "Defence": 40,
-    "Sp Attack": 62,
-    "Sp Defence": 60,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 62, "Defence": 60 }
   },
   {
     "number": 654,
@@ -7189,9 +6536,8 @@
     "HP": 59,
     "Attack": 59,
     "Defence": 58,
-    "Sp Attack": 90,
-    "Sp Defence": 70,
-    "Speed": 73
+    "Speed": 73,
+    "Special": { "Attack": 90, "Defence": 70 }
   },
   {
     "number": 655,
@@ -7200,9 +6546,8 @@
     "HP": 75,
     "Attack": 69,
     "Defence": 72,
-    "Sp Attack": 114,
-    "Sp Defence": 100,
-    "Speed": 104
+    "Speed": 104,
+    "Special": { "Attack": 114, "Defence": 100 }
   },
   {
     "number": 656,
@@ -7211,9 +6556,8 @@
     "HP": 41,
     "Attack": 56,
     "Defence": 40,
-    "Sp Attack": 62,
-    "Sp Defence": 44,
-    "Speed": 71
+    "Speed": 71,
+    "Special": { "Attack": 62, "Defence": 44 }
   },
   {
     "number": 657,
@@ -7222,9 +6566,8 @@
     "HP": 54,
     "Attack": 63,
     "Defence": 52,
-    "Sp Attack": 83,
-    "Sp Defence": 56,
-    "Speed": 97
+    "Speed": 97,
+    "Special": { "Attack": 83, "Defence": 56 }
   },
   {
     "number": 658,
@@ -7233,9 +6576,8 @@
     "HP": 72,
     "Attack": 95,
     "Defence": 67,
-    "Sp Attack": 103,
-    "Sp Defence": 71,
-    "Speed": 122
+    "Speed": 122,
+    "Special": { "Attack": 103, "Defence": 71 }
   },
   {
     "number": 659,
@@ -7244,9 +6586,8 @@
     "HP": 38,
     "Attack": 36,
     "Defence": 38,
-    "Sp Attack": 32,
-    "Sp Defence": 36,
-    "Speed": 57
+    "Speed": 57,
+    "Special": { "Attack": 32, "Defence": 36 }
   },
   {
     "number": 660,
@@ -7255,9 +6596,8 @@
     "HP": 85,
     "Attack": 56,
     "Defence": 77,
-    "Sp Attack": 50,
-    "Sp Defence": 77,
-    "Speed": 78
+    "Speed": 78,
+    "Special": { "Attack": 50, "Defence": 77 }
   },
   {
     "number": 661,
@@ -7266,9 +6606,8 @@
     "HP": 45,
     "Attack": 50,
     "Defence": 43,
-    "Sp Attack": 40,
-    "Sp Defence": 38,
-    "Speed": 62
+    "Speed": 62,
+    "Special": { "Attack": 40, "Defence": 38 }
   },
   {
     "number": 662,
@@ -7277,9 +6616,8 @@
     "HP": 62,
     "Attack": 73,
     "Defence": 55,
-    "Sp Attack": 56,
-    "Sp Defence": 52,
-    "Speed": 84
+    "Speed": 84,
+    "Special": { "Attack": 56, "Defence": 52 }
   },
   {
     "number": 663,
@@ -7288,9 +6626,8 @@
     "HP": 78,
     "Attack": 81,
     "Defence": 71,
-    "Sp Attack": 74,
-    "Sp Defence": 69,
-    "Speed": 126
+    "Speed": 126,
+    "Special": { "Attack": 74, "Defence": 69 }
   },
   {
     "number": 664,
@@ -7299,9 +6636,8 @@
     "HP": 38,
     "Attack": 35,
     "Defence": 40,
-    "Sp Attack": 27,
-    "Sp Defence": 25,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 27, "Defence": 25 }
   },
   {
     "number": 665,
@@ -7310,9 +6646,8 @@
     "HP": 45,
     "Attack": 22,
     "Defence": 60,
-    "Sp Attack": 27,
-    "Sp Defence": 30,
-    "Speed": 29
+    "Speed": 29,
+    "Special": { "Attack": 27, "Defence": 30 }
   },
   {
     "number": 666,
@@ -7321,9 +6656,8 @@
     "HP": 80,
     "Attack": 52,
     "Defence": 50,
-    "Sp Attack": 90,
-    "Sp Defence": 50,
-    "Speed": 89
+    "Speed": 89,
+    "Special": { "Attack": 90, "Defence": 50 }
   },
   {
     "number": 667,
@@ -7332,9 +6666,8 @@
     "HP": 62,
     "Attack": 50,
     "Defence": 58,
-    "Sp Attack": 73,
-    "Sp Defence": 54,
-    "Speed": 72
+    "Speed": 72,
+    "Special": { "Attack": 73, "Defence": 54 }
   },
   {
     "number": 668,
@@ -7343,9 +6676,8 @@
     "HP": 86,
     "Attack": 68,
     "Defence": 72,
-    "Sp Attack": 109,
-    "Sp Defence": 66,
-    "Speed": 106
+    "Speed": 106,
+    "Special": { "Attack": 109, "Defence": 66 }
   },
   {
     "number": 669,
@@ -7354,9 +6686,8 @@
     "HP": 44,
     "Attack": 38,
     "Defence": 39,
-    "Sp Attack": 61,
-    "Sp Defence": 79,
-    "Speed": 42
+    "Speed": 42,
+    "Special": { "Attack": 61, "Defence": 79 }
   },
   {
     "number": 670,
@@ -7365,9 +6696,8 @@
     "HP": 54,
     "Attack": 45,
     "Defence": 47,
-    "Sp Attack": 75,
-    "Sp Defence": 98,
-    "Speed": 52
+    "Speed": 52,
+    "Special": { "Attack": 75, "Defence": 98 }
   },
   {
     "number": 671,
@@ -7376,9 +6706,8 @@
     "HP": 78,
     "Attack": 65,
     "Defence": 68,
-    "Sp Attack": 112,
-    "Sp Defence": 154,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 112, "Defence": 154 }
   },
   {
     "number": 672,
@@ -7387,9 +6716,8 @@
     "HP": 66,
     "Attack": 65,
     "Defence": 48,
-    "Sp Attack": 62,
-    "Sp Defence": 57,
-    "Speed": 52
+    "Speed": 52,
+    "Special": { "Attack": 62, "Defence": 57 }
   },
   {
     "number": 673,
@@ -7398,9 +6726,8 @@
     "HP": 123,
     "Attack": 100,
     "Defence": 62,
-    "Sp Attack": 97,
-    "Sp Defence": 81,
-    "Speed": 68
+    "Speed": 68,
+    "Special": { "Attack": 97, "Defence": 81 }
   },
   {
     "number": 674,
@@ -7409,9 +6736,8 @@
     "HP": 67,
     "Attack": 82,
     "Defence": 62,
-    "Sp Attack": 46,
-    "Sp Defence": 48,
-    "Speed": 43
+    "Speed": 43,
+    "Special": { "Attack": 46, "Defence": 48 }
   },
   {
     "number": 675,
@@ -7420,9 +6746,8 @@
     "HP": 95,
     "Attack": 124,
     "Defence": 78,
-    "Sp Attack": 69,
-    "Sp Defence": 71,
-    "Speed": 58
+    "Speed": 58,
+    "Special": { "Attack": 69, "Defence": 71 }
   },
   {
     "number": 676,
@@ -7431,9 +6756,8 @@
     "HP": 75,
     "Attack": 80,
     "Defence": 60,
-    "Sp Attack": 65,
-    "Sp Defence": 90,
-    "Speed": 102
+    "Speed": 102,
+    "Special": { "Attack": 65, "Defence": 90 }
   },
   {
     "number": 677,
@@ -7442,9 +6766,8 @@
     "HP": 62,
     "Attack": 48,
     "Defence": 54,
-    "Sp Attack": 63,
-    "Sp Defence": 60,
-    "Speed": 68
+    "Speed": 68,
+    "Special": { "Attack": 63, "Defence": 60 }
   },
   {
     "number": 678,
@@ -7453,9 +6776,8 @@
     "HP": 74,
     "Attack": 48,
     "Defence": 76,
-    "Sp Attack": 83,
-    "Sp Defence": 81,
-    "Speed": 104
+    "Speed": 104,
+    "Special": { "Attack": 83, "Defence": 81 }
   },
   {
     "number": 679,
@@ -7464,9 +6786,8 @@
     "HP": 45,
     "Attack": 80,
     "Defence": 100,
-    "Sp Attack": 35,
-    "Sp Defence": 37,
-    "Speed": 28
+    "Speed": 28,
+    "Special": { "Attack": 35, "Defence": 37 }
   },
   {
     "number": 680,
@@ -7475,9 +6796,8 @@
     "HP": 59,
     "Attack": 110,
     "Defence": 150,
-    "Sp Attack": 45,
-    "Sp Defence": 49,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 45, "Defence": 49 }
   },
   {
     "number": 681,
@@ -7486,9 +6806,8 @@
     "HP": 60,
     "Attack": 50,
     "Defence": 150,
-    "Sp Attack": 50,
-    "Sp Defence": 150,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 50, "Defence": 150 }
   },
   {
     "number": 682,
@@ -7497,9 +6816,8 @@
     "HP": 78,
     "Attack": 52,
     "Defence": 60,
-    "Sp Attack": 63,
-    "Sp Defence": 65,
-    "Speed": 23
+    "Speed": 23,
+    "Special": { "Attack": 63, "Defence": 65 }
   },
   {
     "number": 683,
@@ -7508,9 +6826,8 @@
     "HP": 101,
     "Attack": 72,
     "Defence": 72,
-    "Sp Attack": 99,
-    "Sp Defence": 89,
-    "Speed": 29
+    "Speed": 29,
+    "Special": { "Attack": 99, "Defence": 89 }
   },
   {
     "number": 684,
@@ -7519,9 +6836,8 @@
     "HP": 62,
     "Attack": 48,
     "Defence": 66,
-    "Sp Attack": 59,
-    "Sp Defence": 57,
-    "Speed": 49
+    "Speed": 49,
+    "Special": { "Attack": 59, "Defence": 57 }
   },
   {
     "number": 685,
@@ -7530,9 +6846,8 @@
     "HP": 82,
     "Attack": 80,
     "Defence": 86,
-    "Sp Attack": 85,
-    "Sp Defence": 75,
-    "Speed": 72
+    "Speed": 72,
+    "Special": { "Attack": 85, "Defence": 75 }
   },
   {
     "number": 686,
@@ -7541,9 +6856,8 @@
     "HP": 53,
     "Attack": 54,
     "Defence": 53,
-    "Sp Attack": 37,
-    "Sp Defence": 46,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 37, "Defence": 46 }
   },
   {
     "number": 687,
@@ -7552,9 +6866,8 @@
     "HP": 86,
     "Attack": 92,
     "Defence": 88,
-    "Sp Attack": 68,
-    "Sp Defence": 75,
-    "Speed": 73
+    "Speed": 73,
+    "Special": { "Attack": 68, "Defence": 75 }
   },
   {
     "number": 688,
@@ -7563,9 +6876,8 @@
     "HP": 42,
     "Attack": 52,
     "Defence": 67,
-    "Sp Attack": 39,
-    "Sp Defence": 56,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 39, "Defence": 56 }
   },
   {
     "number": 689,
@@ -7574,9 +6886,8 @@
     "HP": 72,
     "Attack": 105,
     "Defence": 115,
-    "Sp Attack": 54,
-    "Sp Defence": 86,
-    "Speed": 68
+    "Speed": 68,
+    "Special": { "Attack": 54, "Defence": 86 }
   },
   {
     "number": 690,
@@ -7585,9 +6896,8 @@
     "HP": 50,
     "Attack": 60,
     "Defence": 60,
-    "Sp Attack": 60,
-    "Sp Defence": 60,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 60, "Defence": 60 }
   },
   {
     "number": 691,
@@ -7596,9 +6906,8 @@
     "HP": 65,
     "Attack": 75,
     "Defence": 90,
-    "Sp Attack": 97,
-    "Sp Defence": 123,
-    "Speed": 44
+    "Speed": 44,
+    "Special": { "Attack": 97, "Defence": 123 }
   },
   {
     "number": 692,
@@ -7607,9 +6916,8 @@
     "HP": 50,
     "Attack": 53,
     "Defence": 62,
-    "Sp Attack": 58,
-    "Sp Defence": 63,
-    "Speed": 44
+    "Speed": 44,
+    "Special": { "Attack": 58, "Defence": 63 }
   },
   {
     "number": 693,
@@ -7618,9 +6926,8 @@
     "HP": 71,
     "Attack": 73,
     "Defence": 88,
-    "Sp Attack": 120,
-    "Sp Defence": 89,
-    "Speed": 59
+    "Speed": 59,
+    "Special": { "Attack": 120, "Defence": 89 }
   },
   {
     "number": 694,
@@ -7629,9 +6936,8 @@
     "HP": 44,
     "Attack": 38,
     "Defence": 33,
-    "Sp Attack": 61,
-    "Sp Defence": 43,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 61, "Defence": 43 }
   },
   {
     "number": 695,
@@ -7640,9 +6946,8 @@
     "HP": 62,
     "Attack": 55,
     "Defence": 52,
-    "Sp Attack": 109,
-    "Sp Defence": 94,
-    "Speed": 109
+    "Speed": 109,
+    "Special": { "Attack": 109, "Defence": 94 }
   },
   {
     "number": 696,
@@ -7651,9 +6956,8 @@
     "HP": 58,
     "Attack": 89,
     "Defence": 77,
-    "Sp Attack": 45,
-    "Sp Defence": 45,
-    "Speed": 48
+    "Speed": 48,
+    "Special": { "Attack": 45, "Defence": 45 }
   },
   {
     "number": 697,
@@ -7662,9 +6966,8 @@
     "HP": 82,
     "Attack": 121,
     "Defence": 119,
-    "Sp Attack": 69,
-    "Sp Defence": 59,
-    "Speed": 71
+    "Speed": 71,
+    "Special": { "Attack": 69, "Defence": 59 }
   },
   {
     "number": 698,
@@ -7673,9 +6976,8 @@
     "HP": 77,
     "Attack": 59,
     "Defence": 50,
-    "Sp Attack": 67,
-    "Sp Defence": 63,
-    "Speed": 46
+    "Speed": 46,
+    "Special": { "Attack": 67, "Defence": 63 }
   },
   {
     "number": 699,
@@ -7684,9 +6986,8 @@
     "HP": 123,
     "Attack": 77,
     "Defence": 72,
-    "Sp Attack": 99,
-    "Sp Defence": 92,
-    "Speed": 58
+    "Speed": 58,
+    "Special": { "Attack": 99, "Defence": 92 }
   },
   {
     "number": 700,
@@ -7695,9 +6996,8 @@
     "HP": 95,
     "Attack": 65,
     "Defence": 65,
-    "Sp Attack": 110,
-    "Sp Defence": 130,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 110, "Defence": 130 }
   },
   {
     "number": 701,
@@ -7706,9 +7006,8 @@
     "HP": 78,
     "Attack": 92,
     "Defence": 75,
-    "Sp Attack": 74,
-    "Sp Defence": 63,
-    "Speed": 118
+    "Speed": 118,
+    "Special": { "Attack": 74, "Defence": 63 }
   },
   {
     "number": 702,
@@ -7717,9 +7016,8 @@
     "HP": 67,
     "Attack": 58,
     "Defence": 57,
-    "Sp Attack": 81,
-    "Sp Defence": 67,
-    "Speed": 101
+    "Speed": 101,
+    "Special": { "Attack": 81, "Defence": 67 }
   },
   {
     "number": 703,
@@ -7728,9 +7026,8 @@
     "HP": 50,
     "Attack": 50,
     "Defence": 150,
-    "Sp Attack": 50,
-    "Sp Defence": 150,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 50, "Defence": 150 }
   },
   {
     "number": 704,
@@ -7739,9 +7036,8 @@
     "HP": 45,
     "Attack": 50,
     "Defence": 35,
-    "Sp Attack": 55,
-    "Sp Defence": 75,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 55, "Defence": 75 }
   },
   {
     "number": 705,
@@ -7750,9 +7046,8 @@
     "HP": 68,
     "Attack": 75,
     "Defence": 53,
-    "Sp Attack": 83,
-    "Sp Defence": 113,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 83, "Defence": 113 }
   },
   {
     "number": 706,
@@ -7761,9 +7056,8 @@
     "HP": 90,
     "Attack": 100,
     "Defence": 70,
-    "Sp Attack": 110,
-    "Sp Defence": 150,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 110, "Defence": 150 }
   },
   {
     "number": 707,
@@ -7772,9 +7066,8 @@
     "HP": 57,
     "Attack": 80,
     "Defence": 91,
-    "Sp Attack": 80,
-    "Sp Defence": 87,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 80, "Defence": 87 }
   },
   {
     "number": 708,
@@ -7783,9 +7076,8 @@
     "HP": 43,
     "Attack": 70,
     "Defence": 48,
-    "Sp Attack": 50,
-    "Sp Defence": 60,
-    "Speed": 38
+    "Speed": 38,
+    "Special": { "Attack": 50, "Defence": 60 }
   },
   {
     "number": 709,
@@ -7794,9 +7086,8 @@
     "HP": 85,
     "Attack": 110,
     "Defence": 76,
-    "Sp Attack": 65,
-    "Sp Defence": 82,
-    "Speed": 56
+    "Speed": 56,
+    "Special": { "Attack": 65, "Defence": 82 }
   },
   {
     "number": 710,
@@ -7805,9 +7096,8 @@
     "HP": 59,
     "Attack": 66,
     "Defence": 70,
-    "Sp Attack": 44,
-    "Sp Defence": 55,
-    "Speed": 41
+    "Speed": 41,
+    "Special": { "Attack": 44, "Defence": 55 }
   },
   {
     "number": 711,
@@ -7816,9 +7106,8 @@
     "HP": 85,
     "Attack": 100,
     "Defence": 122,
-    "Sp Attack": 58,
-    "Sp Defence": 75,
-    "Speed": 54
+    "Speed": 54,
+    "Special": { "Attack": 58, "Defence": 75 }
   },
   {
     "number": 712,
@@ -7827,9 +7116,8 @@
     "HP": 55,
     "Attack": 69,
     "Defence": 85,
-    "Sp Attack": 32,
-    "Sp Defence": 35,
-    "Speed": 28
+    "Speed": 28,
+    "Special": { "Attack": 32, "Defence": 35 }
   },
   {
     "number": 713,
@@ -7838,9 +7126,8 @@
     "HP": 95,
     "Attack": 117,
     "Defence": 184,
-    "Sp Attack": 44,
-    "Sp Defence": 46,
-    "Speed": 28
+    "Speed": 28,
+    "Special": { "Attack": 44, "Defence": 46 }
   },
   {
     "number": 714,
@@ -7849,9 +7136,8 @@
     "HP": 40,
     "Attack": 30,
     "Defence": 35,
-    "Sp Attack": 45,
-    "Sp Defence": 40,
-    "Speed": 55
+    "Speed": 55,
+    "Special": { "Attack": 45, "Defence": 40 }
   },
   {
     "number": 715,
@@ -7860,9 +7146,8 @@
     "HP": 85,
     "Attack": 70,
     "Defence": 80,
-    "Sp Attack": 97,
-    "Sp Defence": 80,
-    "Speed": 123
+    "Speed": 123,
+    "Special": { "Attack": 97, "Defence": 80 }
   },
   {
     "number": 716,
@@ -7871,9 +7156,8 @@
     "HP": 126,
     "Attack": 131,
     "Defence": 95,
-    "Sp Attack": 131,
-    "Sp Defence": 98,
-    "Speed": 99
+    "Speed": 99,
+    "Special": { "Attack": 131, "Defence": 98 }
   },
   {
     "number": 717,
@@ -7882,9 +7166,8 @@
     "HP": 126,
     "Attack": 131,
     "Defence": 95,
-    "Sp Attack": 131,
-    "Sp Defence": 98,
-    "Speed": 99
+    "Speed": 99,
+    "Special": { "Attack": 131, "Defence": 98 }
   },
   {
     "number": 718,
@@ -7893,9 +7176,8 @@
     "HP": 108,
     "Attack": 100,
     "Defence": 121,
-    "Sp Attack": 81,
-    "Sp Defence": 95,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 81, "Defence": 95 }
   },
   {
     "number": 719,
@@ -7904,9 +7186,8 @@
     "HP": 50,
     "Attack": 100,
     "Defence": 150,
-    "Sp Attack": 100,
-    "Sp Defence": 150,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 100, "Defence": 150 }
   },
   {
     "number": 720,
@@ -7915,9 +7196,8 @@
     "HP": 80,
     "Attack": 110,
     "Defence": 60,
-    "Sp Attack": 150,
-    "Sp Defence": 130,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 150, "Defence": 130 }
   },
   {
     "number": 721,
@@ -7926,9 +7206,8 @@
     "HP": 80,
     "Attack": 110,
     "Defence": 120,
-    "Sp Attack": 130,
-    "Sp Defence": 90,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 130, "Defence": 90 }
   },
   {
     "number": 722,
@@ -7937,9 +7216,8 @@
     "HP": 68,
     "Attack": 55,
     "Defence": 55,
-    "Sp Attack": 50,
-    "Sp Defence": 50,
-    "Speed": 42
+    "Speed": 42,
+    "Special": { "Attack": 50, "Defence": 50 }
   },
   {
     "number": 723,
@@ -7948,9 +7226,8 @@
     "HP": 78,
     "Attack": 75,
     "Defence": 75,
-    "Sp Attack": 70,
-    "Sp Defence": 70,
-    "Speed": 52
+    "Speed": 52,
+    "Special": { "Attack": 70, "Defence": 70 }
   },
   {
     "number": 724,
@@ -7959,9 +7236,8 @@
     "HP": 78,
     "Attack": 107,
     "Defence": 75,
-    "Sp Attack": 100,
-    "Sp Defence": 100,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 100, "Defence": 100 }
   },
   {
     "number": 725,
@@ -7970,9 +7246,8 @@
     "HP": 45,
     "Attack": 65,
     "Defence": 40,
-    "Sp Attack": 60,
-    "Sp Defence": 40,
-    "Speed": 70
+    "Speed": 70,
+    "Special": { "Attack": 60, "Defence": 40 }
   },
   {
     "number": 726,
@@ -7981,9 +7256,8 @@
     "HP": 65,
     "Attack": 85,
     "Defence": 50,
-    "Sp Attack": 80,
-    "Sp Defence": 50,
-    "Speed": 90
+    "Speed": 90,
+    "Special": { "Attack": 80, "Defence": 50 }
   },
   {
     "number": 727,
@@ -7992,9 +7266,8 @@
     "HP": 95,
     "Attack": 115,
     "Defence": 90,
-    "Sp Attack": 80,
-    "Sp Defence": 90,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 80, "Defence": 90 }
   },
   {
     "number": 728,
@@ -8003,9 +7276,8 @@
     "HP": 50,
     "Attack": 54,
     "Defence": 54,
-    "Sp Attack": 66,
-    "Sp Defence": 56,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 66, "Defence": 56 }
   },
   {
     "number": 729,
@@ -8014,9 +7286,8 @@
     "HP": 60,
     "Attack": 69,
     "Defence": 69,
-    "Sp Attack": 91,
-    "Sp Defence": 81,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 91, "Defence": 81 }
   },
   {
     "number": 730,
@@ -8025,9 +7296,8 @@
     "HP": 80,
     "Attack": 74,
     "Defence": 74,
-    "Sp Attack": 126,
-    "Sp Defence": 116,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 126, "Defence": 116 }
   },
   {
     "number": 731,
@@ -8036,9 +7306,8 @@
     "HP": 35,
     "Attack": 75,
     "Defence": 30,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 732,
@@ -8047,9 +7316,8 @@
     "HP": 55,
     "Attack": 85,
     "Defence": 50,
-    "Sp Attack": 40,
-    "Sp Defence": 50,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 40, "Defence": 50 }
   },
   {
     "number": 733,
@@ -8058,9 +7326,8 @@
     "HP": 80,
     "Attack": 120,
     "Defence": 75,
-    "Sp Attack": 75,
-    "Sp Defence": 75,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 75, "Defence": 75 }
   },
   {
     "number": 734,
@@ -8069,9 +7336,8 @@
     "HP": 48,
     "Attack": 70,
     "Defence": 30,
-    "Sp Attack": 30,
-    "Sp Defence": 30,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 30, "Defence": 30 }
   },
   {
     "number": 735,
@@ -8080,9 +7346,8 @@
     "HP": 88,
     "Attack": 110,
     "Defence": 60,
-    "Sp Attack": 55,
-    "Sp Defence": 60,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 55, "Defence": 60 }
   },
   {
     "number": 736,
@@ -8091,9 +7356,8 @@
     "HP": 47,
     "Attack": 62,
     "Defence": 45,
-    "Sp Attack": 55,
-    "Sp Defence": 45,
-    "Speed": 46
+    "Speed": 46,
+    "Special": { "Attack": 55, "Defence": 45 }
   },
   {
     "number": 737,
@@ -8102,9 +7366,8 @@
     "HP": 57,
     "Attack": 82,
     "Defence": 95,
-    "Sp Attack": 55,
-    "Sp Defence": 75,
-    "Speed": 36
+    "Speed": 36,
+    "Special": { "Attack": 55, "Defence": 75 }
   },
   {
     "number": 738,
@@ -8113,9 +7376,8 @@
     "HP": 77,
     "Attack": 70,
     "Defence": 90,
-    "Sp Attack": 145,
-    "Sp Defence": 75,
-    "Speed": 43
+    "Speed": 43,
+    "Special": { "Attack": 145, "Defence": 75 }
   },
   {
     "number": 739,
@@ -8124,9 +7386,8 @@
     "HP": 47,
     "Attack": 82,
     "Defence": 57,
-    "Sp Attack": 42,
-    "Sp Defence": 47,
-    "Speed": 63
+    "Speed": 63,
+    "Special": { "Attack": 42, "Defence": 47 }
   },
   {
     "number": 740,
@@ -8135,9 +7396,8 @@
     "HP": 97,
     "Attack": 132,
     "Defence": 77,
-    "Sp Attack": 62,
-    "Sp Defence": 67,
-    "Speed": 43
+    "Speed": 43,
+    "Special": { "Attack": 62, "Defence": 67 }
   },
   {
     "number": 741,
@@ -8146,9 +7406,8 @@
     "HP": 75,
     "Attack": 70,
     "Defence": 70,
-    "Sp Attack": 98,
-    "Sp Defence": 70,
-    "Speed": 93
+    "Speed": 93,
+    "Special": { "Attack": 98, "Defence": 70 }
   },
   {
     "number": 742,
@@ -8157,9 +7416,8 @@
     "HP": 40,
     "Attack": 45,
     "Defence": 40,
-    "Sp Attack": 55,
-    "Sp Defence": 40,
-    "Speed": 84
+    "Speed": 84,
+    "Special": { "Attack": 55, "Defence": 40 }
   },
   {
     "number": 743,
@@ -8168,9 +7426,8 @@
     "HP": 60,
     "Attack": 55,
     "Defence": 60,
-    "Sp Attack": 95,
-    "Sp Defence": 70,
-    "Speed": 124
+    "Speed": 124,
+    "Special": { "Attack": 95, "Defence": 70 }
   },
   {
     "number": 744,
@@ -8179,9 +7436,8 @@
     "HP": 45,
     "Attack": 65,
     "Defence": 40,
-    "Sp Attack": 30,
-    "Sp Defence": 40,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 30, "Defence": 40 }
   },
   {
     "number": 745,
@@ -8190,9 +7446,8 @@
     "HP": 75,
     "Attack": 115,
     "Defence": 65,
-    "Sp Attack": 55,
-    "Sp Defence": 65,
-    "Speed": 112
+    "Speed": 112,
+    "Special": { "Attack": 55, "Defence": 65 }
   },
   {
     "number": 746,
@@ -8201,9 +7456,8 @@
     "HP": 45,
     "Attack": 20,
     "Defence": 20,
-    "Sp Attack": 25,
-    "Sp Defence": 25,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 25, "Defence": 25 }
   },
   {
     "number": 747,
@@ -8212,9 +7466,8 @@
     "HP": 50,
     "Attack": 53,
     "Defence": 62,
-    "Sp Attack": 43,
-    "Sp Defence": 52,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 43, "Defence": 52 }
   },
   {
     "number": 748,
@@ -8223,9 +7476,8 @@
     "HP": 50,
     "Attack": 63,
     "Defence": 152,
-    "Sp Attack": 53,
-    "Sp Defence": 142,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 53, "Defence": 142 }
   },
   {
     "number": 749,
@@ -8234,9 +7486,8 @@
     "HP": 70,
     "Attack": 100,
     "Defence": 70,
-    "Sp Attack": 45,
-    "Sp Defence": 55,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 45, "Defence": 55 }
   },
   {
     "number": 750,
@@ -8245,9 +7496,8 @@
     "HP": 100,
     "Attack": 125,
     "Defence": 100,
-    "Sp Attack": 55,
-    "Sp Defence": 85,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 55, "Defence": 85 }
   },
   {
     "number": 751,
@@ -8256,9 +7506,8 @@
     "HP": 38,
     "Attack": 40,
     "Defence": 52,
-    "Sp Attack": 40,
-    "Sp Defence": 72,
-    "Speed": 27
+    "Speed": 27,
+    "Special": { "Attack": 40, "Defence": 72 }
   },
   {
     "number": 752,
@@ -8267,9 +7516,8 @@
     "HP": 68,
     "Attack": 70,
     "Defence": 92,
-    "Sp Attack": 50,
-    "Sp Defence": 132,
-    "Speed": 42
+    "Speed": 42,
+    "Special": { "Attack": 50, "Defence": 132 }
   },
   {
     "number": 753,
@@ -8278,9 +7526,8 @@
     "HP": 40,
     "Attack": 55,
     "Defence": 35,
-    "Sp Attack": 50,
-    "Sp Defence": 35,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 50, "Defence": 35 }
   },
   {
     "number": 754,
@@ -8289,9 +7536,8 @@
     "HP": 70,
     "Attack": 105,
     "Defence": 90,
-    "Sp Attack": 80,
-    "Sp Defence": 90,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 80, "Defence": 90 }
   },
   {
     "number": 755,
@@ -8300,9 +7546,8 @@
     "HP": 40,
     "Attack": 35,
     "Defence": 55,
-    "Sp Attack": 65,
-    "Sp Defence": 75,
-    "Speed": 15
+    "Speed": 15,
+    "Special": { "Attack": 65, "Defence": 75 }
   },
   {
     "number": 756,
@@ -8311,9 +7556,8 @@
     "HP": 60,
     "Attack": 45,
     "Defence": 80,
-    "Sp Attack": 90,
-    "Sp Defence": 100,
-    "Speed": 30
+    "Speed": 30,
+    "Special": { "Attack": 90, "Defence": 100 }
   },
   {
     "number": 757,
@@ -8322,9 +7566,8 @@
     "HP": 48,
     "Attack": 44,
     "Defence": 40,
-    "Sp Attack": 71,
-    "Sp Defence": 40,
-    "Speed": 77
+    "Speed": 77,
+    "Special": { "Attack": 71, "Defence": 40 }
   },
   {
     "number": 758,
@@ -8333,9 +7576,8 @@
     "HP": 68,
     "Attack": 64,
     "Defence": 60,
-    "Sp Attack": 111,
-    "Sp Defence": 60,
-    "Speed": 117
+    "Speed": 117,
+    "Special": { "Attack": 111, "Defence": 60 }
   },
   {
     "number": 759,
@@ -8344,9 +7586,8 @@
     "HP": 70,
     "Attack": 75,
     "Defence": 50,
-    "Sp Attack": 45,
-    "Sp Defence": 50,
-    "Speed": 50
+    "Speed": 50,
+    "Special": { "Attack": 45, "Defence": 50 }
   },
   {
     "number": 760,
@@ -8355,9 +7596,8 @@
     "HP": 120,
     "Attack": 125,
     "Defence": 80,
-    "Sp Attack": 55,
-    "Sp Defence": 60,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 55, "Defence": 60 }
   },
   {
     "number": 761,
@@ -8366,9 +7606,8 @@
     "HP": 42,
     "Attack": 30,
     "Defence": 38,
-    "Sp Attack": 30,
-    "Sp Defence": 38,
-    "Speed": 32
+    "Speed": 32,
+    "Special": { "Attack": 30, "Defence": 38 }
   },
   {
     "number": 762,
@@ -8377,9 +7616,8 @@
     "HP": 52,
     "Attack": 40,
     "Defence": 48,
-    "Sp Attack": 40,
-    "Sp Defence": 48,
-    "Speed": 62
+    "Speed": 62,
+    "Special": { "Attack": 40, "Defence": 48 }
   },
   {
     "number": 763,
@@ -8388,9 +7626,8 @@
     "HP": 72,
     "Attack": 120,
     "Defence": 98,
-    "Sp Attack": 50,
-    "Sp Defence": 98,
-    "Speed": 72
+    "Speed": 72,
+    "Special": { "Attack": 50, "Defence": 98 }
   },
   {
     "number": 764,
@@ -8399,9 +7636,8 @@
     "HP": 51,
     "Attack": 52,
     "Defence": 90,
-    "Sp Attack": 82,
-    "Sp Defence": 110,
-    "Speed": 100
+    "Speed": 100,
+    "Special": { "Attack": 82, "Defence": 110 }
   },
   {
     "number": 765,
@@ -8410,9 +7646,8 @@
     "HP": 90,
     "Attack": 60,
     "Defence": 80,
-    "Sp Attack": 90,
-    "Sp Defence": 110,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 90, "Defence": 110 }
   },
   {
     "number": 766,
@@ -8421,9 +7656,8 @@
     "HP": 100,
     "Attack": 120,
     "Defence": 90,
-    "Sp Attack": 40,
-    "Sp Defence": 60,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 40, "Defence": 60 }
   },
   {
     "number": 767,
@@ -8432,9 +7666,8 @@
     "HP": 25,
     "Attack": 35,
     "Defence": 40,
-    "Sp Attack": 20,
-    "Sp Defence": 30,
-    "Speed": 80
+    "Speed": 80,
+    "Special": { "Attack": 20, "Defence": 30 }
   },
   {
     "number": 768,
@@ -8443,9 +7676,8 @@
     "HP": 75,
     "Attack": 125,
     "Defence": 140,
-    "Sp Attack": 60,
-    "Sp Defence": 90,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 60, "Defence": 90 }
   },
   {
     "number": 769,
@@ -8454,9 +7686,8 @@
     "HP": 55,
     "Attack": 55,
     "Defence": 80,
-    "Sp Attack": 70,
-    "Sp Defence": 45,
-    "Speed": 15
+    "Speed": 15,
+    "Special": { "Attack": 70, "Defence": 45 }
   },
   {
     "number": 770,
@@ -8465,9 +7696,8 @@
     "HP": 85,
     "Attack": 75,
     "Defence": 110,
-    "Sp Attack": 100,
-    "Sp Defence": 75,
-    "Speed": 35
+    "Speed": 35,
+    "Special": { "Attack": 100, "Defence": 75 }
   },
   {
     "number": 771,
@@ -8476,9 +7706,8 @@
     "HP": 55,
     "Attack": 60,
     "Defence": 130,
-    "Sp Attack": 30,
-    "Sp Defence": 130,
-    "Speed": 5
+    "Speed": 5,
+    "Special": { "Attack": 30, "Defence": 130 }
   },
   {
     "number": 772,
@@ -8487,9 +7716,8 @@
     "HP": 95,
     "Attack": 95,
     "Defence": 95,
-    "Sp Attack": 95,
-    "Sp Defence": 95,
-    "Speed": 59
+    "Speed": 59,
+    "Special": { "Attack": 95, "Defence": 95 }
   },
   {
     "number": 773,
@@ -8498,9 +7726,8 @@
     "HP": 95,
     "Attack": 95,
     "Defence": 95,
-    "Sp Attack": 95,
-    "Sp Defence": 95,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 95, "Defence": 95 }
   },
   {
     "number": 774,
@@ -8509,9 +7736,8 @@
     "HP": 60,
     "Attack": 60,
     "Defence": 100,
-    "Sp Attack": 60,
-    "Sp Defence": 100,
-    "Speed": 60
+    "Speed": 60,
+    "Special": { "Attack": 60, "Defence": 100 }
   },
   {
     "number": 775,
@@ -8520,9 +7746,8 @@
     "HP": 65,
     "Attack": 115,
     "Defence": 65,
-    "Sp Attack": 75,
-    "Sp Defence": 95,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 75, "Defence": 95 }
   },
   {
     "number": 776,
@@ -8531,9 +7756,8 @@
     "HP": 60,
     "Attack": 78,
     "Defence": 135,
-    "Sp Attack": 91,
-    "Sp Defence": 85,
-    "Speed": 36
+    "Speed": 36,
+    "Special": { "Attack": 91, "Defence": 85 }
   },
   {
     "number": 777,
@@ -8542,9 +7766,8 @@
     "HP": 65,
     "Attack": 98,
     "Defence": 63,
-    "Sp Attack": 40,
-    "Sp Defence": 73,
-    "Speed": 96
+    "Speed": 96,
+    "Special": { "Attack": 40, "Defence": 73 }
   },
   {
     "number": 778,
@@ -8553,9 +7776,8 @@
     "HP": 55,
     "Attack": 90,
     "Defence": 80,
-    "Sp Attack": 50,
-    "Sp Defence": 105,
-    "Speed": 96
+    "Speed": 96,
+    "Special": { "Attack": 50, "Defence": 105 }
   },
   {
     "number": 779,
@@ -8564,9 +7786,8 @@
     "HP": 68,
     "Attack": 105,
     "Defence": 70,
-    "Sp Attack": 70,
-    "Sp Defence": 70,
-    "Speed": 92
+    "Speed": 92,
+    "Special": { "Attack": 70, "Defence": 70 }
   },
   {
     "number": 780,
@@ -8575,9 +7796,8 @@
     "HP": 78,
     "Attack": 60,
     "Defence": 85,
-    "Sp Attack": 135,
-    "Sp Defence": 91,
-    "Speed": 36
+    "Speed": 36,
+    "Special": { "Attack": 135, "Defence": 91 }
   },
   {
     "number": 781,
@@ -8586,9 +7806,8 @@
     "HP": 70,
     "Attack": 131,
     "Defence": 100,
-    "Sp Attack": 86,
-    "Sp Defence": 90,
-    "Speed": 40
+    "Speed": 40,
+    "Special": { "Attack": 86, "Defence": 90 }
   },
   {
     "number": 782,
@@ -8597,9 +7816,8 @@
     "HP": 45,
     "Attack": 55,
     "Defence": 65,
-    "Sp Attack": 45,
-    "Sp Defence": 45,
-    "Speed": 45
+    "Speed": 45,
+    "Special": { "Attack": 45, "Defence": 45 }
   },
   {
     "number": 783,
@@ -8608,9 +7826,8 @@
     "HP": 55,
     "Attack": 75,
     "Defence": 90,
-    "Sp Attack": 65,
-    "Sp Defence": 70,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 65, "Defence": 70 }
   },
   {
     "number": 784,
@@ -8619,9 +7836,8 @@
     "HP": 75,
     "Attack": 110,
     "Defence": 125,
-    "Sp Attack": 100,
-    "Sp Defence": 105,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 100, "Defence": 105 }
   },
   {
     "number": 785,
@@ -8630,9 +7846,8 @@
     "HP": 70,
     "Attack": 115,
     "Defence": 85,
-    "Sp Attack": 95,
-    "Sp Defence": 75,
-    "Speed": 130
+    "Speed": 130,
+    "Special": { "Attack": 95, "Defence": 75 }
   },
   {
     "number": 786,
@@ -8641,9 +7856,8 @@
     "HP": 70,
     "Attack": 85,
     "Defence": 75,
-    "Sp Attack": 130,
-    "Sp Defence": 115,
-    "Speed": 95
+    "Speed": 95,
+    "Special": { "Attack": 130, "Defence": 115 }
   },
   {
     "number": 787,
@@ -8652,9 +7866,8 @@
     "HP": 70,
     "Attack": 130,
     "Defence": 115,
-    "Sp Attack": 85,
-    "Sp Defence": 95,
-    "Speed": 75
+    "Speed": 75,
+    "Special": { "Attack": 85, "Defence": 95 }
   },
   {
     "number": 788,
@@ -8663,9 +7876,8 @@
     "HP": 70,
     "Attack": 75,
     "Defence": 115,
-    "Sp Attack": 95,
-    "Sp Defence": 130,
-    "Speed": 85
+    "Speed": 85,
+    "Special": { "Attack": 95, "Defence": 130 }
   },
   {
     "number": 789,
@@ -8674,9 +7886,8 @@
     "HP": 43,
     "Attack": 29,
     "Defence": 31,
-    "Sp Attack": 29,
-    "Sp Defence": 31,
-    "Speed": 37
+    "Speed": 37,
+    "Special": { "Attack": 29, "Defence": 31 }
   },
   {
     "number": 790,
@@ -8685,9 +7896,8 @@
     "HP": 43,
     "Attack": 29,
     "Defence": 131,
-    "Sp Attack": 29,
-    "Sp Defence": 131,
-    "Speed": 37
+    "Speed": 37,
+    "Special": { "Attack": 29, "Defence": 131 }
   },
   {
     "number": 791,
@@ -8696,9 +7906,8 @@
     "HP": 137,
     "Attack": 137,
     "Defence": 107,
-    "Sp Attack": 113,
-    "Sp Defence": 89,
-    "Speed": 97
+    "Speed": 97,
+    "Special": { "Attack": 113, "Defence": 89 }
   },
   {
     "number": 792,
@@ -8707,9 +7916,8 @@
     "HP": 137,
     "Attack": 113,
     "Defence": 89,
-    "Sp Attack": 137,
-    "Sp Defence": 107,
-    "Speed": 97
+    "Speed": 97,
+    "Special": { "Attack": 137, "Defence": 107 }
   },
   {
     "number": 793,
@@ -8718,9 +7926,8 @@
     "HP": 109,
     "Attack": 53,
     "Defence": 47,
-    "Sp Attack": 127,
-    "Sp Defence": 131,
-    "Speed": 103
+    "Speed": 103,
+    "Special": { "Attack": 127, "Defence": 131 }
   },
   {
     "number": 794,
@@ -8729,9 +7936,8 @@
     "HP": 107,
     "Attack": 139,
     "Defence": 139,
-    "Sp Attack": 53,
-    "Sp Defence": 53,
-    "Speed": 79
+    "Speed": 79,
+    "Special": { "Attack": 53, "Defence": 53 }
   },
   {
     "number": 795,
@@ -8740,9 +7946,8 @@
     "HP": 71,
     "Attack": 137,
     "Defence": 37,
-    "Sp Attack": 137,
-    "Sp Defence": 37,
-    "Speed": 151
+    "Speed": 151,
+    "Special": { "Attack": 137, "Defence": 37 }
   },
   {
     "number": 796,
@@ -8751,9 +7956,8 @@
     "HP": 83,
     "Attack": 89,
     "Defence": 71,
-    "Sp Attack": 173,
-    "Sp Defence": 71,
-    "Speed": 83
+    "Speed": 83,
+    "Special": { "Attack": 173, "Defence": 71 }
   },
   {
     "number": 797,
@@ -8762,9 +7966,8 @@
     "HP": 97,
     "Attack": 101,
     "Defence": 103,
-    "Sp Attack": 107,
-    "Sp Defence": 101,
-    "Speed": 61
+    "Speed": 61,
+    "Special": { "Attack": 107, "Defence": 101 }
   },
   {
     "number": 798,
@@ -8773,9 +7976,8 @@
     "HP": 59,
     "Attack": 181,
     "Defence": 131,
-    "Sp Attack": 59,
-    "Sp Defence": 31,
-    "Speed": 109
+    "Speed": 109,
+    "Special": { "Attack": 59, "Defence": 31 }
   },
   {
     "number": 799,
@@ -8784,9 +7986,8 @@
     "HP": 223,
     "Attack": 101,
     "Defence": 53,
-    "Sp Attack": 97,
-    "Sp Defence": 53,
-    "Speed": 43
+    "Speed": 43,
+    "Special": { "Attack": 97, "Defence": 53 }
   },
   {
     "number": 800,
@@ -8795,9 +7996,8 @@
     "HP": 97,
     "Attack": 107,
     "Defence": 101,
-    "Sp Attack": 127,
-    "Sp Defence": 89,
-    "Speed": 79
+    "Speed": 79,
+    "Special": { "Attack": 127, "Defence": 89 }
   },
   {
     "number": 801,
@@ -8806,9 +8006,8 @@
     "HP": 80,
     "Attack": 95,
     "Defence": 115,
-    "Sp Attack": 130,
-    "Sp Defence": 115,
-    "Speed": 65
+    "Speed": 65,
+    "Special": { "Attack": 130, "Defence": 115 }
   },
   {
     "number": 802,
@@ -8817,9 +8016,8 @@
     "HP": 90,
     "Attack": 125,
     "Defence": 80,
-    "Sp Attack": 90,
-    "Sp Defence": 90,
-    "Speed": 125
+    "Speed": 125,
+    "Special": { "Attack": 90, "Defence": 90 }
   },
   {
     "number": 803,
@@ -8828,9 +8026,8 @@
     "HP": 67,
     "Attack": 73,
     "Defence": 67,
-    "Sp Attack": 73,
-    "Sp Defence": 67,
-    "Speed": 73
+    "Speed": 73,
+    "Special": { "Attack": 73, "Defence": 67 }
   },
   {
     "number": 804,
@@ -8839,9 +8036,8 @@
     "HP": 73,
     "Attack": 73,
     "Defence": 73,
-    "Sp Attack": 127,
-    "Sp Defence": 73,
-    "Speed": 121
+    "Speed": 121,
+    "Special": { "Attack": 127, "Defence": 73 }
   },
   {
     "number": 805,
@@ -8850,9 +8046,8 @@
     "HP": 61,
     "Attack": 131,
     "Defence": 211,
-    "Sp Attack": 53,
-    "Sp Defence": 101,
-    "Speed": 13
+    "Speed": 13,
+    "Special": { "Attack": 53, "Defence": 101 }
   },
   {
     "number": 806,
@@ -8861,9 +8056,8 @@
     "HP": 53,
     "Attack": 127,
     "Defence": 53,
-    "Sp Attack": 151,
-    "Sp Defence": 79,
-    "Speed": 107
+    "Speed": 107,
+    "Special": { "Attack": 151, "Defence": 79 }
   },
   {
     "number": 807,
@@ -8872,9 +8066,8 @@
     "HP": 88,
     "Attack": 112,
     "Defence": 75,
-    "Sp Attack": 102,
-    "Sp Defence": 80,
-    "Speed": 143
+    "Speed": 143,
+    "Special": { "Attack": 102, "Defence": 80 }
   },
   {
     "number": 808,
@@ -8883,9 +8076,8 @@
     "HP": 46,
     "Attack": 65,
     "Defence": 65,
-    "Sp Attack": 55,
-    "Sp Defence": 35,
-    "Speed": 34
+    "Speed": 34,
+    "Special": { "Attack": 55, "Defence": 35 }
   },
   {
     "number": 809,
@@ -8894,8 +8086,7 @@
     "HP": 135,
     "Attack": 143,
     "Defence": 143,
-    "Sp Attack": 80,
-    "Sp Defence": 65,
-    "Speed": 34
+    "Speed": 34,
+    "Special": { "Attack": 80, "Defence": 65 }
   }
 ]
