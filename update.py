@@ -23,6 +23,6 @@ pprint(collection.find_one(id_query))
 print("incrementing health...")
 collection.update_one(
   id_query,
-  { "$inc": {"current_hp": 5} }
+  { "$inc": {"hp": 5} }
 )
 pprint(collection.find_one(id_query))
