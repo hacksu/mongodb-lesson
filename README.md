@@ -61,11 +61,15 @@ But to specify the exact condition we're looking for, we're going to need to exp
 good_hp = collection.find_one({ "HP": {"$gt": 45} })
 ```
 
-So this introduces us to the wonderful world of operators, which are things that start with dollar signs.
+So this introduces us to the wonderful world of operators.
 
 Did that work for everyone? It's okay that only one result showed up.
 
-So there are a lot of operators, and we're not going to test out all of them, but they follow pretty much what you'd expect, given our $gt greater-than operator: there's $gte (greater than or equal to), $lt (less than), and even $ne (not equal to), and the other usual suspects from conditional statements. By the way, we're only getting one Pokemon at a time because we're using `find_one`. To get more, you can just use `find`, but that returns a thing called a cursor which you can go study if you want but we're going to want to turn it into a list to easily read the results. Like this:
+Operators are special labels that start with dollar signs that have a special meaning within MongoDB. Specifically, here, we're using a comparison operator, so-called because it compared a thing to something. There are quite a few comparison operators, and we're not going to test out all of them, but they follow pretty much what you'd expect, if you just think about comparing one thing to another: there's $gte (greater than or equal to), $lt (less than), and even $ne (not equal to), and the other usual suspects from conditional statements.
+
+![](comparison-operators.png)
+
+By the way, we're only getting one Pokemon at a time because we're using `find_one`. To get more, you can just use `find`, but that returns a thing called a cursor which you can go study if you want but we're going to want to turn it into a list to easily read the results. Like this:
 
 ```python
 bad_hp = list(collection.find({ "HP": {"$lt": 45} }))
@@ -84,24 +88,30 @@ good_hp_or_good_defence = list(collection.find({ "$or": multiple_queries }))
 pprint(good_hp_or_good_defence)
 ```
 
-That might look kind of alien and complicated, but we can break it down. These two initial queries, we know about those: one sets a criterion for the value that corresponds to HP in the Pokemon documents, and one sets a criterion for the Defense, which we haven't used in a query before but we've seen it in our printed results. Those are both in a list. Because the list is there as the value for the "$or" operator, we get back documents where the first thing matches OR the second thing matches. And so here are our results.
+That might look kind of alien and complicated, but we can break it down. These two initial queries, we know about those: one sets a criterion for the value that corresponds to HP in the Pokemon documents, and one sets a criterion for the Defense, which we haven't used in a query before but we've seen it in our printed results. Those are both in a list. Because the list is there as the value for the "$or" operator, we get back documents where the first thing matches OR the second thing matches. And so here are our results. As you might expect, there are other logical operators than $or, that work pretty much exactly the same way. Like these:
 
-So those are all the basics of querying and retrieving. There are other value operators than "greater than" and there are other query operators than "or" (like. there is "and") but if you squint, all the operators within those two types act pretty much the same way. Here is our completed Python code which prints out all these different guys: [queries.py](queries.py)
+![](logical-operators.png)
+
+But those are the basics of querying. There are a couple of other small topics we could dive into; we could learn how to limit the exact number of documents we retrieve at one time, or a few more ways to probe into arrays in document, but we've covered the fundamental building blocks of what you do. The rest is details.
 
 And now I'm going to ask you to make a new file; for this one, you're going to learn how to insert.
 
 The initial connection is the same, but you're going to connect to a different collection from this time. You're going to connect to the PC, a collection that you have permission to write to, where individual Pokemon are stored:
 
 ```python
-from pprint import pprint  # not a mongodb thing, but useful for displaying documents
+from pprint import pprint
 from pymongo import MongoClient
 
-client = MongoClient("mongodb://localhost:27017")  # TODO: real database URI  # connect to a database server
-database = client.pokemon  # get the database called "pokemon" on this server
-collection = database.PC  # get the collection called "PC" in that database
+client = MongoClient(
+    host="mitch.website",
+    username="student",
+    password="[[[PASSWORD]]]"
+)
+db = client.pokemon
+collection = db.PC
 ```
 
-And the code for inserting is actually really simple:
+And the code for inserting is actually really simple. Don't do it yet.
 
 ```python
 collection.insert_one({
@@ -118,7 +128,7 @@ So that's the basic idea; that's how you take data and store it somewhere where 
 result = collection.insert_one({
   "name": "Squinchy",
   "species": "Wartortle",
-  "currentHP": 10,
+  "current_hp": 10,
   "mood": "bemused"
 })
 print(result.inserted_id)
@@ -131,7 +141,10 @@ And finally, it would be dumb if you could insert a document but then could neve
 An update consists of two parts: one query to identify the document that will be modified, and one mini-document specifying the action to be taken. In addition to the querying operators we looked at before, there are update operators. We're going to stick with a simple one here: $set. $set just lets you list new data that you want to add to your document, overriding old data if it exists. It looks like this:
 
 ```python
-collection.update_one({"_id": "paste your document's id"}, {"$set": {"owner": "enter your name here."}})
+collection.update_one(
+    {"_id": ObjectId("638621163a367aa14ba0a8fa")},
+    {"$set": {"owner": "Mitch"}}
+)
 ```
 
 So as you can see, the update operation is represented as another nested document. The inner document has a key ("owner") and a value (your name); it itself is the value in the outer document, where the key is "$set", meaning the inner document is just used to set values in the document that's being updated.
