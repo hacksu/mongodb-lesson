@@ -25,3 +25,5 @@ multiple_queries = [
 ]
 good_hp_or_good_defence = list(collection.find({ "$or": multiple_queries }))
 pprint(good_hp_or_good_defence)
+
+pprint(collection.find_one({"type": "Flying"}))

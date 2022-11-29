@@ -92,6 +92,12 @@ That might look kind of alien and complicated, but we can break it down. These t
 
 ![](logical-operators.png)
 
+Anyway, querying even with a simple document can be surprisingly deep. You may have noticed that all these pokemon have a list of types attached to them, because pokemon can have more than one type. mongodb makes it really easy to deal with lists of data: you can query for any pokemon that are flying type like this: find_one. you're just specifying a single value, "Flying", in the query, but MongoDB will search through the lists of types that every pokemon has to find matches for it.
+
+```python
+pprint(collection.find_one({"type": "Flying"}))
+```
+
 But those are the basics of querying. There are a couple of other small topics we could dive into; we could learn how to limit the exact number of documents we retrieve at one time, or a few more ways to probe into arrays in document, but we've covered the fundamental building blocks of what you do. The rest is details.
 
 And now I'm going to ask you to make a new file; for this one, you're going to learn how to insert.
