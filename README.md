@@ -2,7 +2,7 @@
 
 _n.b. although MongoDB is used mostly in the context of JavaScript and Node.JS servers, the Python library is also good and I've most recently used it in Python and I feel like Python is better known and regarded by a larger number of people, especially among students. But it would not be hard to switch to JavaScript._
 
-So as we all know, normally when we write and run a program all of the variables and objects and whatnot we've created evaporate as soon as it finishes, and the next time we run that program it's completely back to square one. That's why we need to use databases to store our program's thoughts and ideas persistently. A database will receive stuff from our program, hold on to it even when our program's not running, and probably store it in some files somewhere in a very efficiently retrievable-from format, so we have it even after losing power during a once-in-a-century thunderstorm.
+So as we all know, normally when we write and run a program all of the variables and objects and whatnot we've created evaporate as soon as it finishes, and the next time we run that program it's completely back to square one. Obviously that's not how programs in the "real world" tend to work; they store information persistantly; and one way they do that is by using databases to store a program's thoughts and ideas. A database is a program that runs alongside our program; it will receive stuff from our program, hold on to it even when our program's not running, and store it in some files somewhere in a very efficiently readable format so it's kept \*permanantly\*, and we still have it, even if we turn our computer off, or lose power during a once-in-a-century thunderstorm.
 
 There's a language for giving commands to databases called SQL. We won't be using it, but it was really popular for some time, and some people claim they can still hear its voice. Instead we'll be using a NoSQL database; the technical definition of the term NoSQL is, it's a database that doesn't use SQL. [MongoDB is the most popular NoSQL database.](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-databases) It stores data in documents. Documents have other names in other contexts, like "dicts" in pure Python and "objects" in JavaScript, but I'm just going to call them documents here; you will become extremely tired of the word. Documents look like this:
 
@@ -17,9 +17,9 @@ There's a language for giving commands to databases called SQL. We won't be usin
 }
 ```
 
-So this pattern of storing data entries with labels that indicate their meaning is a common one in programming. In fact, you could say that whenever you make a variable in a programming language, you're storing a data entry with a label - the variable name - attached. In the context of a database, though, we're going to go one step further and store multiple documents like this, each with their own value attached to these labels, like for this example each document would have a different value for "name"; MongoDB is set up to store collections of documents, meaning a whole bunch of, for example, people, and there's an obvious use case for a database like this.
+So you can kind of see what's going on here; on the left are labels, usually called "keys" for some reason, and on the right are values that match those labels. In documents like this, the data is kind of the important part and the keys or labels are just ways to name them so you can retrieve them later. This pattern of storing data entries with labels that indicate their meaning is a common one in programming. In fact, you could say that whenever you make a variable in a programming language, you're storing a data entry with a label - the variable name - attached. In the context of a database, though, things are a little different; we're going to want to go one step further and store multiple documents like this, each with a different attached to these labels, like for this example each document would have a different value for "name"; MongoDB is set up to store collections of documents, meaning for this example, information on a whole bunch of students, and we're going to be exploring one obvious use case for a database full of documents like this.
 
-This is how you connect to a database that contains Pokemon:
+So I've set up a database containing a document for each species of the first seven generations of Pokemon, and this is how we're going to connect to it.
 
 ```python
 from pprint import pprint  # not a mongodb thing, but useful for displaying documents
@@ -46,33 +46,33 @@ So. Do you all see Pikachu?
 You've just retrieved a MongoDB document, and it's giving you information about a Pokemon. If you want information about some other Pokemon, feel free to replace "Pikachu" with its name. The data, the variables that we retrieved are inside the document, but we can get them out pretty easily. If you want to see Pikachu's base HP, just do this:
 
 ```
-pprint(pikachu["HP"])
+print(pikachu["HP"])
 ```
 
-So in MongoDB, you create queries by creating sort of mini-documents that specify what you're looking for, like the one we have here. This was a really really simple one: we had one key and one value; that pair had to be present in a document in the database for it to match. But we can do more subtle things as well; for example, instead of looking for a `"name"` that is `"Pikachu"`, we could look for a `"HP"` that is `greater than 45`. So the first part of requesting that looks pretty familiar:
+So in MongoDB, you create queries by creating sort of mini-documents that specify what you're looking for, like the one we have here. This was a really really simple one: we had one key and one value; that pair had to be present in a document in the database for it to match. But we can do more subtle things as well; for example, instead of looking for a `"name"` that is `"Pikachu"`, we could look for a `"HP"` that is `greater than 120`. So the first part of requesting that looks pretty familiar:
 
 ```python3
 good_hp = collection.find_one({"HP":           })
 ```
 
-But to specify the exact condition we're looking for, we're going to need to express the concept "greater than" and the number "45". We can do that by making another mini-document, with that first thing as the key and the second thing as the value:
+But to specify the exact condition we're looking for, we're going to need to express the concept "greater than" and the number "120". We can do that by making another mini-document, with that first thing as the key and the second thing as the value:
 
 ```python
-good_hp = collection.find_one({ "HP": {"$gt": 45} })
+good_hp = collection.find_one({ "HP": {"$gt": 120} })
 ```
 
 So this introduces us to the wonderful world of operators.
 
 Did that work for everyone? It's okay that only one result showed up.
 
-Operators are special labels that start with dollar signs that have a special meaning within MongoDB. Specifically, here, we're using a comparison operator, so-called because it compared a thing to something. There are quite a few comparison operators, and we're not going to test out all of them, but they follow pretty much what you'd expect, if you just think about comparing one thing to another: there's $gte (greater than or equal to), $lt (less than), and even $ne (not equal to), and the other usual suspects from conditional statements.
+Operators are special key that start with dollar signs that have a special meaning within MongoDB. Something interesting is that when we're looking at a document, the values are what is important and the keys were just labels for the values, but when dealing with operators, you have to see the key and the value as both conveying information; basically, whenever an operator is used as a key, it's telling MongoDB what to do with a certain value. In this case, it's telling it to use this value in a greater-than comparison. This is just one example of a comparison operator, so-called because it compared a thing to something. There are quite a few comparison operators, and we're not going to test out all of them, but they follow pretty much what you'd expect, if you just think about comparing one thing to another: there's $gte (greater than or equal to), $lt (less than), and even $ne (not equal to), and the other usual suspects from conditional statements.
 
 ![](comparison-operators.png)
 
 By the way, we're only getting one Pokemon at a time because we're using `find_one`. To get more, you can just use `find`, but that returns a thing called a cursor which you can go study if you want but we're going to want to turn it into a list to easily read the results. Like this:
 
 ```python
-bad_hp = list(collection.find({ "HP": {"$lt": 45} }))
+bad_hp = list(collection.find({ "HP": {"$lt": 15} }))
 ```
 
 So yeah, to get multiple Pokemon, you just switch `find_one` to `find`, and then wrap the whole thing in list().
@@ -81,8 +81,8 @@ We just learned about operators that act on individual values. There is actually
 
 ```python
 multiple_queries = [
-    { "HP": {"$gt": 120}},
-    {"Defence": {"$gt": 210}}
+    { "HP": {"$gt": 220}},
+    {"Defence": {"$gt": 220}}
 ]
 good_hp_or_good_defence = list(collection.find({ "$or": multiple_queries }))
 pprint(good_hp_or_good_defence)
@@ -92,7 +92,7 @@ That might look kind of alien and complicated, but we can break it down. These t
 
 ![](logical-operators.png)
 
-Anyway, querying even with a simple document can be surprisingly deep. You may have noticed that all these pokemon have a list of types attached to them, because pokemon can have more than one type. mongodb makes it really easy to deal with lists of data: you can query for any pokemon that are flying type like this: find_one. you're just specifying a single value, "Flying", in the query, but MongoDB will search through the lists of types that every pokemon has to find matches for it.
+Anyway, querying even with a simple document can be surprisingly deep. You may have noticed that all these pokemon have a list of types attached to them, because pokemon can have more than one type. mongodb makes it really easy to deal with lists of data: you can query for any pokemon that are flying type like this. you're just specifying a single value, "Flying", in the query, but MongoDB will search through the lists of types that every pokemon has to find matches for it.
 
 ```python
 pprint(collection.find_one({"type": "Flying"}))
@@ -123,7 +123,8 @@ And the code for inserting is actually really simple. Don't do it yet.
 collection.insert_one({
   "name": "Squinchy",
   "species": "Wartortle",
-  "currentHP": 10,
+  "hp": 10,   # important
+  "xp": 0,    # important
   "mood": "bemused"
 })
 ```
@@ -166,7 +167,7 @@ collection.update_one(
 )
 ```
 
-So yeah. We're updating with one query that indicates which document to update and one update operator that says what to do with it. Update operators are interesting because some of them let you modify data without even knowing what it is or what you're changing it into. So you might not know what your pokemon's current health is, but let's say you want to increase it by 5. You can do that while continuing not to know what it is by just telling MongoDB with the $inc (increment) operator that that's what it should do:
+So yeah. We're updating with one query that indicates which document to update and one update operator that says what to do to it. Update operators are interesting because some of them let you modify data without even knowing what it is or what you're changing it into. So you might not know what your pokemon's current health is, but let's say you want to increase it by 5. You can do that while continuing not to know what it is by just telling MongoDB with the $inc (increment) operator that that's what it should do:
 
 ```python
 pprint(collection.fetch_one(id_query))
@@ -180,4 +181,4 @@ pprint(collection.fetch_one(id_query))
 
 So instead of $set, we're using $inc, which stands for increment, and instead of saying what we want the health to be set to, we're just saying how much we want it to be incremented by. In this case 5. The other update operators let you do things like multiplying a value by a number, changing it to be at least a given number, adding a thing to an array, and stuff like that.
 
-So that shows us how to store, update, and retrieve documents in MongoDB. At this point, you might be interested to know that you can download MongoDB Community Edition and connect to a database running on your very own computer, to use it for persistent data in any program you may write. This example is in Python, but you can connect to it in a very similar way with its official libraries for JavaScript, Java, C++, and even Rust, and some other ones. This is a very popular software among new developers, so there are a ton of tutorials online for lots of different languages that can help you set up or learn more on your own.
+So that shows us how to retrieve, store, and update documents in MongoDB. At this point, you might be interested to know that you can download MongoDB Community Edition and connect to a database running on your very own computer, to use it for persistent data in any program you may write. This example is in Python, but you can connect to it in a very similar way with its official libraries for JavaScript, Java, C++, and even Rust, and some other ones. This is a very popular software among new developers, so there are a ton of tutorials online for lots of different languages that can help you set up or learn more on your own.
