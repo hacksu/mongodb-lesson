@@ -3,11 +3,7 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 from random import randrange
 
-client = MongoClient(
-    host="mitch.website",
-    username="student",
-    password="bowman218"
-)
+client = MongoClient("your config")
 db = client.pokemon
 collection = db.PC
 

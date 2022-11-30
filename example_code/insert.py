@@ -1,10 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient(
-    host="mitch.website",
-    username="student",
-    password="bowman218"
-)
+client = MongoClient("your config")
 db = client.pokemon
 collection = db.PC
 

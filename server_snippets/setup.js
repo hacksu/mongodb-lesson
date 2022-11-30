@@ -12,6 +12,6 @@ db.createRole({
 
 db.createUser({
   user: "student",
-  pwd: "[[[[[PASSWORD]]]]]",
+  pwd: "your config",
   roles: ["hacksu"],
 });

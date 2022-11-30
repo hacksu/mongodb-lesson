@@ -1,11 +1,7 @@
 from pprint import pprint  # not a mongodb thing, but useful for displaying documents
 from pymongo import MongoClient
 
-client = MongoClient(
-    host="mitch.website",
-    username="student",
-    password="bowman218"
-)
+client = MongoClient("your config")
 db = client.pokemon
 collection = db.pokedex
 

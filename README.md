@@ -23,11 +23,7 @@ So I've set up a database containing a document for each species of the first se
 from pprint import pprint  # not a mongodb thing, but useful for displaying documents
 from pymongo import MongoClient
 
-client = MongoClient(
-    host="mitch.website",
-    username="student",
-    password="[[[PASSWORD]]]"
-)
+client = MongoClient("your config")
 database = client.pokemon  # get the database called "pokemon" on this server
 collection = database.pokedex  # get the collection called "pokedex" in that database
 ```
@@ -114,11 +110,7 @@ The initial connection is the same, but you're going to connect to a different c
 from pprint import pprint
 from pymongo import MongoClient
 
-client = MongoClient(
-    host="mitch.website",
-    username="student",
-    password="[[[PASSWORD]]]"
-)
+client = MongoClient("your config")
 db = client.pokemon
 collection = db.PC
 ```

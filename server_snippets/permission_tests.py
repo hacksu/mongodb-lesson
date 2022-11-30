@@ -1,10 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient(
-    host="mitch.website",
-    username="student",
-    password="[[[PASSWORD]]]"
-)
+client = MongoClient("your config")
 
 pokemon = client.pokemon
 pokedex = pokemon.pokedex
