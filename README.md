@@ -132,10 +132,11 @@ collection.insert_one({
 So that's the basic idea; that's how you take data and store it somewhere where it will persist outside of your program. We're going to add one thing, though. MongoDB assigns a unique ID to every document that's inserted, and we're going to print the unique ID of our documents like this:
 
 ```python
-result = collection.insert_one({
+collection.insert_one({
   "name": "Squinchy",
   "species": "Wartortle",
-  "current_hp": 100,
+  "hp": 100,   # important
+  "xp": 0,    # important
   "mood": "bemused"
 })
 print(result.inserted_id)
