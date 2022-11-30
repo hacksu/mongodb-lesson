@@ -19,6 +19,8 @@ So you can kind of see what's going on here; on the left are labels, usually cal
 
 So I've set up a database containing a document for each species of the first seven generations of Pokemon, and this is how we're going to connect to it.
 
+Note: now that the lesson is over, you will have to set up a database yourself. It isn't difficult; you can just [download](https://www.mongodb.com/try/download/community) the program here and run it on your own computer, or [make a free account](https://www.mongodb.com/try) and get access to a database in the cloud. Then, connect to the database with MongoDBCompass or write your own program and import the file "pokemon_data/pokedex.json" in a cluster called pokedex in a database called pokemon, and also create an empty collection called "PC" for later.
+
 ```python
 from pprint import pprint  # not a mongodb thing, but useful for displaying documents
 from pymongo import MongoClient
