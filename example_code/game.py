@@ -23,7 +23,7 @@ else:
     random_pokemon = collection.find({})[random_index]
     print("A wild pokemon appeared!")
     pprint(random_pokemon)
-    if "xp" in random_pokemon or "hp" in random_pokemon:
+    if "xp" in random_pokemon and "hp" in random_pokemon:
         decision = input("fight or flee? ")
         if decision == "fight":
             hp_decrease = -randrange(0, 5)
